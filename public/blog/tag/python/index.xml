@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/python/</link>
+    <description>Recent content in python on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 31 Mar 2018 19:42:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Jupyter / Python Nedir, Nasıl Kurulur?</title>
+      <link>https://www.gungorbudak.com/blog/2018/03/31/jupyter-python-nedir-nasil-kurulur/</link>
+      <pubDate>Sat, 31 Mar 2018 19:42:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2018/03/31/jupyter-python-nedir-nasil-kurulur/</guid>
+      <description>Jupyter çeşitli programlama dilleri için etkileşimli bir ortam sağlayan yazılımdır. Orijinal olarak IPython (interactive python) adıyla, Python programlama dili için geliştirildi ancak daha sonra kurucuları Jupyter projesini başlatıp IPython&amp;rsquo;ın birçok tarafını Jupyter&amp;rsquo;e kaydırdı. IPython, sadece Jupyter&amp;rsquo;in kerneli olarak devam ediyor.
+Jupyter&amp;rsquo;in özellikleri;
+Etkileşimli bir shell sunması, Komut İstemi/Terminal&amp;rsquo;den jupyter console komutu ile başlatılır ve orijinal Python shell&amp;rsquo;ine göre otomatik tamamlama gibi kullanıcı dostu özellikleri barındırır. Tarayıcı tabanlı defter (notebook) sunması, Komut İstemi/Terminal&amp;rsquo;den jupyter notebook komutu ile başlatılır, açılan tarayıcı penceresinden yeni defter oluşturularak çeşitli programlama dillerinde kodlar yazılabilir ve bu kodlar çalıştırılarak çıktıları (metin, grafik, vs) etkileşimli olarak direkt tarayıcıda görüntülenebilir.</description>
+    </item>
+    
+    <item>
+      <title>Install Cairo Graphics and PyCairo on Ubuntu 14.04 / Linux Mint 17</title>
+      <link>https://www.gungorbudak.com/blog/2015/09/16/install-cairo-graphics-and-pycairo-on/</link>
+      <pubDate>Wed, 16 Sep 2015 08:42:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/09/16/install-cairo-graphics-and-pycairo-on/</guid>
+      <description>Cairo is a 2D graphics library implemented as a library written in the C programming language but if you&amp;rsquo;d like to use Python programming language, you should also install Python bindings for Cairo.
+This guide will go through installation of Cairo Graphics library version 1.14.2 (most recent) and py2cairo Python bindings version 1.10.1 (also most recent).
+Install Cairo
+It&amp;rsquo;s very easy with the following repository. Just add it, update your packages and install.</description>
+    </item>
+    
+    <item>
+      <title>Install RDKit 2015-03 Build on Ubuntu 14.04 / Linux Mint 17</title>
+      <link>https://www.gungorbudak.com/blog/2015/09/16/install-rdkit-2015-03-build-on-ubuntu/</link>
+      <pubDate>Wed, 16 Sep 2015 07:44:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/09/16/install-rdkit-2015-03-build-on-ubuntu/</guid>
+      <description>RDKit is an open source toolkit for cheminformatics. It has many functionalities to work with chemical files.
+Follow the below guide to install RDKit 2015-03 build on an Ubuntu 14.04 / Linux Mint 17 computer. Since Ubuntu packages don’t have the latest RDKit for trusty, you have to build RDKit from its source.
+Install Dependencies
+sudo apt-get install flex bison build-essential python-numpy cmake python-dev sqlite3 libsqlite3-dev libboost1.54-all-dev Download the Build</description>
+    </item>
+    
+    <item>
+      <title>Simple Way of Python&#39;s subprocess.Popen with a Timeout Option</title>
+      <link>https://www.gungorbudak.com/blog/2015/08/30/simple-way-of-pythons-subprocesspopen/</link>
+      <pubDate>Sun, 30 Aug 2015 06:13:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/08/30/simple-way-of-pythons-subprocesspopen/</guid>
+      <description>subprocess module in Python provides us a variety of methods to start a process from a Python script. We may use these methods to run an external commands / programs, collect their output and manage them. An example use of it might be as following:
+from subprocess import Popen, PIPE p = Popen([&amp;#39;ls&amp;#39;, &amp;#39;-l&amp;#39;], stdout=PIPE, stderr=PIPE) stdout, stderr = p.communicate() print stdout, stderr These lines can be used to run ls -l command in Terminal and collect the output (standard output and standard error) in stdout and stderr variables using communicate method defined in the process.</description>
+    </item>
+    
+    <item>
+      <title>ImportError: Reportlab Version 2.1&#43; is needed</title>
+      <link>https://www.gungorbudak.com/blog/2015/08/06/importerror-reportlab-version-21-is-needed/</link>
+      <pubDate>Thu, 06 Aug 2015 14:52:10 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/08/06/importerror-reportlab-version-21-is-needed/</guid>
+      <description>Little bug in xhtml2pdf version 0.0.5. To fix:
+$ sudo nano /usr/local/lib/python2.7/dist-packages/xhtml2pdf/util.py Change the following lines:
+if not (reportlab.Version[0] == &amp;#34;2&amp;#34; and reportlab.Version[2] &amp;gt;= &amp;#34;1&amp;#34;): raise ImportError(&amp;#34;Reportlab Version 2.1+ is needed!&amp;#34;) REPORTLAB22 = (reportlab.Version[0] == &amp;#34;2&amp;#34; and reportlab.Version[2] &amp;gt;= &amp;#34;2&amp;#34;) With these lines:
+if not (reportlab.Version[:3] &amp;gt;= &amp;#34;2.1&amp;#34;): raise ImportError(&amp;#34;Reportlab Version 2.1+ is needed!&amp;#34;) REPORTLAB22 = (reportlab.Version[:3] &amp;gt;= &amp;#34;2.1&amp;#34;) </description>
+    </item>
+    
+    <item>
+      <title>Django Migrations Table Already Exists Fix</title>
+      <link>https://www.gungorbudak.com/blog/2015/07/31/django-migrations-table-already-exists-fix/</link>
+      <pubDate>Fri, 31 Jul 2015 14:12:11 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/07/31/django-migrations-table-already-exists-fix/</guid>
+      <description>Fix this issue by faking the migrations:
+python manage.py migrate –fake &amp;lt;appname&amp;gt; Taken from this SO answer </description>
+    </item>
+    
+    <item>
+      <title>Mezzanine BS Banners Translation with django-modeltranslation</title>
+      <link>https://www.gungorbudak.com/blog/2015/07/01/mezzanine-bs-banners-translation-with/</link>
+      <pubDate>Wed, 01 Jul 2015 14:30:29 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/07/01/mezzanine-bs-banners-translation-with/</guid>
+      <description>Mezzanine BS Banners is a nice app for implementing Bootstrap 3 banners/sliders to your Mezzanine projects. The Banners model in BS Banners app has a title and its stacked inline Slides model has title and content for translation.
+After [installing and setting up Django/Mezzanine translations]({% post_url 2015-07-01-djangomezzanine-content-translation-for-mezzanine %}):
+Create a translation.py inside your Mezzanine project or your custom theme/skin application and copy/paste following lines:
+from modeltranslation.translator import translator from mezzanine.core.translation import TranslatedSlugged, TranslatedRichText from mezzanine_bsbanners.</description>
+    </item>
+    
+    <item>
+      <title>Django/Mezzanine Content Translation for Mezzanine Built-in Applications</title>
+      <link>https://www.gungorbudak.com/blog/2015/07/01/djangomezzanine-content-translation-for-mezzanine/</link>
+      <pubDate>Wed, 01 Jul 2015 12:18:05 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/07/01/djangomezzanine-content-translation-for-mezzanine/</guid>
+      <description>As Mezzanine comes with additional Django applications such as pages, galleries and to translate their content, Mezzanine supports django-modeltranslation integration.
+Install django-modeltranslation:
+pip install django-modeltranslation Add following to the INSTALLED_APPS in settings.py:
+&amp;#34;modeltranslation&amp;#34;, And following in settings.py:
+USE_MODELTRANSLATION = True Also, move mezzanine.pages to the top of other Mezzanine apps in INSTALLED_APPS in settings.py like so:
+&amp;#34;mezzanine.pages&amp;#34;, &amp;#34;mezzanine.boot&amp;#34;, &amp;#34;mezzanine.conf&amp;#34;, &amp;#34;mezzanine.core&amp;#34;, &amp;#34;mezzanine.generic&amp;#34;, &amp;#34;mezzanine.blog&amp;#34;, &amp;#34;mezzanine.forms&amp;#34;, &amp;#34;mezzanine.galleries&amp;#34;, &amp;#34;mezzanine.twitter&amp;#34;, &amp;#34;mezzanine.accounts&amp;#34;, &amp;#34;mezzanine.mobile&amp;#34;, Run following to create fields in database tables for translations:</description>
+    </item>
+    
+    <item>
+      <title>Setting Up Templates and Python Scripts for Translation</title>
+      <link>https://www.gungorbudak.com/blog/2015/06/13/setting-up-templates-and-python-scripts-for/</link>
+      <pubDate>Sat, 13 Jun 2015 09:45:56 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/06/13/setting-up-templates-and-python-scripts-for/</guid>
+      <description>Templates need following template tag:
+{% raw %}{% load i18n %}{% endraw %} Then, wrapping any text with
+{% raw %}{% trans &amp;#34;TEXT&amp;#34; %}{% endraw %} will make it translatable via Rosetta Django application
+In Python scripts, you need to import following library:
+from django.utils.translation import ugettext_lazy as _ Then wrapping any text with
+_(&amp;#39;TEXT&amp;#39;) will make it translatable.</description>
+    </item>
+    
+    <item>
+      <title>Django Rosetta Translations for Django Applications</title>
+      <link>https://www.gungorbudak.com/blog/2015/06/12/django-rosetta-translations-for-django/</link>
+      <pubDate>Fri, 12 Jun 2015 15:20:33 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/06/12/django-rosetta-translations-for-django/</guid>
+      <description>Make a directory called locale/ under the application directory:
+cd app_name mkdir locale Add the folder in LOCAL_PATHS dictionary in settings.py:
+LOCALE_PATHS = ( os.path.join(PROJECT_ROOT, &amp;#39;app_name&amp;#39;, &amp;#39;locale/&amp;#39;), ) Run the following command to create PO translation file for the application:
+python ../manage.py makemessages -l tr -e html,py,txt python ../manage.py compilemessages Option -l is for language, it should match your definition in settings.py:
+LANGUAGES = ( (&amp;#39;en&amp;#39; _(&amp;#39;English&amp;#39;)), (&amp;#39;tr&amp;#39; _(&amp;#39;Turkish&amp;#39;)), (&amp;#39;it&amp;#39; _(&amp;#39;Italian&amp;#39;)), ) Repeat the last step for all languages and the go to Rosetta URL to translate.</description>
+    </item>
+    
+    <item>
+      <title>Django Rosetta Installation</title>
+      <link>https://www.gungorbudak.com/blog/2015/06/12/django-rosetta-installation/</link>
+      <pubDate>Fri, 12 Jun 2015 15:07:34 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/06/12/django-rosetta-installation/</guid>
+      <description>Install SciPy:
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose Install pymongo and nltk:
+sudo pip install pymongo sudo pip install nltk Install Python MySQLdb:
+sudo apt-get install python-mysqldb Install Rosetta:
+sudo pip install django-rosetta Add following into INSTALLED_APPS in settings.py:
+&amp;#34;rosetta&amp;#34;, Add following into urls.py:
+url(r’^translations/’, include(‘rosetta.urls’)), To also allow language prefixes , change patters to i18n_patterns in urls.py:
+urlpatterns += i18n_patterns( ... ) </description>
+    </item>
+    
+    <item>
+      <title>Errno 13 Permission denied Django File Uploads</title>
+      <link>https://www.gungorbudak.com/blog/2015/05/09/errno-13-permission-denied-django-file-uploads/</link>
+      <pubDate>Sat, 09 May 2015 15:16:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/05/09/errno-13-permission-denied-django-file-uploads/</guid>
+      <description>Run following command to give www-data permissions to static folder and all its content:
+cd path/to/your/django/project sudo chown -R www-data:www-data static/ Do this in your production server</description>
+    </item>
+    
+    <item>
+      <title>Configuring Mezzanine for Apache server &amp; mod_wsgi in AWS</title>
+      <link>https://www.gungorbudak.com/blog/2015/05/09/configuring-mezzanine-for-apache-server-modwsgi/</link>
+      <pubDate>Sat, 09 May 2015 13:21:59 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/05/09/configuring-mezzanine-for-apache-server-modwsgi/</guid>
+      <description>Install [Mezzanine]({% post_url 2015-05-01-how-to-install-mezzanine-on-ubuntulinux-mint %}), [Apache server]({% post_url 2015-05-08-getting-started-with-your-aws-instance-and %}) and mod_wsgi:
+sudo apt-get install libapache2-mod-wsgi sudo a2enmod wsgi Set up a MySQL database for your Mezzanine project
+Read [my post on how to set up a MySQL database for a Mezzanine project]({% post_url 2015-05-09-how-to-set-up-a-mysql-database-for-a-mezzanine %})
+Collect static files:
+python manage.py collectstatic Configure your Apache server configuration for the project like following:
+WSGIPythonPath /home/ubuntu/www/mezzanine-project &amp;lt;VirtualHost *:80&amp;gt; #ServerName example.com ServerAdmin admin@example.com DocumentRoot /home/ubuntu/www/mezzanine-project WSGIScriptAlias / /home/ubuntu/www/mezzanine-project/wsgi.</description>
+    </item>
+    
+    <item>
+      <title>How to Set Up a MySQL Database for a Mezzanine Project</title>
+      <link>https://www.gungorbudak.com/blog/2015/05/09/how-to-set-up-a-mysql-database-for-a-mezzanine/</link>
+      <pubDate>Sat, 09 May 2015 13:21:10 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/05/09/how-to-set-up-a-mysql-database-for-a-mezzanine/</guid>
+      <description>Install MySQL server and python-mysqldb package:
+sudo apt-get install mysql-server sudo apt-get install python-mysqldb Run MySQL:
+mysql -u root -p Create a database:
+mysql&amp;gt; create database mezzanine_project; Confirm it:
+mysql&amp;gt; show databases; Exit:
+mysql&amp;gt; exit Configure local_settings.py:
+cd path/to/your/mezzanine/projectnano local_settings.py Like following:
+DATABASES = { &amp;#34;default&amp;#34;: { &amp;#34;ENGINE&amp;#34;: &amp;#34;django.db.backends.mysql&amp;#34;, &amp;#34;NAME&amp;#34;: &amp;#34;mezzanine_project&amp;#34;, &amp;#34;USER&amp;#34;: &amp;#34;root&amp;#34;, &amp;#34;PASSWORD&amp;#34;: &amp;#34;123456&amp;#34;, &amp;#34;HOST&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;PORT&amp;#34;: &amp;#34;&amp;#34;, } } Note: Replace your password</description>
+    </item>
+    
+    <item>
+      <title>How to Install Mezzanine on Ubuntu/Linux Mint [Complete Guide]</title>
+      <link>https://www.gungorbudak.com/blog/2015/05/01/how-to-install-mezzanine-on-ubuntulinux-mint/</link>
+      <pubDate>Fri, 01 May 2015 16:08:33 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/05/01/how-to-install-mezzanine-on-ubuntulinux-mint/</guid>
+      <description>Mezzanine is a CMS application built on Django web framework. The installation steps are easy but your environment may not just suitable enough for it work without a problem. So, here I&amp;rsquo;m going to describe complete installation from scratch on a virtual environment.
+First of all, install virtualenv:
+$ sudo apt-get install python-virtualenv Then, create a virtual environment:
+$ virtualenv testenv And, activate it: $ cd testenv $ source bin/activate</description>
+    </item>
+    
+    <item>
+      <title>Finding k-cores and Clustering Coefficient Computation with NetworkX </title>
+      <link>https://www.gungorbudak.com/blog/2015/01/16/finding-k-cores-and-clustering/</link>
+      <pubDate>Fri, 16 Jan 2015 12:03:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/16/finding-k-cores-and-clustering/</guid>
+      <description>Assume you have a large network and you want to find k-cores of each node and also you want to compute clustering coefficient for each one. Python package NetworkX comes with very nice methods for you to easily do these.
+k-core is a maximal subgraph whose nodes are at least k degree [1]. To find k-cores:
+Add all edges you have in your network in a NetworkX graph, and use core_number method that gets graph as the single input and returns node – k-core pairs.</description>
+    </item>
+    
+    <item>
+      <title>Searching Open Reading Frames (ORF) in DNA sequences - ORF Finder</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/14/searching-open-reading-frames-orf-in/</link>
+      <pubDate>Wed, 14 Jan 2015 19:46:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/14/searching-open-reading-frames-orf-in/</guid>
+      <description>Open reading frames (ORF) are regions on DNA which are translated into protein. They are in between start and stop codons and they are usually long.
+The Python script below searches for ORFs in six frames and returns the longest one. It doesn&amp;rsquo;t consider start codon as a delimiter and only splits the sequence by stop codons. So the ORF can start with any codon but ends with a stop codon (TAG, TGA, TAA).</description>
+    </item>
+    
+    <item>
+      <title>Python: Get Longest String in a List</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/13/python-get-longest-string-in-list/</link>
+      <pubDate>Tue, 13 Jan 2015 08:17:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/13/python-get-longest-string-in-list/</guid>
+      <description>Here is a quick Python trick you might use in your code.
+Assume you have a list of strings and you want to get the longest one in the most efficient way.
+&amp;gt;&amp;gt;&amp;gt;l=[&amp;#34;aaa&amp;#34;, &amp;#34;bb&amp;#34;, &amp;#34;c&amp;#34;] &amp;gt;&amp;gt;&amp;gt;longest_string = max(l, key = len) &amp;gt;&amp;gt;&amp;gt;longest_string &amp;#39;aaa&amp;#39; </description>
+    </item>
+    
+    <item>
+      <title>Python: defaultdict(list) Dictionary of Lists</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/12/python-defaultdictlist-dictionary-of/</link>
+      <pubDate>Mon, 12 Jan 2015 09:29:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/12/python-defaultdictlist-dictionary-of/</guid>
+      <description>Most of the time, when you need to work on large data, you&amp;rsquo;ll have to use some dictionaries in Python. Dictionaries of lists are very useful to store large data in very organized way. You can always initiate them by initiating empty lists inside an empty dictionary but when you don&amp;rsquo;t know how many of them you&amp;rsquo;ll end up with and if you want an easier option, use defaultdict(list). You just need to import it, first:</description>
+    </item>
+    
+    <item>
+      <title>Python: extend() Append Elements of a List to a List</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/12/python-extend-append-elements-of-list/</link>
+      <pubDate>Mon, 12 Jan 2015 08:58:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/12/python-extend-append-elements-of-list/</guid>
+      <description>When you append a list to a list by using append() method, you&amp;rsquo;ll see your list is going to be appended as a list:
+&amp;gt;&amp;gt;&amp;gt;l=[&amp;#34;a&amp;#34;] &amp;gt;&amp;gt;&amp;gt;l2=[&amp;#34;a&amp;#34;, &amp;#34;b&amp;#34;] &amp;gt;&amp;gt;&amp;gt;l.append(l2) &amp;gt;&amp;gt;&amp;gt;l [&amp;#39;a&amp;#39;, [&amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;]] If you want to append elements of the list directly without creating nested lists, use extend() method:
+&amp;gt;&amp;gt;&amp;gt;l=[&amp;#34;a&amp;#34;] &amp;gt;&amp;gt;&amp;gt;l2=[&amp;#34;a&amp;#34;, &amp;#34;b&amp;#34;] &amp;gt;&amp;gt;&amp;gt;l.extend(l2) &amp;gt;&amp;gt;&amp;gt;l [&amp;#39;a&amp;#39;, &amp;#39;a&amp;#39;, &amp;#39;b&amp;#39;] </description>
+    </item>
+    
+    <item>
+      <title>Salmonella Data Preprocessing for PCSF Algorithm</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/12/salmonella-data-preprocessing-for-pcsf/</link>
+      <pubDate>Mon, 12 Jan 2015 08:47:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/12/salmonella-data-preprocessing-for-pcsf/</guid>
+      <description>This post describes data preprocessing in Salmonella project for Prize-Collecting Steiner Forest Problem (PCSF) algorithm.
+Salmonella data taken from Table S6 in Phosphoproteomic Analysis of Salmonella-Infected Cells Identifies Key Kinase Regulators and SopB-Dependent Host Phosphorylation Events by Rogers, LD et al. has been converted to tab delimited TXT file from its original XLS file for easy reading in Python.
+The data should be separated into time points files (2, 5, 10 and 20 minutes) each of which will contain corresponding phophoproteins and their fold changes.</description>
+    </item>
+    
+    <item>
+      <title>How to Install openpyxl on Windows</title>
+      <link>https://www.gungorbudak.com/blog/2014/12/03/how-to-install-openpyxl-on-windows/</link>
+      <pubDate>Wed, 03 Dec 2014 05:08:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/12/03/how-to-install-openpyxl-on-windows/</guid>
+      <description>openpyxl is a Python library to read/write Excel 2007 xlsx/xlsm files. To download and install on Windows:
+Download it from Python Packages
+Then to install, extract the tar ball you downloaded, open up CMD, navigate to the folder that you extracted and run the following:
+C:\Users\Gungor&amp;gt;cd Downloads\openpyxl-2.1.2.tar\dist\openpyxl-2.1.2\openpyxl-2.1.2 C:\Users\Gungor\Downloads\openpyxl-2.1.2.tar\dist\openpyxl-2.1.2\openpyxl-2.1.2&amp;gt;python setup.py install It&amp;rsquo;s going to install everything and will report any error. If there is nothing that seems like an error. You&amp;rsquo;re good to go.</description>
+    </item>
+    
+    <item>
+      <title>How to Install Numpy Python Package on Windows</title>
+      <link>https://www.gungorbudak.com/blog/2014/11/26/how-to-install-numpy-python-package-on/</link>
+      <pubDate>Wed, 26 Nov 2014 10:49:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/11/26/how-to-install-numpy-python-package-on/</guid>
+      <description>Numpy (Numerical Python) is a great Python package that you should definitely make use of if you&amp;rsquo;re doing scientific computing
+Installing it on Windows might be difficult if you don&amp;rsquo;t know how to do it via command line. There are unofficial Windows binaries for Numpy for Windows 32 and 64 bit which make it super easy to install.
+Go to the link below and download the one for your system and Python version:http://www.</description>
+    </item>
+    
+    <item>
+      <title>JointSNVMix Installation on Linux Mint 16 Cython, Pysam Included</title>
+      <link>https://www.gungorbudak.com/blog/2014/03/26/jointsnvmix-installation-on-linux-mint/</link>
+      <pubDate>Wed, 26 Mar 2014 06:41:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/03/26/jointsnvmix-installation-on-linux-mint/</guid>
+      <description>JointSNVMix is a software package that consists of a number of tools for calling somatic mutations in tumour/normal paired NGS data.
+It requires Python (&amp;gt;= 2.7), Cython (&amp;gt;= 0.13) and Pysam (== 0.5.0).
+Python must be installed by default ona Linux machine so I will describe the installation of others and JointSNVMix.
+Note this guide may become outdated after some time so please make sure before following all.
+Install Cython</description>
+    </item>
+    
+    <item>
+      <title>Set Up Google Cloud SDK on Windows using Cygwin</title>
+      <link>https://www.gungorbudak.com/blog/2014/03/16/set-up-google-cloud-sdk-on-windows/</link>
+      <pubDate>Sun, 16 Mar 2014 19:17:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/03/16/set-up-google-cloud-sdk-on-windows/</guid>
+      <description>Windows isn&amp;rsquo;t the best environment for software development I believe but if you have to use it there are nice softwares to make it easy for you. Cygwin here will help us to use Google Cloud tools but installation requires certain things that you should be aware of beforehand.
+You&amp;rsquo;ll need
+Python latest 2.7.x Google Cloud SDK Cygwin 32-bit (i.e. setup-x86.exe - note only this one works) openssh, curl and latest 2.</description>
+    </item>
+    
+    <item>
+      <title>Some String Functions in R, String Manipulation in R</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/08/some-string-functions-in-r-string/</link>
+      <pubDate>Thu, 08 Aug 2013 10:43:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/08/some-string-functions-in-r-string/</guid>
+      <description>I have programmed with Perl, Python, and PHP before, and string manipulation was more direct and easier in them than in R. But still there are useful functions for string manipulation in R. I&amp;rsquo;m not an expert in R but I&amp;rsquo;ve been dealing with it for a while and I&amp;rsquo;ve learned some good functions for this purpose.
+Concatenate strings
+Concatenation is done with paste function. It gets concatenated strings as arguments separated bu comma and also separator character(s).</description>
+    </item>
+    
+    <item>
+      <title>First Impressions and Thoughts on Rosalind Project</title>
+      <link>https://www.gungorbudak.com/blog/2013/07/04/first-impressions-and-thoughts-on/</link>
+      <pubDate>Thu, 04 Jul 2013 08:52:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/07/04/first-impressions-and-thoughts-on/</guid>
+      <description>Actually, I signed up Rosalind.info 8 months ago, I didn&amp;rsquo;t really play around with it. But last week, in a BiGCaT science cafe, after I learnt it, I was more interested than before and I just started solving problems.
+In each problem, you have a description about the context and also about the problem. Also, there is a sample input and output. Sometimes there are hints about the solution. What I did was to write a solution that works for the sample and hopefully for the problem.</description>
+    </item>
+    
+  </channel>
+</rss>

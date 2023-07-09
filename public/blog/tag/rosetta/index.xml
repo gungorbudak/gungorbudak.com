@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rosetta on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/rosetta/</link>
+    <description>Recent content in rosetta on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 13 Jun 2015 09:45:56 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/rosetta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up Templates and Python Scripts for Translation</title>
+      <link>https://www.gungorbudak.com/blog/2015/06/13/setting-up-templates-and-python-scripts-for/</link>
+      <pubDate>Sat, 13 Jun 2015 09:45:56 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/06/13/setting-up-templates-and-python-scripts-for/</guid>
+      <description>Templates need following template tag:
+{% raw %}{% load i18n %}{% endraw %} Then, wrapping any text with
+{% raw %}{% trans &amp;#34;TEXT&amp;#34; %}{% endraw %} will make it translatable via Rosetta Django application
+In Python scripts, you need to import following library:
+from django.utils.translation import ugettext_lazy as _ Then wrapping any text with
+_(&amp;#39;TEXT&amp;#39;) will make it translatable.</description>
+    </item>
+    
+    <item>
+      <title>Django Rosetta Translations for Django Applications</title>
+      <link>https://www.gungorbudak.com/blog/2015/06/12/django-rosetta-translations-for-django/</link>
+      <pubDate>Fri, 12 Jun 2015 15:20:33 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/06/12/django-rosetta-translations-for-django/</guid>
+      <description>Make a directory called locale/ under the application directory:
+cd app_name mkdir locale Add the folder in LOCAL_PATHS dictionary in settings.py:
+LOCALE_PATHS = ( os.path.join(PROJECT_ROOT, &amp;#39;app_name&amp;#39;, &amp;#39;locale/&amp;#39;), ) Run the following command to create PO translation file for the application:
+python ../manage.py makemessages -l tr -e html,py,txt python ../manage.py compilemessages Option -l is for language, it should match your definition in settings.py:
+LANGUAGES = ( (&amp;#39;en&amp;#39; _(&amp;#39;English&amp;#39;)), (&amp;#39;tr&amp;#39; _(&amp;#39;Turkish&amp;#39;)), (&amp;#39;it&amp;#39; _(&amp;#39;Italian&amp;#39;)), ) Repeat the last step for all languages and the go to Rosetta URL to translate.</description>
+    </item>
+    
+    <item>
+      <title>Django Rosetta Installation</title>
+      <link>https://www.gungorbudak.com/blog/2015/06/12/django-rosetta-installation/</link>
+      <pubDate>Fri, 12 Jun 2015 15:07:34 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/06/12/django-rosetta-installation/</guid>
+      <description>Install SciPy:
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose Install pymongo and nltk:
+sudo pip install pymongo sudo pip install nltk Install Python MySQLdb:
+sudo apt-get install python-mysqldb Install Rosetta:
+sudo pip install django-rosetta Add following into INSTALLED_APPS in settings.py:
+&amp;#34;rosetta&amp;#34;, Add following into urls.py:
+url(r’^translations/’, include(‘rosetta.urls’)), To also allow language prefixes , change patters to i18n_patterns in urls.py:
+urlpatterns += i18n_patterns( ... ) </description>
+    </item>
+    
+  </channel>
+</rss>

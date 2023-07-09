@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>starcluster on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/starcluster/</link>
+    <description>Recent content in starcluster on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Aug 2015 00:06:27 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/starcluster/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running StarCluster Load Balancer in Background in Linux</title>
+      <link>https://www.gungorbudak.com/blog/2015/08/16/running-starcluster-load-balancer-in-background-in/</link>
+      <pubDate>Sun, 16 Aug 2015 00:06:27 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/08/16/running-starcluster-load-balancer-in-background-in/</guid>
+      <description>StarCluster loadbalancer command is regularly monitors the jobs in queue and it adds or removes nodes to the master node that is created beforehand to effectively complete the queue.
+To run in in the background without killing it when the terminal closed:
+nohup starcluster loadbalance cluster_name &amp;gt;loadbalance.log 2&amp;gt;&amp;amp;1 &amp;amp; or to keep standard output and standard error logs separate:
+nohup starcluster loadbalance cluster_name &amp;gt; loadbalance.access.log 2&amp;gt; loadbalance.error.log &amp;amp; This will start the process and output the process ID (PID) which can be used to check or kill it.</description>
+    </item>
+    
+    <item>
+      <title>Running Script on Cluster (StarCluster)</title>
+      <link>https://www.gungorbudak.com/blog/2015/05/27/running-script-on-cluster-starcluster/</link>
+      <pubDate>Wed, 27 May 2015 15:59:32 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/05/27/running-script-on-cluster-starcluster/</guid>
+      <description>Start a new cluster with the configuration file you modified:
+starcluster start cluster_name Send the script to the running cluster:
+starcluster put cluster_name myscr.csh /home/myscr.csh Run it using source:
+starcluster sshmaster cluster_name &amp;quot;source /home/myscr.csh &amp;gt;&amp;amp; /home/myscr.log&amp;quot; </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>gene on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/gene/</link>
+    <description>Recent content in gene on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Nov 2013 09:11:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/gene/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Get Transcripts (also Exons &amp; Introns) of a Gene using Ensembl API</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/28/how-to-get-transcripts-also-exons/</link>
+      <pubDate>Thu, 28 Nov 2013 09:11:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/28/how-to-get-transcripts-also-exons/</guid>
+      <description>As a part of my project, I need to obtain exons and introns of certain genes. These genes are actually human genes that are determined for a specific reason that I will describe later when I explain my project. But for now, I want to share the way to obtain this information using (Perl) Ensembl API. Note that Ensembl has started a beautiful way (Ensembl REST API) of getting data but it is beta and it doesn&amp;rsquo;t provide exons / introns information.</description>
+    </item>
+    
+    <item>
+      <title>Retrieving Data with AJAX using jQuery, PHP and MySQL</title>
+      <link>https://www.gungorbudak.com/blog/2013/06/28/retrieving-data-with-ajax-using-jquery/</link>
+      <pubDate>Fri, 28 Jun 2013 18:04:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/06/28/retrieving-data-with-ajax-using-jquery/</guid>
+      <description>Last semester, I took a course from Informatics Institute at METU called &amp;ldquo;Biological Databases and Data Analysis Tools&amp;rdquo; where first we learned what is a database and how to do queries on it. Also, the technology behind databases are taught. Then, we learned many biological databases and data analysis tools available. These include gene, protein and pathway databases, tools for creating databases.
+As a final project, we were asked to create an online tool that can search a database and get the data and display it on any web browsers.</description>
+    </item>
+    
+  </channel>
+</rss>

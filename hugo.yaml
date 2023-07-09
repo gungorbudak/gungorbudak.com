@@ -1,0 +1,60 @@
+baseURL: "https://www.gungorbudak.com/"
+languageCode: "en"
+defaultContentLanguage: "en"
+title: "Güngör Budak"
+Paginate: 9
+googleAnalytics: "G-FDGY3E9H2Y"
+disqusShortname: "gungorbudak"
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+    params:
+      title_description: "Bioinformatics Engineer at Velsera & PhD Candidate at METU"
+  tr:
+    languageName: Türkçe
+    weight: 2
+    params:
+      title_description: "Velsera'da Biyoenformatik Mühendisi & ODTÜ'de PhD Adayı"
+
+menu:
+  main:
+    - name: Blog
+      pageRef: /blog
+      weight: 2
+
+taxonomies:
+  tag: tags
+  year: year
+
+permalinks:
+  blog: /blog/:year/:month/:day/:slug/
+  year: /blog/archive/:slug/
+  tags: /blog/tag/:slug/
+pluralizeListTitles: true
+
+theme: "ananke"
+
+params:
+  author: "Güngör Budak"
+  description: "Bioinformatics, web programming, coding in general"
+  favicon: "public/favicon.ico"
+  site_logo: ""
+  text_color: "black"
+  background_color_class: "bg-navy"
+  ananke_socials:
+    - name: github
+      url: https://github.com/gungorbudak
+    - name: linkedin
+      url: https://linkedin.com/in/gungorbudak
+    - name: twitter
+      url: https://twitter.com/gungorbudak
+    - name: facebook
+      label: Facebook
+      follow: false
+
+sitemap:
+  changefreq: "monthly"
+  priority: 0.5
+  filename: "sitemap.xml"

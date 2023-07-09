@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cytoscape on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/cytoscape/</link>
+    <description>Recent content in cytoscape on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Jan 2015 09:35:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/cytoscape/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Salmonella - Host Interaction Network - A Detailed, Better Visualization</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/21/salmonella-host-interaction-network/</link>
+      <pubDate>Wed, 21 Jan 2015 09:35:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/21/salmonella-host-interaction-network/</guid>
+      <description>We&amp;rsquo;re almost done with the analyses and we&amp;rsquo;re making the final visualization of the network. As I previously posted, the network was clustered and visualized by time points. After that, we have done several more analyses and here I report how we visualized them. I&amp;rsquo;m going to post more about how we did the analyses separately.
+First, the nodes are grouped into experimental and not experimental (PCSF nodes). This can easily be done by parsing experimental network output and network outputs of PCSF.</description>
+    </item>
+    
+    <item>
+      <title>Network Clustering with NeAT - RNSC Algorithm</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/16/network-clustering-with-neat-rnsc/</link>
+      <pubDate>Fri, 16 Jan 2015 20:06:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/16/network-clustering-with-neat-rnsc/</guid>
+      <description>As we have obtained proteins at different times points from the experimental data, then we have found intermediate nodes (from human interactome) using PCSF algorithm and finally with a special matrix from the network that PCSF created, we have validated the edges and also determined edge directions using an approach which a divide and conquer (ILP) approach for construction of large-scale signaling networks from PPI data. The resulting network is a directed network and will be used and visualized for further analyses.</description>
+    </item>
+    
+    <item>
+      <title>Network Visualization Using Cytoscape</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/29/network-visualization-using-cytoscape/</link>
+      <pubDate>Thu, 29 Aug 2013 10:32:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/29/network-visualization-using-cytoscape/</guid>
+      <description>Cytoscape is a nice tool to visualize network for better understanding and delivery. I used it for in silico data network visualization and the result was really pretty. Now, I have networks constructed using experimental data from HPN-DREAM Challenge.
+In this post, I want to demonstrate how to visualize a network with scores. I&amp;rsquo;m using Cytoscape 2.8 on Ubuntu 12.
+First, the network will be read from a SIF file which is default format of Cytoscape for networks.</description>
+    </item>
+    
+    <item>
+      <title>In silico Network Inference Last Improvements and Visualization of Result in Cytoscape</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/12/in-silico-network-inference-last/</link>
+      <pubDate>Mon, 12 Aug 2013 09:48:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/12/in-silico-network-inference-last/</guid>
+      <description>I&amp;rsquo;m almost done with the analysis of in silico data, although I need to decide if I need further analysis with the inhibiting parent nodes in the network. Last, I couldn&amp;rsquo;t filter out duplicate edges, which were scored differently. Now, with some improvements in the script, low scores duplicates are filtered and there is a better final list of edges which is ready to be visualized.
+I also tried visualizing it on Cytoscape.</description>
+    </item>
+    
+  </channel>
+</rss>

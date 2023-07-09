@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>heidelberg on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/heidelberg/</link>
+    <description>Recent content in heidelberg on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 Jun 2012 16:55:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/heidelberg/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WWW2HUSAR - HUSAR&#39;ın Web Arayüzü</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/19/www2husar-husarn-web-arayuzu/</link>
+      <pubDate>Tue, 19 Jun 2012 16:55:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/19/www2husar-husarn-web-arayuzu/</guid>
+      <description>Stajımın ikinci gününde HUSAR&amp;rsquo;ın web arayüzünü konuştuk. HUSAR komut isteminden komutlarla kullanılabilen, yönetilebilen bir yazılım ancak bunu kolaylaştırmak için hazırlanmış bir web arayüzü var. WWW2HUSAR adını verdikleri bu arayüz ile listelenen araçları kolayca seçebiliyor, genetik dizinizi ekleyebiliyor ve başka birçok işlemi kolayca, birkaç tık ile yapabiliyorsunuz.
+Bununla birlikte biraz daha HUSAR&amp;rsquo;ın işlevlerine göz attık. Yazılımda, yerel klasörde gen dizisi listeleri oluşturarak, bunları çoklu dizi hizalama (multiple sequence alignment) aracı ile genlerin benzerliklerini karşılastırabiliyor ve örneğin evrimsel ilişkilerini ortaya çıkarabiliyorsunuz.</description>
+    </item>
+    
+    <item>
+      <title>DKFZ - Heidelberg Biyoenformatik Birimi&#39;nde Staj</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/18/dkfz-heidelberg-biyoenformatik/</link>
+      <pubDate>Mon, 18 Jun 2012 16:39:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/18/dkfz-heidelberg-biyoenformatik/</guid>
+      <description>Erasmus programıyla yapıyor olduğum yaz stajı başladı. İlk olarak birimi yöneten bilim insanlarından birkaç saatlik tanıtım dersi aldım. Bu derste birimin kısa tarihi, birimin günümüze kadar yaptıkları projeler ve bunlarin ayrintilari konusunda bilgiler aldım.
+Biyoenformatik Birimi DKFZ&amp;rsquo;nin (Deutsches Krebsforschungszentrum &amp;ndash; ing. German Cancer Research Center) bir çekirdek tesisi olan Genomik ve Proteomik Çekirdek Tesisi&amp;rsquo;ne bağlı bir grup. İsimleri aynı zamanda HUSAR (Heidelberg Unix Sequence Analysis Resources) ve bu isim grubun geliştirdiği dizi analizi yapma paketinin de adı olarak kullanılıyor.</description>
+    </item>
+    
+  </channel>
+</rss>

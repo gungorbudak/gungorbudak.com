@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shortcuts on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/shortcuts/</link>
+    <description>Recent content in shortcuts on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Feb 2017 14:53:15 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/shortcuts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Make a Shortcut for SSH Connections</title>
+      <link>https://www.gungorbudak.com/blog/2017/02/03/make-a-shortcut-for-ssh-connections/</link>
+      <pubDate>Fri, 03 Feb 2017 14:53:15 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2017/02/03/make-a-shortcut-for-ssh-connections/</guid>
+      <description>It could be really annoying to reenter the host name again and again if you are working over ssh and the host name is really long (i.e. mistral.ii.metu.edu.tr). Using this method, you can set a shorcut for the host name (i.e. mistral) and use it whenever you connect.
+Open ~/.ssh/config for editing:
+subl ~/.ssh/config Add your host definition as follows:
+Host mistral HostName mistral.ii.metu.edu.tr User gbudak </description>
+    </item>
+    
+  </channel>
+</rss>

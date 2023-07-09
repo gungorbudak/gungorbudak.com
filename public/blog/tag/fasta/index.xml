@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fasta on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/fasta/</link>
+    <description>Recent content in fasta on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 May 2018 14:00:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/fasta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Download hg38/GRCh38 FASTA Human Reference Genome</title>
+      <link>https://www.gungorbudak.com/blog/2018/05/16/how-to-download-hg38-grch38-fasta-human-reference-genome/</link>
+      <pubDate>Wed, 16 May 2018 14:00:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2018/05/16/how-to-download-hg38-grch38-fasta-human-reference-genome/</guid>
+      <description>hg38/GRCh38 is the latest human reference genome as of today which was released December, 2013. There are multiple sources for downloading it and also it comes in different versions.
+The most well-known databases to use for downloading the human reference genomes are UCSC Genome Browser, Ensembl and NCBI. The naming convention hg38 is used by UCSC Genome Browser, while Ensembl and NCBI use GRCh38 to refer to the latest human reference genome.</description>
+    </item>
+    
+    <item>
+      <title>How to Convert PED to FASTA</title>
+      <link>https://www.gungorbudak.com/blog/2014/09/18/how-to-convert-ped-to-fasta/</link>
+      <pubDate>Thu, 18 Sep 2014 10:35:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/09/18/how-to-convert-ped-to-fasta/</guid>
+      <description>You may need the conversion of PED files to FASTA format in your studies for further analyses. Use below script for this purpose.
+PED to FASTA converter on GitHub
+Gets first 6 columns of each line as header line and the rest as the sequence replacing 0s with Ns and organizes it into a FASTA file.
+Note 0s are for missing nucleotides defined by default in PLINK
+How to run:</description>
+    </item>
+    
+    <item>
+      <title>Download Human Reference Genome (HG19 - GRCh37)</title>
+      <link>https://www.gungorbudak.com/blog/2014/04/13/download-human-reference-genome-hg19/</link>
+      <pubDate>Sun, 13 Apr 2014 05:25:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/04/13/download-human-reference-genome-hg19/</guid>
+      <description>Many variation calling tools and many other methods in bioinformatics require a reference genome as an input so may need to download human reference genome or sequences. There are several sources that freely and publicly provide the entire human genome and I&amp;rsquo;ll describe how to download complete human genome from University of California, Santa Cruz (UCSC) webpage.
+Index to the gzip-compressed FASTA files of human chromosomes can be found here at the UCSC webpage.</description>
+    </item>
+    
+    <item>
+      <title>How to Get Transcripts (also Exons &amp; Introns) of a Gene using Ensembl API</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/28/how-to-get-transcripts-also-exons/</link>
+      <pubDate>Thu, 28 Nov 2013 09:11:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/28/how-to-get-transcripts-also-exons/</guid>
+      <description>As a part of my project, I need to obtain exons and introns of certain genes. These genes are actually human genes that are determined for a specific reason that I will describe later when I explain my project. But for now, I want to share the way to obtain this information using (Perl) Ensembl API. Note that Ensembl has started a beautiful way (Ensembl REST API) of getting data but it is beta and it doesn&amp;rsquo;t provide exons / introns information.</description>
+    </item>
+    
+    <item>
+      <title>Birden Fazla Dizi Dosyalarindan MegaBLAST&#39;i Calistirmak</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/26/birden-fazla-dizi-dosyalarindan-megablast-calistirmak/</link>
+      <pubDate>Thu, 26 Jul 2012 07:48:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/26/birden-fazla-dizi-dosyalarindan-megablast-calistirmak/</guid>
+      <description>Asagidaki scripti, pipeline&amp;rsquo;in MegaBLAST aramasini daha hizli yapabilmek icin dusundugumuz bir teknige uygun olabilmesi icin yazdim. Yaptigi sey, her okuma icin olusturulmus ve formatlanmis dizi dosyalarini kullanarak veritabanlarinda belirtilen baslangic noktasi ve okuma sayisi ile arama yapmak.
+#!user/local/bin/perl $database = $ARGV[0]; $dir = $ARGV[1]; #directory for sequences $sp = $ARGV[2]; #starting point $n = $ARGV[3] + $sp; while (1) { system(&amp;#34;blastplus -programname=megablast $dir/read_$sp.seq $database -OUTFILE=read_$sp.megablast -nobatch -d&amp;#34;); $sp++; last if ($sp == $n); } Burada her sey gercekten cok basit bir programlama ile isliyor.</description>
+    </item>
+    
+    <item>
+      <title>Tek FASTA Dosyasindan MegaBLAST&#39;i Calistirmak - Duzenli Ifadeler</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/23/tek-fasta-dosyasindan-megablast-calistirmak/</link>
+      <pubDate>Mon, 23 Jul 2012 05:49:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/23/tek-fasta-dosyasindan-megablast-calistirmak/</guid>
+      <description>Asagida MegaBLAST&amp;rsquo;i FASTA dosyasi okuyarak calistirmak ve sonuclari bir dizinde toplayabilmek amaciyla yazdigim Perl scripti ve onun aciklamasi var. Bu script tasarlamakta oldugum pipeline&amp;rsquo;in onemli bir parcasi. Bu script ilk yazdigim olan ve sadece bir FASTA dosyasi uzerinden tum okumalara ulasabilen script.
+#!user/local/bin/perl $database = $ARGV[0]; $fasta = $ARGV[1]; #input file $sp = $ARGV[2]; #starting point $n = $ARGV[3] + $sp; if(!defined($n)){$n=12;} #set default number open FASTA, $fasta or die $!</description>
+    </item>
+    
+    <item>
+      <title>Bir MegaBLAST Ciktisi Icerigi - RefSeq Veritabani</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/19/bir-megablast-ciktisi-icerigi-refseq/</link>
+      <pubDate>Thu, 19 Jul 2012 09:35:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/19/bir-megablast-ciktisi-icerigi-refseq/</guid>
+      <description>Asagida, deneme FASTA dosyasini refseq_genomic veritabaninda arayarak elde ettigim dosyadan, bir hitin ayrintilarini goruyoruz.
+&amp;gt;&amp;gt;&amp;gt;&amp;gt;refseq_genomic_complete3: AC_000033_0310 Continuation (311 of 1357) of AC_000033 from base 31000001 (AC_000033 Mus musculus strain mixed chromosome 11, alternate assembly Mm_Celera, whole genome shotgun sequence. 2/2012) Length = 110000 Score = 115 bits (58), Expect = 4e-22 Identities = 74/79 (93%), Gaps = 2/79 (2%) Strand = Plus / Minus Query: 1 ctctctctgtct-tctctctctctctgtctctctctctttctctctcttctctctctctc 59 |||||||||||| ||| ||||||||| ||||||||||| ||||||||||||||||||||| Sbjct: 89773 ctctctctgtctgtctttctctctctctctctctctctctctctctcttctctctctctc 89714 Query: 60 tttctctctgccctctctc 78 ||||||||| ||||||||| Sbjct: 89713 tttctctct-ccctctctc 89696 Ayrintilarda, ilk olarak &amp;gt;&amp;gt;&amp;gt;&amp;gt; karakterleriyle hit ile ilgili baslik bilgisi veriyor.</description>
+    </item>
+    
+    <item>
+      <title>MegaBLAST Aramasini Hizlandirma</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/16/megablast-aramasini-hizlandirma/</link>
+      <pubDate>Mon, 16 Jul 2012 04:54:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/16/megablast-aramasini-hizlandirma/</guid>
+      <description>Son zamanlarda sadece farkli veritabanlarinda, MegaBLAST&amp;rsquo;i en cabuk ve etkili bir sekilde calistirmanin yolunu ariyorum ve FASTA dosyasi olusturma asamasinda, gercekten cokca ise yarayan bir yontem danismanim tarafindan geldi.
+Daha once tum dizilerin bulundugu tek bir FASTA dosyasindan arama yapiyordum ve bu zaman kaybina yol aciyordu. Her ne kadar dosya bir sefer acilsa da her seferinde dosya icinde satirlara gidip onu okuman, zaman alan bir islem. Bunu, dosyadaki her okumayi, ayri bir FASTA dosyasi haline getirerek cozduk.</description>
+    </item>
+    
+    <item>
+      <title>FASTQ&#39;dan FASTA&#39;ya Donusturme Perl Scripti</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/13/fastqdan-fastaya-donusturme-perl/</link>
+      <pubDate>Fri, 13 Jul 2012 05:05:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/13/fastqdan-fastaya-donusturme-perl/</guid>
+      <description>FASTQ ve FASTA formatlari aslinda ayni bilgiyi iceren ancak birinde sadece herbir dizi icin iki satir daha az bilginin bulundugu dosya formatlari. Projemde onemli olan diger bir farklari ise FASTA formatinin direkt olarak MegaBLAST arama yapilabilmesi. Iste bu yuzden, genetik dizilim yapan makinelerin olusturdugu FASTQ formatini FASTA&amp;rsquo;ya cevirmem gerekiyor. Ve bu script pipeline&amp;rsquo;in ilk adimi.
+Aslinda deneme amacli aldigim genetk dizilimin, bana bunu ulastiran tarafindan eslestirmesinin yapilmadigi icin, bir on adim olarak bu eslestirmeyi yapmistim.</description>
+    </item>
+    
+    <item>
+      <title>SAM Dosyası - BAM Dosyası - samtools</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/04/sam-dosyasi-bam-dosyasi-samtools/</link>
+      <pubDate>Wed, 04 Jul 2012 20:36:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/04/sam-dosyasi-bam-dosyasi-samtools/</guid>
+      <description>Aslında programlamam gereken pipeline direkt olarak eşleşmeyen okumalar üzerinden analizler yapacak. Ancak böyle bir veri bulamadiığım için, elimdeki tek veri eşleşen ve eşleşmeyen okumaları içerdiği için önce eşleşenlerden kurtulmam gerekti.
+Bunu daha önce de belirttiğim gibi bwa eşleştiricisi (aligner - mapper) ile yapıyorum. bwa bir dizi işlemden sonra SAM dosyası oluşturuyor ancak benim FASTQ dosyasına ihtiyacım var. Bunun için SAM dosyasını samtools1 ile benzer bir format olan BAM dosyasına çevirip, daha sonra da bam2fastq2 aracı ile FASTQ dosyamı elde edeceğim.</description>
+    </item>
+    
+    <item>
+      <title>MegaBLAST - Dizilerdeki Benzerlikleri Bulma Aracı</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/28/megablast-dizilerdeki-benzerlikleri/</link>
+      <pubDate>Thu, 28 Jun 2012 10:49:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/28/megablast-dizilerdeki-benzerlikleri/</guid>
+      <description>MegaBLAST, HUSAR paketinde bulunan, BLAST (Basic Local Alignment Search Tool) paketinin bir parçası. Ayrıca BLASTN&amp;rsquo;in bir değişik türü. MegaBLAST uzun dizileri BLASTN&amp;rsquo;den daha etkili bir şekilde işliyor ve hem de çok daha hızlı işlem yapiyor ancak daha az duyarlı. Bu yüzden benzer dizileri geniş veri tabanlarında aramaya çok uygun bir araç.
+Yazacağım program çoklu dizilim barındıran FASTA dosyasını alacak ve megablast komutunu çalıştıracak. Daha sonra da her okuma için bir .</description>
+    </item>
+    
+    <item>
+      <title>Kontaminant (Kirletici) Analizi Projesi</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/27/kontaminant-kirletici-analizi-projesi/</link>
+      <pubDate>Wed, 27 Jun 2012 11:24:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/27/kontaminant-kirletici-analizi-projesi/</guid>
+      <description>Başlangıç olarak, araçlara, programlama diline, kısacası biyoenformatiğe alışabilmem için bana verilen bu ufak projeyi ayrıntılı olarak anlatacağım.
+Biliyoruz ki, laboratuvar çalışmalarımızda ne kadar önlemeye çalışsak da kontaminant riski hep bulunuyor. Bunu ne kadar aza indirsek o kadar iyi, ki daha sonra bunun miktarını bulup, bunun üzerinden sonucumuzun bir başka değerlendirmesini de yapabiliriz. İşte bunu bulmak için bir yöntem, DNA analizi. Çalıştığınız örneğinizin DNA&amp;rsquo;sı dizileniyor ve bu DNA çeşitli programlarla analiz edilip, kirleten organizmaları DNA&amp;rsquo;larından ortaya çıkarabiliyoruz</description>
+    </item>
+    
+    <item>
+      <title>FASTQ Formatı - FASTQ Dosyası</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/25/fastq-format-fastq-dosyasi/</link>
+      <pubDate>Mon, 25 Jun 2012 11:01:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/25/fastq-format-fastq-dosyasi/</guid>
+      <description>Bugün programı oluştururken kullanacağım &amp;ldquo;test&amp;rdquo; dizilimini aldım. İki adet FASTQ dosyasından oluşuyor, her biri sıkıştırılmış ama buna rağmen boyutları 6 GB civarı. Ben elbette çok zaman kaybetmek istemediğim için bu dosyalardan birinin sadece bir kısmını kullanacağım.
+Amacım, bu FASTQ dosyalarındaki eşleşebilen okumaları BWA aracı ile bularak, daha sonra onları çıkarmak. Ve kalan eşleşemeyen okumaları MegaBLAST aracının anlayabileceği bir dilde (FASTA formatında) kaydetmek.
+Bu arada tüm projeyi bir Unix bilgisayarda hazırladığım için birçok komut öğreniyorum, daha sonra bunları ayrıca yazmaya çalışacağım.</description>
+    </item>
+    
+  </channel>
+</rss>

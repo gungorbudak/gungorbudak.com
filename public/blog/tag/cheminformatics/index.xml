@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cheminformatics on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/cheminformatics/</link>
+    <description>Recent content in cheminformatics on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 07 Jun 2015 08:51:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/cheminformatics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obtaining Molecule Description using Open Babel / PyBel</title>
+      <link>https://www.gungorbudak.com/blog/2015/06/07/obtaining-molecule-description-using/</link>
+      <pubDate>Sun, 07 Jun 2015 08:51:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/06/07/obtaining-molecule-description-using/</guid>
+      <description>Open Babel is a great tool to analyze and investigate molecular data (.MOL, .SDF files). Its Python API is particularly very nice if you are familiar with Python already. In this post, I&amp;rsquo;ll demonstrate how you can obtain molecule description such as molecular weight, HBA, HBD, logP, formula, number of chiral centers using PyBel.
+Installation
+$ sudo apt-get install openbabel python-openbabel Usage for MW, HBA, HBD, logP
+After reading .MOL file, we need to use calcdesc method with descnames argument for getting the descriptions.</description>
+    </item>
+    
+  </channel>
+</rss>

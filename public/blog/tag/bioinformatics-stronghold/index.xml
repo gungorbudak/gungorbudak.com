@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bioinformatics stronghold on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/bioinformatics-stronghold/</link>
+    <description>Recent content in bioinformatics stronghold on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 04 Jul 2013 08:52:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/bioinformatics-stronghold/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First Impressions and Thoughts on Rosalind Project</title>
+      <link>https://www.gungorbudak.com/blog/2013/07/04/first-impressions-and-thoughts-on/</link>
+      <pubDate>Thu, 04 Jul 2013 08:52:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/07/04/first-impressions-and-thoughts-on/</guid>
+      <description>Actually, I signed up Rosalind.info 8 months ago, I didn&amp;rsquo;t really play around with it. But last week, in a BiGCaT science cafe, after I learnt it, I was more interested than before and I just started solving problems.
+In each problem, you have a description about the context and also about the problem. Also, there is a sample input and output. Sometimes there are hints about the solution. What I did was to write a solution that works for the sample and hopefully for the problem.</description>
+    </item>
+    
+  </channel>
+</rss>

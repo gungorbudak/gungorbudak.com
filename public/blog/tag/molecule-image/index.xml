@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>molecule image on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/molecule-image/</link>
+    <description>Recent content in molecule image on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 30 Aug 2015 06:41:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/molecule-image/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Generating 2D Images of Molecules from MOL Files using Open Babel</title>
+      <link>https://www.gungorbudak.com/blog/2015/08/30/generating-2d-images-of-molecules-from/</link>
+      <pubDate>Sun, 30 Aug 2015 06:41:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/08/30/generating-2d-images-of-molecules-from/</guid>
+      <description>Open Babel is a tool to work with molecular data in any way from converting one type to another, analyzing, molecular modeling, etc. It also has a method to convert MOL files into SVG or PNG images to represent them as 2D images.
+Install Open Babel in Linux as following or go to their page for different operating systems
+sudo apt-get install openbabel Open Babel uses the same command to generate SVG or PNG and recognizes the file format using the given filename to as the output option -O.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>2014 on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/archive/2014/</link>
+    <description>Recent content in 2014 on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 22 Dec 2014 03:01:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/archive/2014/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Structural Superimposition of Local Sequence Alignment using BioPython</title>
+      <link>https://www.gungorbudak.com/blog/2014/12/22/structural-superimposition-of-local/</link>
+      <pubDate>Mon, 22 Dec 2014 03:01:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/12/22/structural-superimposition-of-local/</guid>
+      <description>This task was given to me as a homework in one of my courses at the university and I wanted to share my solution as I saw there is no such entry on the Internet.
+Objectives here are;
+Download (two) PDB files automatically from the server Do the pairwise alignment after getting their amino acid sequences Superimpose them and report RMSD Bio.PDB module from BioPython works very well in this case.</description>
+    </item>
+    
+    <item>
+      <title>How to Install openpyxl on Windows</title>
+      <link>https://www.gungorbudak.com/blog/2014/12/03/how-to-install-openpyxl-on-windows/</link>
+      <pubDate>Wed, 03 Dec 2014 05:08:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/12/03/how-to-install-openpyxl-on-windows/</guid>
+      <description>openpyxl is a Python library to read/write Excel 2007 xlsx/xlsm files. To download and install on Windows:
+Download it from Python Packages
+Then to install, extract the tar ball you downloaded, open up CMD, navigate to the folder that you extracted and run the following:
+C:\Users\Gungor&amp;gt;cd Downloads\openpyxl-2.1.2.tar\dist\openpyxl-2.1.2\openpyxl-2.1.2 C:\Users\Gungor\Downloads\openpyxl-2.1.2.tar\dist\openpyxl-2.1.2\openpyxl-2.1.2&amp;gt;python setup.py install It&amp;rsquo;s going to install everything and will report any error. If there is nothing that seems like an error. You&amp;rsquo;re good to go.</description>
+    </item>
+    
+    <item>
+      <title>How to Install Numpy Python Package on Windows</title>
+      <link>https://www.gungorbudak.com/blog/2014/11/26/how-to-install-numpy-python-package-on/</link>
+      <pubDate>Wed, 26 Nov 2014 10:49:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/11/26/how-to-install-numpy-python-package-on/</guid>
+      <description>Numpy (Numerical Python) is a great Python package that you should definitely make use of if you&amp;rsquo;re doing scientific computing
+Installing it on Windows might be difficult if you don&amp;rsquo;t know how to do it via command line. There are unofficial Windows binaries for Numpy for Windows 32 and 64 bit which make it super easy to install.
+Go to the link below and download the one for your system and Python version:http://www.</description>
+    </item>
+    
+    <item>
+      <title>Data Preprocessing II for Salmon Project</title>
+      <link>https://www.gungorbudak.com/blog/2014/09/19/data-preprocessing-ii-for-salmon-project/</link>
+      <pubDate>Fri, 19 Sep 2014 07:14:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/09/19/data-preprocessing-ii-for-salmon-project/</guid>
+      <description>So in our Multi-dimensional Modeling and Reconstruction of Signaling Networks in Salmonella-infected Human Cells project, we have several methods to construct the networks so the data is still needed to be preprocessed so that it can be ready to be analyzed with these methods.
+One method needed to have a matrix first row as protein name and time series (2 min, 5 min, 10 min, 20 min), and the values of the proteins in each time series were to be 1 or 0 according to variance, significance and the size of fold change.</description>
+    </item>
+    
+    <item>
+      <title>How to Convert PED to FASTA</title>
+      <link>https://www.gungorbudak.com/blog/2014/09/18/how-to-convert-ped-to-fasta/</link>
+      <pubDate>Thu, 18 Sep 2014 10:35:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/09/18/how-to-convert-ped-to-fasta/</guid>
+      <description>You may need the conversion of PED files to FASTA format in your studies for further analyses. Use below script for this purpose.
+PED to FASTA converter on GitHub
+Gets first 6 columns of each line as header line and the rest as the sequence replacing 0s with Ns and organizes it into a FASTA file.
+Note 0s are for missing nucleotides defined by default in PLINK
+How to run:</description>
+    </item>
+    
+    <item>
+      <title>Data Preprocessing I for Salmon Project</title>
+      <link>https://www.gungorbudak.com/blog/2014/09/18/data-preprocessing-i-for-salmon-project/</link>
+      <pubDate>Thu, 18 Sep 2014 09:14:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/09/18/data-preprocessing-i-for-salmon-project/</guid>
+      <description>Since we&amp;rsquo;ll be using R for most of the analyses, we converted XLS data file to CSV using MS Office Excel 2013 and then we had to fix several lines using Sublime Text 2 because three colums in these lines were left unquoted which later created a problem reading in RStudio.
+The data contains phosphorylation data of 8553 peptides. There are many missing data points for many peptides and since IPI IDs were used for peptides and these are not supported now, we had to convert IPI IDs to HGNC approved symbols although data had these symbols as names but they looked outdated.</description>
+    </item>
+    
+    <item>
+      <title>Multi-dimensional Modeling and Reconstruction of Signaling Networks in Salmonella-infected Human Cells</title>
+      <link>https://www.gungorbudak.com/blog/2014/09/18/multi-dimensional-modeling-and/</link>
+      <pubDate>Thu, 18 Sep 2014 08:26:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/09/18/multi-dimensional-modeling-and/</guid>
+      <description>In this study, we&amp;rsquo;re going to use a phosphorylation data from a research paper on phosphoproteomic analysis of related cells.
+The idea is to use and compare existing methods and develop these methods to be able to better understand the nature of signaling events in these cells and to find key proteins that might be targets for disease diagnosis, prevention and treatment.
+This study will be submitted as a research paper so I&amp;rsquo;m not going to publish any results here for now but I&amp;rsquo;ll mention the struggles I have and solutions I try to solve them.</description>
+    </item>
+    
+    <item>
+      <title>Download Human Reference Genome (HG19 - GRCh37)</title>
+      <link>https://www.gungorbudak.com/blog/2014/04/13/download-human-reference-genome-hg19/</link>
+      <pubDate>Sun, 13 Apr 2014 05:25:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/04/13/download-human-reference-genome-hg19/</guid>
+      <description>Many variation calling tools and many other methods in bioinformatics require a reference genome as an input so may need to download human reference genome or sequences. There are several sources that freely and publicly provide the entire human genome and I&amp;rsquo;ll describe how to download complete human genome from University of California, Santa Cruz (UCSC) webpage.
+Index to the gzip-compressed FASTA files of human chromosomes can be found here at the UCSC webpage.</description>
+    </item>
+    
+    <item>
+      <title>ClipCrop Installation on Linux Mint 16 nvm, Node, npm Included</title>
+      <link>https://www.gungorbudak.com/blog/2014/03/26/clipcrop-installation-on-linux-mint-16/</link>
+      <pubDate>Wed, 26 Mar 2014 21:09:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/03/26/clipcrop-installation-on-linux-mint-16/</guid>
+      <description>ClipCrop is a tool for detecting structural variations from SAM files. And it&amp;rsquo;s built with Node.js.
+ClipCrop uses two softwares internally so they should be installed first.
+Install SHRiMP2
+SHRiMP is a software package for aligning genomic reads against a target genome.
+$ mkdir ~/software $ cd ~/software $ wget http://compbio.cs.toronto.edu/shrimp/releases/SHRiMP_2_2_3.lx26.x86_64.tar.gz $ tar xzvf SHRiMP_2_2_3.lx26.x86_64.tar.gz $ cd SHRiMP_2_2_3 $ file bin/gmapper $ export SHRIMP_FOLDER=$PWD Install BWA
+BWA is a software package for mapping low-divergent sequences against a large reference genome.</description>
+    </item>
+    
+    <item>
+      <title>JointSNVMix Installation on Linux Mint 16 Cython, Pysam Included</title>
+      <link>https://www.gungorbudak.com/blog/2014/03/26/jointsnvmix-installation-on-linux-mint/</link>
+      <pubDate>Wed, 26 Mar 2014 06:41:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/03/26/jointsnvmix-installation-on-linux-mint/</guid>
+      <description>JointSNVMix is a software package that consists of a number of tools for calling somatic mutations in tumour/normal paired NGS data.
+It requires Python (&amp;gt;= 2.7), Cython (&amp;gt;= 0.13) and Pysam (== 0.5.0).
+Python must be installed by default ona Linux machine so I will describe the installation of others and JointSNVMix.
+Note this guide may become outdated after some time so please make sure before following all.
+Install Cython</description>
+    </item>
+    
+    <item>
+      <title>Set Up Google Cloud SDK on Windows using Cygwin</title>
+      <link>https://www.gungorbudak.com/blog/2014/03/16/set-up-google-cloud-sdk-on-windows/</link>
+      <pubDate>Sun, 16 Mar 2014 19:17:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/03/16/set-up-google-cloud-sdk-on-windows/</guid>
+      <description>Windows isn&amp;rsquo;t the best environment for software development I believe but if you have to use it there are nice softwares to make it easy for you. Cygwin here will help us to use Google Cloud tools but installation requires certain things that you should be aware of beforehand.
+You&amp;rsquo;ll need
+Python latest 2.7.x Google Cloud SDK Cygwin 32-bit (i.e. setup-x86.exe - note only this one works) openssh, curl and latest 2.</description>
+    </item>
+    
+    <item>
+      <title>Super Long Introns of Euarchontoglires</title>
+      <link>https://www.gungorbudak.com/blog/2014/03/01/super-long-introns-of-euarchontoglires/</link>
+      <pubDate>Sat, 01 Mar 2014 13:55:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/03/01/super-long-introns-of-euarchontoglires/</guid>
+      <description>There was another weird result I got about my exon/intron boundaries analysis research. To less diverse species&amp;rsquo; genes, intron lengths are shown to increase. However, according to my findings, at a point of Euarchontoglires or Supraprimates, this increase is very sharp and seems unexpected. So, I looked at exon/intron length each gene in each taxonomic rank and try to see what makes Euarchontoglires genes with that long introns.
+As you see in the graph above, Euarchontoglires introns are very long compared to the rest.</description>
+    </item>
+    
+    <item>
+      <title>An Exon of Length 2 Appeared in Ensembl</title>
+      <link>https://www.gungorbudak.com/blog/2014/02/27/an-exon-of-length-2-appeared-in-ensembl/</link>
+      <pubDate>Thu, 27 Feb 2014 06:11:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/02/27/an-exon-of-length-2-appeared-in-ensembl/</guid>
+      <description>I want to share an interesting finding about our research on exon/intron analysis of human evolutionary history.
+So I had the genes that emerged at each pass point of human history and I was using Ensembl API to get exons and introns of these genes to perform further analyses.
+There was one gene (ENSG00000197568 - HERV-H LTR-associating 3 - HHLA3) with a surprise. Because it&amp;rsquo;s one transcript (ENST00000432224) had an exon (ENSE00001707577) of length 2.</description>
+    </item>
+    
+    <item>
+      <title>How to Convert PLINK Binary Formats into Non-binary Formats</title>
+      <link>https://www.gungorbudak.com/blog/2014/02/24/how-to-convert-plink-binary-formats-to/</link>
+      <pubDate>Mon, 24 Feb 2014 11:28:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/02/24/how-to-convert-plink-binary-formats-to/</guid>
+      <description>PLINK is a whole genome association analysis toolset and to save time and space, you need to convert your data files to binary formats (BED, FAM, BIM) but of course when you need to view the files, you have to convert them back to non-binary formats (PED, MAP) to be able to open them in your text editor such as Notepad on Windows OS.
+This operation is really easy. It requires PLINK of course, and the following line of code written to DOS window (Run -&amp;gt; type cmd; hit ENTER) in the directory of PLINK:</description>
+    </item>
+    
+  </channel>
+</rss>

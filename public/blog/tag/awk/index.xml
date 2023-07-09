@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>awk on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/awk/</link>
+    <description>Recent content in awk on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 14 Feb 2017 15:31:56 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/awk/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Replace Entire Column with a Number in Bash</title>
+      <link>https://www.gungorbudak.com/blog/2017/02/14/replace-entire-column-with-a-number-in-bash/</link>
+      <pubDate>Tue, 14 Feb 2017 15:31:56 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2017/02/14/replace-entire-column-with-a-number-in-bash/</guid>
+      <description>Use below awk one-liner to replace all values in a column (5th column in example) with a value (1 in example).
+awk &amp;quot;{$5=1} {print}&amp;quot; filename &amp;gt; filename.replaced </description>
+    </item>
+    
+  </channel>
+</rss>

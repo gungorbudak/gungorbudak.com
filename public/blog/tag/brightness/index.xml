@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>brightness on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/brightness/</link>
+    <description>Recent content in brightness on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 12 Nov 2013 16:25:50 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/brightness/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Save Brightness Settings Ubuntu 12.04 LTS</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/12/save-brightness-settings-ubuntu-1204-lts/</link>
+      <pubDate>Tue, 12 Nov 2013 16:25:50 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/12/save-brightness-settings-ubuntu-1204-lts/</guid>
+      <description>If your laptop starts with minimized or maximized brightness and you want to have a fixed default value for that do following:
+Run terminal and type to get maximum brightness:
+cat /sys/class/backlight/acpi_video0/max_brightness Now set the brightness as you want and run following which give you the value for current setting:
+cat /sys/class/backlight/acpi_video0/brightness Edit /etc/rc.local to have that value as default after each reboot / start:
+sudo gedit /etc/rc.local Add this line before exit 0:</description>
+    </item>
+    
+  </channel>
+</rss>

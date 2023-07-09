@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>string on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/string/</link>
+    <description>Recent content in string on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 13 Jan 2015 08:17:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/string/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python: Get Longest String in a List</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/13/python-get-longest-string-in-list/</link>
+      <pubDate>Tue, 13 Jan 2015 08:17:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/13/python-get-longest-string-in-list/</guid>
+      <description>Here is a quick Python trick you might use in your code.
+Assume you have a list of strings and you want to get the longest one in the most efficient way.
+&amp;gt;&amp;gt;&amp;gt;l=[&amp;#34;aaa&amp;#34;, &amp;#34;bb&amp;#34;, &amp;#34;c&amp;#34;] &amp;gt;&amp;gt;&amp;gt;longest_string = max(l, key = len) &amp;gt;&amp;gt;&amp;gt;longest_string &amp;#39;aaa&amp;#39; </description>
+    </item>
+    
+    <item>
+      <title>SRS&#39;de Coklu Arama Yapmak</title>
+      <link>https://www.gungorbudak.com/blog/2012/08/09/srsde-coklu-arama-yapmak/</link>
+      <pubDate>Thu, 09 Aug 2012 09:15:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/08/09/srsde-coklu-arama-yapmak/</guid>
+      <description>Inceleme yapan scriptin en son hali, oncekilere gore daha fazla okuma inceliyor oldugu icin her okuma icin SRS uzerinde isim aramak oldukca zaman alan bir islemdi. Oyle ki, son inceleme 4 gun surdu.
+Bunu azaltmak icin inceleme scriptini tamamen degistirdim. Oncelikle her zaman oldugu gibi esik degerini gecenleri aliyor ama direkt bunlarin ID numaralarini bir dizide (array) listeliyorum. Daha sonra bu listenin herbir elemanini boru karakteri ile ayirarak bir string haline getiriyorum.</description>
+    </item>
+    
+  </channel>
+</rss>

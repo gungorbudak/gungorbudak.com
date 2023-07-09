@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>path damaging on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/path-damaging/</link>
+    <description>Recent content in path damaging on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Jan 2015 09:35:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/path-damaging/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Salmonella - Host Interaction Network - A Detailed, Better Visualization</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/21/salmonella-host-interaction-network/</link>
+      <pubDate>Wed, 21 Jan 2015 09:35:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/21/salmonella-host-interaction-network/</guid>
+      <description>We&amp;rsquo;re almost done with the analyses and we&amp;rsquo;re making the final visualization of the network. As I previously posted, the network was clustered and visualized by time points. After that, we have done several more analyses and here I report how we visualized them. I&amp;rsquo;m going to post more about how we did the analyses separately.
+First, the nodes are grouped into experimental and not experimental (PCSF nodes). This can easily be done by parsing experimental network output and network outputs of PCSF.</description>
+    </item>
+    
+  </channel>
+</rss>

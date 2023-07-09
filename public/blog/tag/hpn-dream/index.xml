@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hpn-dream on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/hpn-dream/</link>
+    <description>Recent content in hpn-dream on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 02 Sep 2013 10:10:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/hpn-dream/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Last Submissions to the Challenge</title>
+      <link>https://www.gungorbudak.com/blog/2013/09/02/last-submissions-to-challenge/</link>
+      <pubDate>Mon, 02 Sep 2013 10:10:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/09/02/last-submissions-to-challenge/</guid>
+      <description>Today, I submitted in silico and experimental data network inference results on Synapse for the next leaderboard on this Wednesday.
+For experimental part, I had to exclude edges with FGFR1 and FGFR3 because the data lacks phosphorylated forms of these proteins and networks must be constructed using only phosphoproteins in the data.
+Since there was an update for in silico part, I had to modify the script and resubmit the results.</description>
+    </item>
+    
+    <item>
+      <title>Network Visualization Using Cytoscape</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/29/network-visualization-using-cytoscape/</link>
+      <pubDate>Thu, 29 Aug 2013 10:32:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/29/network-visualization-using-cytoscape/</guid>
+      <description>Cytoscape is a nice tool to visualize network for better understanding and delivery. I used it for in silico data network visualization and the result was really pretty. Now, I have networks constructed using experimental data from HPN-DREAM Challenge.
+In this post, I want to demonstrate how to visualize a network with scores. I&amp;rsquo;m using Cytoscape 2.8 on Ubuntu 12.
+First, the network will be read from a SIF file which is default format of Cytoscape for networks.</description>
+    </item>
+    
+    <item>
+      <title>Plotting Expression Curves for Experimental Data</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/27/plotting-expression-curves-for/</link>
+      <pubDate>Tue, 27 Aug 2013 11:08:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/27/plotting-expression-curves-for/</guid>
+      <description>As I can plot expression curves for in silico data. I moved on experimental data which is more complex and larger. This data is the result of RPPA experiments on different breast cancer cell lines and it includes protein abundance measurements for about 45 phophoproteins. These phosphoproteins are treated with different inhibitors and stimuli and by comparing their expressions, I will try to infer relations between them.
+Before moving on inferring part, I want to have a script that can plot the graphs so that I can see particular results for specific cases.</description>
+    </item>
+    
+    <item>
+      <title>Experimental Data Optimization for Network Inference</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/14/experimental-data-optimization-for/</link>
+      <pubDate>Wed, 14 Aug 2013 10:41:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/14/experimental-data-optimization-for/</guid>
+      <description>As I mentioned in my previous post, experimental data from the challenge has missing data values that create problems during analyses. To solve it, first thing I did was to optimize data, which includes detecting missing conditions and putting NAs for data values and sorting them if necessary.
+I wrote two functions in the script. First one ranks the data according to the fashion and sorts it based on these ranks.</description>
+    </item>
+    
+    <item>
+      <title>Working with Experimental Data from Network Inference Challenge</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/14/working-with-experimental-data-from/</link>
+      <pubDate>Wed, 14 Aug 2013 05:48:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/14/working-with-experimental-data-from/</guid>
+      <description>As I almost finished with in silico data, I moved on to analyses of experimental data using the same script. But since the characteristics of data is somehow different, before inferring network, I need to modify the script to be able to read experimental data files.
+These differences include missing data values for some conditions. This makes analyses difficult because I have to estimate a value for them and this will decrease the confidence score of edges.</description>
+    </item>
+    
+    <item>
+      <title>In silico Network Inference Last Improvements and Visualization of Result in Cytoscape</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/12/in-silico-network-inference-last/</link>
+      <pubDate>Mon, 12 Aug 2013 09:48:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/12/in-silico-network-inference-last/</guid>
+      <description>I&amp;rsquo;m almost done with the analysis of in silico data, although I need to decide if I need further analysis with the inhibiting parent nodes in the network. Last, I couldn&amp;rsquo;t filter out duplicate edges, which were scored differently. Now, with some improvements in the script, low scores duplicates are filtered and there is a better final list of edges which is ready to be visualized.
+I also tried visualizing it on Cytoscape.</description>
+    </item>
+    
+    <item>
+      <title>Latest Progress on Network Inference and Edge Scoring</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/08/latest-progress-on-network-inference/</link>
+      <pubDate>Thu, 08 Aug 2013 07:49:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/08/latest-progress-on-network-inference/</guid>
+      <description>I have improved network inference part of the script slightly by changing the way of comparing intervention (presence of inhibitor and stimulus) and no intervention (presence of stimulus) data from in silico part.
+Now, I&amp;rsquo;m using a function (simp) from an R package called StreamMetabolism, which gets time points and data values and (does integration) calculates the area under the curve (Sefick, 2009). I do this integration for both condition and then I compare them.</description>
+    </item>
+    
+    <item>
+      <title>Scoring Edges Network Inference HPN-DREAM Challenge</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/02/scoring-edges-network-inference-hpn/</link>
+      <pubDate>Fri, 02 Aug 2013 08:30:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/02/scoring-edges-network-inference-hpn/</guid>
+      <description>Yesterday, I managed to infer a network for some part of in silico data from the challenge. Since the challenge also asks for scoring the edges in networks, I developed the script further and add a function for that.
+edgeScorer function gets data object of average time points for each curve in intervention/no-intervention sets and scores each edge for each set of conditions. For this, first, it looks for the largest difference among the sets and set it as maxDifference and later, it stores differences divided by maxDifference in another data object.</description>
+    </item>
+    
+  </channel>
+</rss>

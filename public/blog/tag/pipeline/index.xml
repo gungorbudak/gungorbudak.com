@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pipeline on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/pipeline/</link>
+    <description>Recent content in pipeline on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 09 Aug 2012 08:48:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/pipeline/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kalite Satirinin Degerlendirilmesi - Quality Filter</title>
+      <link>https://www.gungorbudak.com/blog/2012/08/09/kalite-satirinin-degerlendirilmesi/</link>
+      <pubDate>Thu, 09 Aug 2012 08:48:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/08/09/kalite-satirinin-degerlendirilmesi/</guid>
+      <description>Kirleten organizma (konaminant) analizi yapacak olan pipeline&amp;rsquo;i daha fazla gelistirmek, daha anlamli sonuclar elde etmek icin ilk adimlara (henuz fastq dosyasini isliyorken) kalite filtresi eklemeyi dusunduk. Boylece belirli bir esik degerinden dusuk okumalari daha o asamadan filtreleyerek daha guvenilir sonuclar elde elebilecegiz.
+Bu kalite kontrolunu fastq dosyasinda her okumanin 4. satirini anlayarak yapacagiz. Bu 4. satir (aslinda okumanin dizileme kalite skoru), cesitli dizileme cihazlari tarafindan cesitli sekillerde yaziliyor (kodlaniyor) ve bu kodlamadan tekrar kalite skorunu elde ederek filtreleme uygulanmasi gerekiyor.</description>
+    </item>
+    
+    <item>
+      <title>Dorduncu Deneme Veriseti: Mus Musculus Genomu</title>
+      <link>https://www.gungorbudak.com/blog/2012/08/03/dorduncu-deneme-veriseti-mus-musculus/</link>
+      <pubDate>Fri, 03 Aug 2012 05:15:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/08/03/dorduncu-deneme-veriseti-mus-musculus/</guid>
+      <description>Simdiye kadar ilk uc veriseti de insan genomuna aitti. Pipeline&amp;rsquo;i bu genomlarla deneyip, yer yer iyilestirmeler yaptim. Simdi ise baska organizmalarla da deneyip, daha fazla sonuc alip bunlari inceleyecegim ve gene gerekli iyilestirmeleri yapacagim.
+Bu ilk farkli veriseti fareden geliyor. Mus Musculus tur adina ve ev faresi olarak yaygin isme sahip bu organizma da model organizma olarak calismalarda kullanildigi icin dizisi daha siklikla cikarilan diger bir organizma.
+Bi dizilemeyi yapan, birlikte calistigim laboratuvardan cesitli BAM formatinda dizi dosyalari aldim.</description>
+    </item>
+    
+    <item>
+      <title>Yeni Verisetinin Incelenmesi</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/26/yeni-veri-setinin-incelenmesi/</link>
+      <pubDate>Thu, 26 Jul 2012 08:32:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/26/yeni-veri-setinin-incelenmesi/</guid>
+      <description>Pipeline&amp;rsquo;i tasarlama asamasinda deneme amacli kullandigim onceki verinin cok kotu olmasi sebebiyle yeni bir veriseti aldim. Elbette deneme asamasinda birden fazla, farkli karakterlerde verisetleri kullanmak yararlidir. Ancak onceki veriseti anlamli birkac sonuc veremeyecek kadar kotuydu diyebilirim. Ayrintilarina [buradan]({% post_url 2012-07-06-eslestirme-ve-eslesmeyen-okumalari %}) gozatabilirsiniz.
+Yeni veriseti, gene bir insan genomu verisi ve BAM dosyasinin boyutu 1.8 GB ve icinde eslenebilen ve eslenemeyen okumalari bulunduruyordu. Ben bam2fastq araciyla hem bu BAM dosyasini FASTQ dosyasina cevirirken hem de eslenebilen okumalardan ayiklayarak 0.</description>
+    </item>
+    
+    <item>
+      <title>Dizileme Çalışmalarını Kirleten Organizmaları Tespit Etme</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/20/dizileme-calismalarini-kirleten/</link>
+      <pubDate>Wed, 20 Jun 2012 13:46:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/20/dizileme-calismalarini-kirleten/</guid>
+      <description>Bu yaz stajımda ilk olarak başlayacağım çalışma yavaş yavaş şekilleniyor. Bu çalışmada bir pipeline oluşturup, bunu laboratuvarlarda dizileme (sequencing) örneklerini kirleten organizmaları bulmaya çalışacağım.
+Laboratuvarlarda birçok nedenden dolayı örnekler başka organizmalar ya da yabancı DNA tarafından kirlenebiliyor. Bunlar bakteri, maya olabilir ya da bir virüs DNA&amp;rsquo;sı da olabilir. Siz bir DNA&amp;rsquo;yı diziledikten sonra onun referansıyla eşleştirme çok az oranda çıkabiliyor. Bu da yabancı DNA&amp;rsquo;nın olabileceğini gösteriyor. Bir başka neden referans DNA&amp;rsquo;nın farklı olması da olabilir.</description>
+    </item>
+    
+    <item>
+      <title>Pipeline ve Pipeline Geliştirme</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/20/pipeline-ve-pipeline-gelistirme/</link>
+      <pubDate>Wed, 20 Jun 2012 13:12:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/20/pipeline-ve-pipeline-gelistirme/</guid>
+      <description>Bugün aldığım tanıtım derslerinin devamında, pipeline ve pipeline geliştirme ile ilgili ayrıntılı bilgiler aldım. Pipeline, aslında bildiğimiz boru hattı demek, örneğin borularla petrolün bir yerden başka bir yere taşınması için kullanılan sistem. Bunun bilgisayar terminolojisinde anlamı ise bir elementin çıktısı, diğerinin girdisi olacak şekilde oluşturulmuş işleme elementleri zinciri. Böylece çok daha komplike işlemler pipeline oluşturularak, kolay ve düzenli bir biçimde gerçekleştiriliyor. Sanırım pipeline Türkçeye ardışık düzen olarak çevriliyor, gene de ben pipeline olarak kullanacağım.</description>
+    </item>
+    
+  </channel>
+</rss>

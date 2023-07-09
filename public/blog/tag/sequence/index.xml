@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>sequence on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/sequence/</link>
+    <description>Recent content in sequence on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Jan 2015 19:46:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/sequence/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Searching Open Reading Frames (ORF) in DNA sequences - ORF Finder</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/14/searching-open-reading-frames-orf-in/</link>
+      <pubDate>Wed, 14 Jan 2015 19:46:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/14/searching-open-reading-frames-orf-in/</guid>
+      <description>Open reading frames (ORF) are regions on DNA which are translated into protein. They are in between start and stop codons and they are usually long.
+The Python script below searches for ORFs in six frames and returns the longest one. It doesn&amp;rsquo;t consider start codon as a delimiter and only splits the sequence by stop codons. So the ORF can start with any codon but ends with a stop codon (TAG, TGA, TAA).</description>
+    </item>
+    
+  </channel>
+</rss>

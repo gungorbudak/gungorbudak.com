@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>experimental data on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/experimental-data/</link>
+    <description>Recent content in experimental data on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 27 Aug 2013 11:08:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/experimental-data/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plotting Expression Curves for Experimental Data</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/27/plotting-expression-curves-for/</link>
+      <pubDate>Tue, 27 Aug 2013 11:08:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/27/plotting-expression-curves-for/</guid>
+      <description>As I can plot expression curves for in silico data. I moved on experimental data which is more complex and larger. This data is the result of RPPA experiments on different breast cancer cell lines and it includes protein abundance measurements for about 45 phophoproteins. These phosphoproteins are treated with different inhibitors and stimuli and by comparing their expressions, I will try to infer relations between them.
+Before moving on inferring part, I want to have a script that can plot the graphs so that I can see particular results for specific cases.</description>
+    </item>
+    
+  </channel>
+</rss>

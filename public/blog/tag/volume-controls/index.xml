@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>volume controls on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/volume-controls/</link>
+    <description>Recent content in volume controls on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 12 Nov 2013 16:12:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/volume-controls/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hotkeys (special keys) Volume/Brightness Controls Don&#39;t Work After Suspend</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/12/hotkeys-special-keys-volumebrightness-controls/</link>
+      <pubDate>Tue, 12 Nov 2013 16:12:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/12/hotkeys-special-keys-volumebrightness-controls/</guid>
+      <description>What seems to solve this problem on Ubuntu 12.04 LTS (Lenovo Z500):
+Open this file:
+sudo gedit /etc/default/grub Modify the line as this:
+GRUB_CMDLINE_LINUX=&amp;quot;noapic&amp;quot; Close it and run the following:
+sudo update-grub Restart your computer
+Source </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cores on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/cores/</link>
+    <description>Recent content in cores on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Jan 2015 12:03:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/cores/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Finding k-cores and Clustering Coefficient Computation with NetworkX </title>
+      <link>https://www.gungorbudak.com/blog/2015/01/16/finding-k-cores-and-clustering/</link>
+      <pubDate>Fri, 16 Jan 2015 12:03:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/16/finding-k-cores-and-clustering/</guid>
+      <description>Assume you have a large network and you want to find k-cores of each node and also you want to compute clustering coefficient for each one. Python package NetworkX comes with very nice methods for you to easily do these.
+k-core is a maximal subgraph whose nodes are at least k degree [1]. To find k-cores:
+Add all edges you have in your network in a NetworkX graph, and use core_number method that gets graph as the single input and returns node – k-core pairs.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mongo on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/mongo/</link>
+    <description>Recent content in mongo on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Sep 2018 11:00:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/mongo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MongoDB Listing Database Collections/Tables with Number of Records/Rows</title>
+      <link>https://www.gungorbudak.com/blog/2018/09/11/mongodb-listing-database-collections-tables-with-number-of-records-rows/</link>
+      <pubDate>Tue, 11 Sep 2018 11:00:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2018/09/11/mongodb-listing-database-collections-tables-with-number-of-records-rows/</guid>
+      <description>Use following script and command to quickly get the number of records/rows in the collections/tables in a database.
+mongo-ls.js script:
+var collections = db.getCollectionNames(); for (var i = 0; i &amp;lt; collections.length; ++i) { print(collections[i] + &amp;#39; - &amp;#39; + db[collections[i]].count() + &amp;#39; records&amp;#39;); } So, copy-paste this script in to text file and save as mongo-ls.js.
+Finally, use the following command to query the database. Make sure you change HOSTNAME, DBNAME, USERNAME and PASSWORD with your own.</description>
+    </item>
+    
+  </channel>
+</rss>

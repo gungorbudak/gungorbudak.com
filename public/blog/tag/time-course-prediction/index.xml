@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>time-course prediction on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/time-course-prediction/</link>
+    <description>Recent content in time-course prediction on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Jun 2013 07:51:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/time-course-prediction/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DREAM Breast Cancer Sub-challenges</title>
+      <link>https://www.gungorbudak.com/blog/2013/06/27/dream-breast-cancer-sub-challenges/</link>
+      <pubDate>Thu, 27 Jun 2013 07:51:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/06/27/dream-breast-cancer-sub-challenges/</guid>
+      <description>I have been going over the sub-challenges before attempting to solve them. As I mentioned, there are three sub-challenges and somehow they are connected.
+First, using given data and other possible data sources such as pathway databases, the causal signaling network of the phosphoproteins. There are 4 cell lines and 8 stimulus so they make total 32 networks at the end. Nodes are phosphoproteins and edges should be directed and causal (activator or inhibitor).</description>
+    </item>
+    
+  </channel>
+</rss>

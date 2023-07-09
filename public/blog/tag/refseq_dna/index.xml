@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>refseq_dna on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/refseq_dna/</link>
+    <description>Recent content in refseq_dna on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Aug 2012 05:15:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/refseq_dna/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ikinci Veriseti Inceleme Sonuclari</title>
+      <link>https://www.gungorbudak.com/blog/2012/08/02/ikinci-veriseti-inceleme-sonuclari/</link>
+      <pubDate>Thu, 02 Aug 2012 05:15:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/08/02/ikinci-veriseti-inceleme-sonuclari/</guid>
+      <description>Daha az eslenemeyen okumalara sahip ikinci verisetinin incelemesini tamamladim. Bu oncekine gore daha iyi bir dizileme ornegi oldugu icin aldigim sonuclar da oldukca tutarliydi. Insan genomuna ait bir diziden inceleme sonra asagidaki sonuclari elde ettim.
+LIST OF ORGANISMS AND THEIR NUMBER OF OCCURENCES Ambiguous hit 1323 Homo sapiens 312 Pan troglodytes 25 Pongo abelii 18 Nomascus leucogenys 17 Halomonas sp. GFAJ-1 7 Callithrix jacchus 4 Macaca mulatta 3 Oryctolagus cuniculus 2 Loxodonta africana 1 Cavia porcellus 1 &amp;ldquo;Ambiguous hit&amp;rdquo; tanimini baska bir yazida aciklayacagim.</description>
+    </item>
+    
+    <item>
+      <title>Duzenli Ifadeler ile Tur Ismini Elde Etmek</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/23/duzenli-ifadeler-ile-tur-ismini-elde/</link>
+      <pubDate>Mon, 23 Jul 2012 04:19:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/23/duzenli-ifadeler-ile-tur-ismini-elde/</guid>
+      <description>Projemin sonunda kullaniciya olasi kirleten organizmalarin adlarini (Latince tur isimleri) gosterecegim icin, MegaBLAST sonuclarindaki erisim numaralarini (accession number) kullanarak her dizi icin organizma adlarini elde etmem gerekiyor. Sequence Retrival System (SRS) adinda, HUSAR sunucularinda bulunan baska bir sistem ile bunu yapabiliyorum.
+SRS&amp;rsquo;ten organizma adini ogrenebilmem icin Unix komut satirinda &amp;ldquo;getz&amp;rdquo; komutuyla birlikte veritabani ismi, erisim numarasi ve ogrenmek istedigim alani yazmam yetiyor. Asagida, bu isi yapabilen ornek bir kod bulabilirsiniz.</description>
+    </item>
+    
+  </channel>
+</rss>

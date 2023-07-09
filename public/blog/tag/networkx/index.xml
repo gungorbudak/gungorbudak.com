@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>networkx on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/networkx/</link>
+    <description>Recent content in networkx on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Jan 2015 09:35:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/networkx/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Salmonella - Host Interaction Network - A Detailed, Better Visualization</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/21/salmonella-host-interaction-network/</link>
+      <pubDate>Wed, 21 Jan 2015 09:35:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/21/salmonella-host-interaction-network/</guid>
+      <description>We&amp;rsquo;re almost done with the analyses and we&amp;rsquo;re making the final visualization of the network. As I previously posted, the network was clustered and visualized by time points. After that, we have done several more analyses and here I report how we visualized them. I&amp;rsquo;m going to post more about how we did the analyses separately.
+First, the nodes are grouped into experimental and not experimental (PCSF nodes). This can easily be done by parsing experimental network output and network outputs of PCSF.</description>
+    </item>
+    
+    <item>
+      <title>Finding k-cores and Clustering Coefficient Computation with NetworkX </title>
+      <link>https://www.gungorbudak.com/blog/2015/01/16/finding-k-cores-and-clustering/</link>
+      <pubDate>Fri, 16 Jan 2015 12:03:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/16/finding-k-cores-and-clustering/</guid>
+      <description>Assume you have a large network and you want to find k-cores of each node and also you want to compute clustering coefficient for each one. Python package NetworkX comes with very nice methods for you to easily do these.
+k-core is a maximal subgraph whose nodes are at least k degree [1]. To find k-cores:
+Add all edges you have in your network in a NetworkX graph, and use core_number method that gets graph as the single input and returns node – k-core pairs.</description>
+    </item>
+    
+  </channel>
+</rss>

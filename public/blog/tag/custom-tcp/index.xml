@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>custom tcp on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/custom-tcp/</link>
+    <description>Recent content in custom tcp on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 08 May 2015 13:40:27 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/custom-tcp/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Setting Up Mezzanine Projects in AWS</title>
+      <link>https://www.gungorbudak.com/blog/2015/05/08/setting-up-mezzanine-projects-in-aws/</link>
+      <pubDate>Fri, 08 May 2015 13:40:27 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/05/08/setting-up-mezzanine-projects-in-aws/</guid>
+      <description>Go to EC2 management console, Security groups and add a Custom TCP inbound rule with port 8000. Select &amp;ldquo;Anywhere&amp;rdquo; from the list.
+Then follow [this to install Mezzanine]({% post_url 2015-05-01-how-to-install-mezzanine-on-ubuntulinux-mint %})
+Above tutorial is also explains setting up a site record. Mezzanine default site record is 127.0.0.1:8000 which should be 0.0.0.0:8000 in our case. So, enter 0.0.0.0:8000 when you’re asked to enter a site record when you ru
+python manage.py createdb Also, you might still need to provide this site record while running the development server:</description>
+    </item>
+    
+  </channel>
+</rss>

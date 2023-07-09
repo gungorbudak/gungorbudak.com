@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>databases on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/databases/</link>
+    <description>Recent content in databases on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Feb 2014 06:11:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/databases/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>An Exon of Length 2 Appeared in Ensembl</title>
+      <link>https://www.gungorbudak.com/blog/2014/02/27/an-exon-of-length-2-appeared-in-ensembl/</link>
+      <pubDate>Thu, 27 Feb 2014 06:11:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/02/27/an-exon-of-length-2-appeared-in-ensembl/</guid>
+      <description>I want to share an interesting finding about our research on exon/intron analysis of human evolutionary history.
+So I had the genes that emerged at each pass point of human history and I was using Ensembl API to get exons and introns of these genes to perform further analyses.
+There was one gene (ENSG00000197568 - HERV-H LTR-associating 3 - HHLA3) with a surprise. Because it&amp;rsquo;s one transcript (ENST00000432224) had an exon (ENSE00001707577) of length 2.</description>
+    </item>
+    
+  </channel>
+</rss>

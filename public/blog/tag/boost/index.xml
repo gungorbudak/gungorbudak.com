@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>boost on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/boost/</link>
+    <description>Recent content in boost on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 Sep 2015 07:44:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/boost/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install RDKit 2015-03 Build on Ubuntu 14.04 / Linux Mint 17</title>
+      <link>https://www.gungorbudak.com/blog/2015/09/16/install-rdkit-2015-03-build-on-ubuntu/</link>
+      <pubDate>Wed, 16 Sep 2015 07:44:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/09/16/install-rdkit-2015-03-build-on-ubuntu/</guid>
+      <description>RDKit is an open source toolkit for cheminformatics. It has many functionalities to work with chemical files.
+Follow the below guide to install RDKit 2015-03 build on an Ubuntu 14.04 / Linux Mint 17 computer. Since Ubuntu packages don’t have the latest RDKit for trusty, you have to build RDKit from its source.
+Install Dependencies
+sudo apt-get install flex bison build-essential python-numpy cmake python-dev sqlite3 libsqlite3-dev libboost1.54-all-dev Download the Build</description>
+    </item>
+    
+  </channel>
+</rss>

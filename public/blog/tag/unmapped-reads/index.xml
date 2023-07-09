@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>unmapped reads on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/unmapped-reads/</link>
+    <description>Recent content in unmapped reads on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 04 Jul 2012 19:48:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/unmapped-reads/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>İlk Adım: Eşleşmeyen Okumaları Elde Etmek</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/04/ilk-adim-eslesmeyen-okumalari-elde/</link>
+      <pubDate>Wed, 04 Jul 2012 19:48:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/04/ilk-adim-eslesmeyen-okumalari-elde/</guid>
+      <description>Projemin ilk kısmı daha önce bahsettiğim gibi eşleşmeyen okumaları (unmapped reads) FASTQ dosyasından çıkarmak. Böylece, daha sonraki analizler için elimdeki ihtiyacım olmayan dizileri çıkarmış ve bu analizlerdeki iş yükünü azaltmış oluyorum.
+Başından beri hedefim, tüm projeyi adım adım gerçekleştiren bir pipeline tasarlamak olduğu için bu işlemi bir Perl scripti ile yapacağım. Bu script pipeline&amp;rsquo;in ilk scripti ve laboratuvardan gelecek ham (raw) FASTQ formatındaki verinin girdi (input) olarak kullanılacağı yer. Aslında bu scripte ihtiyacım olmayacak, sadece elimdeki verinin eşlenebilen verileri de içermesi sebebiyle bu adımı ekledim.</description>
+    </item>
+    
+  </channel>
+</rss>

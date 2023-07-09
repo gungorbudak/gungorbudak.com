@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>id conversion on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/id-conversion/</link>
+    <description>Recent content in id conversion on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 07 Aug 2018 10:00:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/id-conversion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convert Gene Symbols to Entrez IDs in R</title>
+      <link>https://www.gungorbudak.com/blog/2018/08/07/convert-gene-symbols-to-entrez-ids-in-r/</link>
+      <pubDate>Tue, 07 Aug 2018 10:00:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2018/08/07/convert-gene-symbols-to-entrez-ids-in-r/</guid>
+      <description>Bioinformatics studies usually includes gene symbols as identifiers (IDs) as they are more recognizable comparing to other IDs such as Entrez IDs. However, certain analyses (tools) may not use gene symbols as there are usually more than one symbol so it is more difficult to implement a method to work with gene symbols. In such cases, you may need to do a conversion which is very common thing to do in bioinformatics.</description>
+    </item>
+    
+  </channel>
+</rss>

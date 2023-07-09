@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rnsc on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/rnsc/</link>
+    <description>Recent content in rnsc on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Jan 2015 20:06:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/rnsc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network Clustering with NeAT - RNSC Algorithm</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/16/network-clustering-with-neat-rnsc/</link>
+      <pubDate>Fri, 16 Jan 2015 20:06:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/16/network-clustering-with-neat-rnsc/</guid>
+      <description>As we have obtained proteins at different times points from the experimental data, then we have found intermediate nodes (from human interactome) using PCSF algorithm and finally with a special matrix from the network that PCSF created, we have validated the edges and also determined edge directions using an approach which a divide and conquer (ILP) approach for construction of large-scale signaling networks from PPI data. The resulting network is a directed network and will be used and visualized for further analyses.</description>
+    </item>
+    
+  </channel>
+</rss>

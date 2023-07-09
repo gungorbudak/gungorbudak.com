@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bam2fastq on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/bam2fastq/</link>
+    <description>Recent content in bam2fastq on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 03 Aug 2012 05:15:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/bam2fastq/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dorduncu Deneme Veriseti: Mus Musculus Genomu</title>
+      <link>https://www.gungorbudak.com/blog/2012/08/03/dorduncu-deneme-veriseti-mus-musculus/</link>
+      <pubDate>Fri, 03 Aug 2012 05:15:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/08/03/dorduncu-deneme-veriseti-mus-musculus/</guid>
+      <description>Simdiye kadar ilk uc veriseti de insan genomuna aitti. Pipeline&amp;rsquo;i bu genomlarla deneyip, yer yer iyilestirmeler yaptim. Simdi ise baska organizmalarla da deneyip, daha fazla sonuc alip bunlari inceleyecegim ve gene gerekli iyilestirmeleri yapacagim.
+Bu ilk farkli veriseti fareden geliyor. Mus Musculus tur adina ve ev faresi olarak yaygin isme sahip bu organizma da model organizma olarak calismalarda kullanildigi icin dizisi daha siklikla cikarilan diger bir organizma.
+Bi dizilemeyi yapan, birlikte calistigim laboratuvardan cesitli BAM formatinda dizi dosyalari aldim.</description>
+    </item>
+    
+    <item>
+      <title>SAM Dosyası - BAM Dosyası - samtools</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/04/sam-dosyasi-bam-dosyasi-samtools/</link>
+      <pubDate>Wed, 04 Jul 2012 20:36:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/04/sam-dosyasi-bam-dosyasi-samtools/</guid>
+      <description>Aslında programlamam gereken pipeline direkt olarak eşleşmeyen okumalar üzerinden analizler yapacak. Ancak böyle bir veri bulamadiığım için, elimdeki tek veri eşleşen ve eşleşmeyen okumaları içerdiği için önce eşleşenlerden kurtulmam gerekti.
+Bunu daha önce de belirttiğim gibi bwa eşleştiricisi (aligner - mapper) ile yapıyorum. bwa bir dizi işlemden sonra SAM dosyası oluşturuyor ancak benim FASTQ dosyasına ihtiyacım var. Bunun için SAM dosyasını samtools1 ile benzer bir format olan BAM dosyasına çevirip, daha sonra da bam2fastq2 aracı ile FASTQ dosyamı elde edeceğim.</description>
+    </item>
+    
+  </channel>
+</rss>

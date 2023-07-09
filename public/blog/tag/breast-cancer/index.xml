@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>breast cancer on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/breast-cancer/</link>
+    <description>Recent content in breast cancer on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 14 Aug 2013 10:41:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/breast-cancer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Experimental Data Optimization for Network Inference</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/14/experimental-data-optimization-for/</link>
+      <pubDate>Wed, 14 Aug 2013 10:41:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/14/experimental-data-optimization-for/</guid>
+      <description>As I mentioned in my previous post, experimental data from the challenge has missing data values that create problems during analyses. To solve it, first thing I did was to optimize data, which includes detecting missing conditions and putting NAs for data values and sorting them if necessary.
+I wrote two functions in the script. First one ranks the data according to the fashion and sorts it based on these ranks.</description>
+    </item>
+    
+    <item>
+      <title>Working with Experimental Data from Network Inference Challenge</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/14/working-with-experimental-data-from/</link>
+      <pubDate>Wed, 14 Aug 2013 05:48:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/14/working-with-experimental-data-from/</guid>
+      <description>As I almost finished with in silico data, I moved on to analyses of experimental data using the same script. But since the characteristics of data is somehow different, before inferring network, I need to modify the script to be able to read experimental data files.
+These differences include missing data values for some conditions. This makes analyses difficult because I have to estimate a value for them and this will decrease the confidence score of edges.</description>
+    </item>
+    
+    <item>
+      <title>Webinar on HPN-DREAM Breast Cancer Network Inference Challenge</title>
+      <link>https://www.gungorbudak.com/blog/2013/07/19/webinar-on-hpn-dream-breast-cancer/</link>
+      <pubDate>Fri, 19 Jul 2013 19:13:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/07/19/webinar-on-hpn-dream-breast-cancer/</guid>
+      <description>DREAM8 organizers plan a webinar about HPN-DREAM Breast Cancer Network Inference Challenge on July 19, at 10:30 - 11:30 (PDT / UTC -7). General setup of the challenge, demo submissions to the leaderboard will be discussed and also questions about the challenge will be accepted during webinar. The number of the participants to the challenge is also announced: 138.
+Registration to the webinar is done using this form. There are limited number of &amp;ldquo;seats&amp;rdquo;, but later recordings will be published.</description>
+    </item>
+    
+    <item>
+      <title>Network Inference Challenge in silico Data</title>
+      <link>https://www.gungorbudak.com/blog/2013/07/18/network-inference-challenge-in-silico/</link>
+      <pubDate>Thu, 18 Jul 2013 07:59:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/07/18/network-inference-challenge-in-silico/</guid>
+      <description>I had a meeting with BiGCaT this week and we discussed DREAM Breast Cancer Challenge. I presented the challenge and also some ways that I have found to solve the first sub-challenge network inference. Tina, from BiGCaT, suggested starting with in silico data which is much simpler than breast cancer data. Later, I can use the methods I develop for in silico data in experimental data.
+in silico data contains 20 antibodies, 3 inhibitors and 2 ligand stimuli with 2 different concentration for each.</description>
+    </item>
+    
+    <item>
+      <title>DREAM Breast Cancer Sub-challenges</title>
+      <link>https://www.gungorbudak.com/blog/2013/06/27/dream-breast-cancer-sub-challenges/</link>
+      <pubDate>Thu, 27 Jun 2013 07:51:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/06/27/dream-breast-cancer-sub-challenges/</guid>
+      <description>I have been going over the sub-challenges before attempting to solve them. As I mentioned, there are three sub-challenges and somehow they are connected.
+First, using given data and other possible data sources such as pathway databases, the causal signaling network of the phosphoproteins. There are 4 cell lines and 8 stimulus so they make total 32 networks at the end. Nodes are phosphoproteins and edges should be directed and causal (activator or inhibitor).</description>
+    </item>
+    
+    <item>
+      <title>HPN-DREAM Breast Cancer Network Inference Challenge</title>
+      <link>https://www.gungorbudak.com/blog/2013/06/26/hpn-dream-breast-cancer-network/</link>
+      <pubDate>Wed, 26 Jun 2013 08:38:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/06/26/hpn-dream-breast-cancer-network/</guid>
+      <description>Understanding signaling networks might bring more insights on cancer treatment because cells respond to their environment by activating these networks and phosphorylation reactions play important roles in these networks.
+The goal of this challenge is to advance our ability and knowledge on signaling networks inference and protein phosphorylation dynamics prediction. Also, we are asked to develop a visualization method for the data.
+The dataset provided is extensive and a result of RPPA (reverse-phase protein array) experiments.</description>
+    </item>
+    
+  </channel>
+</rss>

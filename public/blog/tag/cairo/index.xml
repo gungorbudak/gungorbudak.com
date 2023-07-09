@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>cairo on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/cairo/</link>
+    <description>Recent content in cairo on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 Sep 2015 08:42:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/cairo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Cairo Graphics and PyCairo on Ubuntu 14.04 / Linux Mint 17</title>
+      <link>https://www.gungorbudak.com/blog/2015/09/16/install-cairo-graphics-and-pycairo-on/</link>
+      <pubDate>Wed, 16 Sep 2015 08:42:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/09/16/install-cairo-graphics-and-pycairo-on/</guid>
+      <description>Cairo is a 2D graphics library implemented as a library written in the C programming language but if you&amp;rsquo;d like to use Python programming language, you should also install Python bindings for Cairo.
+This guide will go through installation of Cairo Graphics library version 1.14.2 (most recent) and py2cairo Python bindings version 1.10.1 (also most recent).
+Install Cairo
+It&amp;rsquo;s very easy with the following repository. Just add it, update your packages and install.</description>
+    </item>
+    
+  </channel>
+</rss>

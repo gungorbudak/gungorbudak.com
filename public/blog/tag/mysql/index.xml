@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mysql on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/mysql/</link>
+    <description>Recent content in mysql on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 Sep 2017 16:42:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/mysql/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Generate Database EER Diagrams from SQL Scripts using MySQL Workbench</title>
+      <link>https://www.gungorbudak.com/blog/2017/09/06/how-to-generate-database-eer-diagrams-from-sql-scripts-using-mysql-workbench/</link>
+      <pubDate>Wed, 06 Sep 2017 16:42:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2017/09/06/how-to-generate-database-eer-diagrams-from-sql-scripts-using-mysql-workbench/</guid>
+      <description>MySQL Workbench makes it really easy to generate EER diagrams from SQL scripts. Follow below steps to make one for yourself.
+Download and install MySQL Workbench for your system.
+See below simple SQL commands, later I&amp;rsquo;ll use them to generate a sample diagram.
+create table country ( id integer primary key, name CHAR(55)); create table city ( id integer primary key, country_id integer, name CHAR(55), foreign key (country_id) references country(id)); Open MySQL Workbench and create a new model (File -&amp;gt; New Model).</description>
+    </item>
+    
+    <item>
+      <title>Get Size of MySQL Databases</title>
+      <link>https://www.gungorbudak.com/blog/2017/02/17/get-size-of-mysql-databases/</link>
+      <pubDate>Fri, 17 Feb 2017 13:57:11 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2017/02/17/get-size-of-mysql-databases/</guid>
+      <description>Use below query in MySQL command prompt to get a table of databases and their sizes in MB.
+SELECT table_schema &amp;quot;DB Name&amp;quot;, Round(Sum(data_length + index_length) / 1024 / 1024, 1) &amp;quot;DB Size in MB&amp;quot; FROM information_schema.tables GROUP BY table_schema; </description>
+    </item>
+    
+    <item>
+      <title>Configuring Mezzanine for Apache server &amp; mod_wsgi in AWS</title>
+      <link>https://www.gungorbudak.com/blog/2015/05/09/configuring-mezzanine-for-apache-server-modwsgi/</link>
+      <pubDate>Sat, 09 May 2015 13:21:59 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/05/09/configuring-mezzanine-for-apache-server-modwsgi/</guid>
+      <description>Install [Mezzanine]({% post_url 2015-05-01-how-to-install-mezzanine-on-ubuntulinux-mint %}), [Apache server]({% post_url 2015-05-08-getting-started-with-your-aws-instance-and %}) and mod_wsgi:
+sudo apt-get install libapache2-mod-wsgi sudo a2enmod wsgi Set up a MySQL database for your Mezzanine project
+Read [my post on how to set up a MySQL database for a Mezzanine project]({% post_url 2015-05-09-how-to-set-up-a-mysql-database-for-a-mezzanine %})
+Collect static files:
+python manage.py collectstatic Configure your Apache server configuration for the project like following:
+WSGIPythonPath /home/ubuntu/www/mezzanine-project &amp;lt;VirtualHost *:80&amp;gt; #ServerName example.com ServerAdmin admin@example.com DocumentRoot /home/ubuntu/www/mezzanine-project WSGIScriptAlias / /home/ubuntu/www/mezzanine-project/wsgi.</description>
+    </item>
+    
+    <item>
+      <title>How to Set Up a MySQL Database for a Mezzanine Project</title>
+      <link>https://www.gungorbudak.com/blog/2015/05/09/how-to-set-up-a-mysql-database-for-a-mezzanine/</link>
+      <pubDate>Sat, 09 May 2015 13:21:10 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/05/09/how-to-set-up-a-mysql-database-for-a-mezzanine/</guid>
+      <description>Install MySQL server and python-mysqldb package:
+sudo apt-get install mysql-server sudo apt-get install python-mysqldb Run MySQL:
+mysql -u root -p Create a database:
+mysql&amp;gt; create database mezzanine_project; Confirm it:
+mysql&amp;gt; show databases; Exit:
+mysql&amp;gt; exit Configure local_settings.py:
+cd path/to/your/mezzanine/projectnano local_settings.py Like following:
+DATABASES = { &amp;#34;default&amp;#34;: { &amp;#34;ENGINE&amp;#34;: &amp;#34;django.db.backends.mysql&amp;#34;, &amp;#34;NAME&amp;#34;: &amp;#34;mezzanine_project&amp;#34;, &amp;#34;USER&amp;#34;: &amp;#34;root&amp;#34;, &amp;#34;PASSWORD&amp;#34;: &amp;#34;123456&amp;#34;, &amp;#34;HOST&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;PORT&amp;#34;: &amp;#34;&amp;#34;, } } Note: Replace your password</description>
+    </item>
+    
+    <item>
+      <title>How to Clear (or Drop) DB Table of A Django App</title>
+      <link>https://www.gungorbudak.com/blog/2015/04/13/how-to-clear-or-drop-db-table-of-a-django-app/</link>
+      <pubDate>Mon, 13 Apr 2015 11:38:41 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/04/13/how-to-clear-or-drop-db-table-of-a-django-app/</guid>
+      <description>Let’s say you created a Django app and ran python manage.py syncdb and created its table. Everytime you make a change in the table, you’ll need to drop that table and run python manage.py syncdb again to update. And how you drop a table of a Django app:
+$ python manage.py sqlclear app_name | python manage.py dbshell Drop tables of an app with migrations (Django &amp;gt;= 1.8):
+$ python manage.py migrate appname zero Recreate all the tables:</description>
+    </item>
+    
+    <item>
+      <title>Install Apache2, PHP5, MySQL &amp; phpMyAdmin on Ubuntu 12.04</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/19/install-apache2-php5-mysql-phpmyadmin-on/</link>
+      <pubDate>Tue, 19 Nov 2013 21:12:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/19/install-apache2-php5-mysql-phpmyadmin-on/</guid>
+      <description>First, install apache2:
+sudo apt-get install apache2 Then, for it to work: sudo service apache2 restart
+For custom www folder:
+sudo cp /etc/apache2/sites-available/default /etc/apache2/sites-available/www gksudo gedit /etc/apache2/sites-available/www Change DocumentRoot and Directory directive to point to new location. For example, /home/user/www/
+Save and see (link here clean URLs not working Laravel 4)
+Make www default and disable default:
+sudo a2dissite default &amp;amp;&amp;amp; sudo a2ensite www sudo service apache2 restart Create new file in www</description>
+    </item>
+    
+    <item>
+      <title>Retrieving Data with AJAX using jQuery, PHP and MySQL</title>
+      <link>https://www.gungorbudak.com/blog/2013/06/28/retrieving-data-with-ajax-using-jquery/</link>
+      <pubDate>Fri, 28 Jun 2013 18:04:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/06/28/retrieving-data-with-ajax-using-jquery/</guid>
+      <description>Last semester, I took a course from Informatics Institute at METU called &amp;ldquo;Biological Databases and Data Analysis Tools&amp;rdquo; where first we learned what is a database and how to do queries on it. Also, the technology behind databases are taught. Then, we learned many biological databases and data analysis tools available. These include gene, protein and pathway databases, tools for creating databases.
+As a final project, we were asked to create an online tool that can search a database and get the data and display it on any web browsers.</description>
+    </item>
+    
+  </channel>
+</rss>

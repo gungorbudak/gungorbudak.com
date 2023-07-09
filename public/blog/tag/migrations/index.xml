@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>migrations on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/migrations/</link>
+    <description>Recent content in migrations on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 31 Jul 2015 14:12:11 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/migrations/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Django Migrations Table Already Exists Fix</title>
+      <link>https://www.gungorbudak.com/blog/2015/07/31/django-migrations-table-already-exists-fix/</link>
+      <pubDate>Fri, 31 Jul 2015 14:12:11 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/07/31/django-migrations-table-already-exists-fix/</guid>
+      <description>Fix this issue by faking the migrations:
+python manage.py migrate –fake &amp;lt;appname&amp;gt; Taken from this SO answer </description>
+    </item>
+    
+  </channel>
+</rss>

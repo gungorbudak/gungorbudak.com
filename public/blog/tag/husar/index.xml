@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>husar on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/husar/</link>
+    <description>Recent content in husar on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 23 Jul 2012 04:19:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/husar/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Duzenli Ifadeler ile Tur Ismini Elde Etmek</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/23/duzenli-ifadeler-ile-tur-ismini-elde/</link>
+      <pubDate>Mon, 23 Jul 2012 04:19:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/23/duzenli-ifadeler-ile-tur-ismini-elde/</guid>
+      <description>Projemin sonunda kullaniciya olasi kirleten organizmalarin adlarini (Latince tur isimleri) gosterecegim icin, MegaBLAST sonuclarindaki erisim numaralarini (accession number) kullanarak her dizi icin organizma adlarini elde etmem gerekiyor. Sequence Retrival System (SRS) adinda, HUSAR sunucularinda bulunan baska bir sistem ile bunu yapabiliyorum.
+SRS&amp;rsquo;ten organizma adini ogrenebilmem icin Unix komut satirinda &amp;ldquo;getz&amp;rdquo; komutuyla birlikte veritabani ismi, erisim numarasi ve ogrenmek istedigim alani yazmam yetiyor. Asagida, bu isi yapabilen ornek bir kod bulabilirsiniz.</description>
+    </item>
+    
+    <item>
+      <title>SAM Dosyası - BAM Dosyası - samtools</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/04/sam-dosyasi-bam-dosyasi-samtools/</link>
+      <pubDate>Wed, 04 Jul 2012 20:36:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/04/sam-dosyasi-bam-dosyasi-samtools/</guid>
+      <description>Aslında programlamam gereken pipeline direkt olarak eşleşmeyen okumalar üzerinden analizler yapacak. Ancak böyle bir veri bulamadiığım için, elimdeki tek veri eşleşen ve eşleşmeyen okumaları içerdiği için önce eşleşenlerden kurtulmam gerekti.
+Bunu daha önce de belirttiğim gibi bwa eşleştiricisi (aligner - mapper) ile yapıyorum. bwa bir dizi işlemden sonra SAM dosyası oluşturuyor ancak benim FASTQ dosyasına ihtiyacım var. Bunun için SAM dosyasını samtools1 ile benzer bir format olan BAM dosyasına çevirip, daha sonra da bam2fastq2 aracı ile FASTQ dosyamı elde edeceğim.</description>
+    </item>
+    
+    <item>
+      <title>MegaBLAST - Dizilerdeki Benzerlikleri Bulma Aracı</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/28/megablast-dizilerdeki-benzerlikleri/</link>
+      <pubDate>Thu, 28 Jun 2012 10:49:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/28/megablast-dizilerdeki-benzerlikleri/</guid>
+      <description>MegaBLAST, HUSAR paketinde bulunan, BLAST (Basic Local Alignment Search Tool) paketinin bir parçası. Ayrıca BLASTN&amp;rsquo;in bir değişik türü. MegaBLAST uzun dizileri BLASTN&amp;rsquo;den daha etkili bir şekilde işliyor ve hem de çok daha hızlı işlem yapiyor ancak daha az duyarlı. Bu yüzden benzer dizileri geniş veri tabanlarında aramaya çok uygun bir araç.
+Yazacağım program çoklu dizilim barındıran FASTA dosyasını alacak ve megablast komutunu çalıştıracak. Daha sonra da her okuma için bir .</description>
+    </item>
+    
+    <item>
+      <title>Kontaminant (Kirletici) Analizi Projesi</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/27/kontaminant-kirletici-analizi-projesi/</link>
+      <pubDate>Wed, 27 Jun 2012 11:24:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/27/kontaminant-kirletici-analizi-projesi/</guid>
+      <description>Başlangıç olarak, araçlara, programlama diline, kısacası biyoenformatiğe alışabilmem için bana verilen bu ufak projeyi ayrıntılı olarak anlatacağım.
+Biliyoruz ki, laboratuvar çalışmalarımızda ne kadar önlemeye çalışsak da kontaminant riski hep bulunuyor. Bunu ne kadar aza indirsek o kadar iyi, ki daha sonra bunun miktarını bulup, bunun üzerinden sonucumuzun bir başka değerlendirmesini de yapabiliriz. İşte bunu bulmak için bir yöntem, DNA analizi. Çalıştığınız örneğinizin DNA&amp;rsquo;sı dizileniyor ve bu DNA çeşitli programlarla analiz edilip, kirleten organizmaları DNA&amp;rsquo;larından ortaya çıkarabiliyoruz</description>
+    </item>
+    
+    <item>
+      <title>FASTQ Formatı - FASTQ Dosyası</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/25/fastq-format-fastq-dosyasi/</link>
+      <pubDate>Mon, 25 Jun 2012 11:01:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/25/fastq-format-fastq-dosyasi/</guid>
+      <description>Bugün programı oluştururken kullanacağım &amp;ldquo;test&amp;rdquo; dizilimini aldım. İki adet FASTQ dosyasından oluşuyor, her biri sıkıştırılmış ama buna rağmen boyutları 6 GB civarı. Ben elbette çok zaman kaybetmek istemediğim için bu dosyalardan birinin sadece bir kısmını kullanacağım.
+Amacım, bu FASTQ dosyalarındaki eşleşebilen okumaları BWA aracı ile bularak, daha sonra onları çıkarmak. Ve kalan eşleşemeyen okumaları MegaBLAST aracının anlayabileceği bir dilde (FASTA formatında) kaydetmek.
+Bu arada tüm projeyi bir Unix bilgisayarda hazırladığım için birçok komut öğreniyorum, daha sonra bunları ayrıca yazmaya çalışacağım.</description>
+    </item>
+    
+    <item>
+      <title>Dizileme Çalışmalarını Kirleten Organizmaları Tespit Etme</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/20/dizileme-calismalarini-kirleten/</link>
+      <pubDate>Wed, 20 Jun 2012 13:46:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/20/dizileme-calismalarini-kirleten/</guid>
+      <description>Bu yaz stajımda ilk olarak başlayacağım çalışma yavaş yavaş şekilleniyor. Bu çalışmada bir pipeline oluşturup, bunu laboratuvarlarda dizileme (sequencing) örneklerini kirleten organizmaları bulmaya çalışacağım.
+Laboratuvarlarda birçok nedenden dolayı örnekler başka organizmalar ya da yabancı DNA tarafından kirlenebiliyor. Bunlar bakteri, maya olabilir ya da bir virüs DNA&amp;rsquo;sı da olabilir. Siz bir DNA&amp;rsquo;yı diziledikten sonra onun referansıyla eşleştirme çok az oranda çıkabiliyor. Bu da yabancı DNA&amp;rsquo;nın olabileceğini gösteriyor. Bir başka neden referans DNA&amp;rsquo;nın farklı olması da olabilir.</description>
+    </item>
+    
+    <item>
+      <title>Pipeline ve Pipeline Geliştirme</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/20/pipeline-ve-pipeline-gelistirme/</link>
+      <pubDate>Wed, 20 Jun 2012 13:12:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/20/pipeline-ve-pipeline-gelistirme/</guid>
+      <description>Bugün aldığım tanıtım derslerinin devamında, pipeline ve pipeline geliştirme ile ilgili ayrıntılı bilgiler aldım. Pipeline, aslında bildiğimiz boru hattı demek, örneğin borularla petrolün bir yerden başka bir yere taşınması için kullanılan sistem. Bunun bilgisayar terminolojisinde anlamı ise bir elementin çıktısı, diğerinin girdisi olacak şekilde oluşturulmuş işleme elementleri zinciri. Böylece çok daha komplike işlemler pipeline oluşturularak, kolay ve düzenli bir biçimde gerçekleştiriliyor. Sanırım pipeline Türkçeye ardışık düzen olarak çevriliyor, gene de ben pipeline olarak kullanacağım.</description>
+    </item>
+    
+    <item>
+      <title>WWW2HUSAR - HUSAR&#39;ın Web Arayüzü</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/19/www2husar-husarn-web-arayuzu/</link>
+      <pubDate>Tue, 19 Jun 2012 16:55:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/19/www2husar-husarn-web-arayuzu/</guid>
+      <description>Stajımın ikinci gününde HUSAR&amp;rsquo;ın web arayüzünü konuştuk. HUSAR komut isteminden komutlarla kullanılabilen, yönetilebilen bir yazılım ancak bunu kolaylaştırmak için hazırlanmış bir web arayüzü var. WWW2HUSAR adını verdikleri bu arayüz ile listelenen araçları kolayca seçebiliyor, genetik dizinizi ekleyebiliyor ve başka birçok işlemi kolayca, birkaç tık ile yapabiliyorsunuz.
+Bununla birlikte biraz daha HUSAR&amp;rsquo;ın işlevlerine göz attık. Yazılımda, yerel klasörde gen dizisi listeleri oluşturarak, bunları çoklu dizi hizalama (multiple sequence alignment) aracı ile genlerin benzerliklerini karşılastırabiliyor ve örneğin evrimsel ilişkilerini ortaya çıkarabiliyorsunuz.</description>
+    </item>
+    
+    <item>
+      <title>DKFZ - Heidelberg Biyoenformatik Birimi&#39;nde Staj</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/18/dkfz-heidelberg-biyoenformatik/</link>
+      <pubDate>Mon, 18 Jun 2012 16:39:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/18/dkfz-heidelberg-biyoenformatik/</guid>
+      <description>Erasmus programıyla yapıyor olduğum yaz stajı başladı. İlk olarak birimi yöneten bilim insanlarından birkaç saatlik tanıtım dersi aldım. Bu derste birimin kısa tarihi, birimin günümüze kadar yaptıkları projeler ve bunlarin ayrintilari konusunda bilgiler aldım.
+Biyoenformatik Birimi DKFZ&amp;rsquo;nin (Deutsches Krebsforschungszentrum &amp;ndash; ing. German Cancer Research Center) bir çekirdek tesisi olan Genomik ve Proteomik Çekirdek Tesisi&amp;rsquo;ne bağlı bir grup. İsimleri aynı zamanda HUSAR (Heidelberg Unix Sequence Analysis Resources) ve bu isim grubun geliştirdiği dizi analizi yapma paketinin de adı olarak kullanılıyor.</description>
+    </item>
+    
+  </channel>
+</rss>

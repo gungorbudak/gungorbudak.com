@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>translation on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/translation/</link>
+    <description>Recent content in translation on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Jul 2015 12:18:05 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/translation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Django/Mezzanine Content Translation for Mezzanine Built-in Applications</title>
+      <link>https://www.gungorbudak.com/blog/2015/07/01/djangomezzanine-content-translation-for-mezzanine/</link>
+      <pubDate>Wed, 01 Jul 2015 12:18:05 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/07/01/djangomezzanine-content-translation-for-mezzanine/</guid>
+      <description>As Mezzanine comes with additional Django applications such as pages, galleries and to translate their content, Mezzanine supports django-modeltranslation integration.
+Install django-modeltranslation:
+pip install django-modeltranslation Add following to the INSTALLED_APPS in settings.py:
+&amp;#34;modeltranslation&amp;#34;, And following in settings.py:
+USE_MODELTRANSLATION = True Also, move mezzanine.pages to the top of other Mezzanine apps in INSTALLED_APPS in settings.py like so:
+&amp;#34;mezzanine.pages&amp;#34;, &amp;#34;mezzanine.boot&amp;#34;, &amp;#34;mezzanine.conf&amp;#34;, &amp;#34;mezzanine.core&amp;#34;, &amp;#34;mezzanine.generic&amp;#34;, &amp;#34;mezzanine.blog&amp;#34;, &amp;#34;mezzanine.forms&amp;#34;, &amp;#34;mezzanine.galleries&amp;#34;, &amp;#34;mezzanine.twitter&amp;#34;, &amp;#34;mezzanine.accounts&amp;#34;, &amp;#34;mezzanine.mobile&amp;#34;, Run following to create fields in database tables for translations:</description>
+    </item>
+    
+    <item>
+      <title>Setting Up Templates and Python Scripts for Translation</title>
+      <link>https://www.gungorbudak.com/blog/2015/06/13/setting-up-templates-and-python-scripts-for/</link>
+      <pubDate>Sat, 13 Jun 2015 09:45:56 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/06/13/setting-up-templates-and-python-scripts-for/</guid>
+      <description>Templates need following template tag:
+{% raw %}{% load i18n %}{% endraw %} Then, wrapping any text with
+{% raw %}{% trans &amp;#34;TEXT&amp;#34; %}{% endraw %} will make it translatable via Rosetta Django application
+In Python scripts, you need to import following library:
+from django.utils.translation import ugettext_lazy as _ Then wrapping any text with
+_(&amp;#39;TEXT&amp;#39;) will make it translatable.</description>
+    </item>
+    
+    <item>
+      <title>Django Rosetta Installation</title>
+      <link>https://www.gungorbudak.com/blog/2015/06/12/django-rosetta-installation/</link>
+      <pubDate>Fri, 12 Jun 2015 15:07:34 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/06/12/django-rosetta-installation/</guid>
+      <description>Install SciPy:
+sudo apt-get install python-numpy python-scipy python-matplotlib ipython ipython-notebook python-pandas python-sympy python-nose Install pymongo and nltk:
+sudo pip install pymongo sudo pip install nltk Install Python MySQLdb:
+sudo apt-get install python-mysqldb Install Rosetta:
+sudo pip install django-rosetta Add following into INSTALLED_APPS in settings.py:
+&amp;#34;rosetta&amp;#34;, Add following into urls.py:
+url(r’^translations/’, include(‘rosetta.urls’)), To also allow language prefixes , change patters to i18n_patterns in urls.py:
+urlpatterns += i18n_patterns( ... ) </description>
+    </item>
+    
+  </channel>
+</rss>

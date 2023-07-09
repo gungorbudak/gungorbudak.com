@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>geo on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/geo/</link>
+    <description>Recent content in geo on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 06 May 2015 16:22:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/geo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Get (or Load) NCBI GEO Microarray Data into R using GEOquery Package from Bioconductor</title>
+      <link>https://www.gungorbudak.com/blog/2015/05/06/how-to-get-or-load-ncbi-geo-microarray/</link>
+      <pubDate>Wed, 06 May 2015 16:22:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/05/06/how-to-get-or-load-ncbi-geo-microarray/</guid>
+      <description>R, especially with lots of Bioconductor packages, provides nice tools to load, manage and analyze microarray data. If you are trying to load NCBI GEO data into R, use GEOquery package. Here, I&amp;rsquo;ll describe how to start with it and probably in my future posts I&amp;rsquo;ll mention more.
+Installation
+source(&amp;#34;http://bioconductor.org/biocLite.R&amp;#34;) biocLite(&amp;#34;GEOquery&amp;#34;) Usage
+library(GEOquery) gds &amp;lt;- getGEO(&amp;#34;GDS5072&amp;#34;) or
+library(GEOquery) gds &amp;lt;- getGEO(filename=&amp;#34;path/to/GDS5072.soft.gz&amp;#34;) getGEO function return a complex class type GDS object which contains the complete dataset.</description>
+    </item>
+    
+  </channel>
+</rss>

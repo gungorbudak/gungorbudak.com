@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>integration on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/integration/</link>
+    <description>Recent content in integration on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Aug 2013 07:49:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/integration/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Latest Progress on Network Inference and Edge Scoring</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/08/latest-progress-on-network-inference/</link>
+      <pubDate>Thu, 08 Aug 2013 07:49:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/08/latest-progress-on-network-inference/</guid>
+      <description>I have improved network inference part of the script slightly by changing the way of comparing intervention (presence of inhibitor and stimulus) and no intervention (presence of stimulus) data from in silico part.
+Now, I&amp;rsquo;m using a function (simp) from an R package called StreamMetabolism, which gets time points and data values and (does integration) calculates the area under the curve (Sefick, 2009). I do this integration for both condition and then I compare them.</description>
+    </item>
+    
+  </channel>
+</rss>

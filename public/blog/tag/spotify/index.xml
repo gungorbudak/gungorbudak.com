@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>spotify on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/spotify/</link>
+    <description>Recent content in spotify on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 Nov 2013 18:29:17 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/spotify/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install Spotify on Ubuntu 12.04</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/19/install-spotify-on-ubuntu-1204/</link>
+      <pubDate>Tue, 19 Nov 2013 18:29:17 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/19/install-spotify-on-ubuntu-1204/</guid>
+      <description>Start Software Sources from Dash Home
+Add following in Other Sources tab:
+deb http://repository.spotify.com stable non-free Close Software Sources
+Add Spotify repo key on Terminal:
+sudo apt-key adv –keyserver keyserver.ubuntu.com –recv-keys 94558F59 Install Spotify on Terminal:
+sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install spotify-client Find Spotify in Dash Home
+Source </description>
+    </item>
+    
+  </channel>
+</rss>

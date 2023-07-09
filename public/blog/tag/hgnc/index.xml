@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>hgnc on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/hgnc/</link>
+    <description>Recent content in hgnc on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Jan 2015 20:23:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/hgnc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GO Enrichment of Network Clusters</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/16/go-enrichment-of-network-clusters/</link>
+      <pubDate>Fri, 16 Jan 2015 20:23:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/16/go-enrichment-of-network-clusters/</guid>
+      <description>In my previous post, I mentioned how I clustered the network we obtained at the end. For functional annotation gene ontology (GO) enrichment has been done on these clusters.
+There were 20 clusters and the HGNC names are obtained separately for each cluster and using DAVID functional annotation tool API, GO and pathway annotations are collected per cluster and these are saved separately.
+http://david.abcc.ncifcrf.gov/api.jsp?type=OFFICIAL_GENE_SYMBOL&amp;amp;amp;tool=chartReport&amp;amp;amp;annot=GOTERM_BP_FAT,GOTERM_CC_FAT,GOTERM_MF_FAT,BBID,BIOCARTA,KEGG_PATHWAY&amp;amp;amp;ids=HGNC_NAME1,HGNC_NAME2,HGNC_NAME3,... Above URL was used to obtain chart report for some GO and pathways chart records.</description>
+    </item>
+    
+    <item>
+      <title>Reconstructed Salmonella Signaling Network Visualized and Colored</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/14/reconstructed-salmonella-signaling/</link>
+      <pubDate>Wed, 14 Jan 2015 19:12:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/14/reconstructed-salmonella-signaling/</guid>
+      <description>After fold changes were obtained and HGNC names were found for each phosphopeptide, these were used to construct Salmonella signaling network using PCSF and then with the nodes that PCSF found as well, we generated a matrix which has node in the rows and time points in the columns and each cell shows the presence of corresponding protein under the corresponding time point(s).
+The matrix has 658 nodes (proteins) and 4 time points as indicated before: 2 min, 5 min, 10 min and 20 min.</description>
+    </item>
+    
+    <item>
+      <title>Salmonella Data Preprocessing for PCSF Algorithm</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/12/salmonella-data-preprocessing-for-pcsf/</link>
+      <pubDate>Mon, 12 Jan 2015 08:47:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/12/salmonella-data-preprocessing-for-pcsf/</guid>
+      <description>This post describes data preprocessing in Salmonella project for Prize-Collecting Steiner Forest Problem (PCSF) algorithm.
+Salmonella data taken from Table S6 in Phosphoproteomic Analysis of Salmonella-Infected Cells Identifies Key Kinase Regulators and SopB-Dependent Host Phosphorylation Events by Rogers, LD et al. has been converted to tab delimited TXT file from its original XLS file for easy reading in Python.
+The data should be separated into time points files (2, 5, 10 and 20 minutes) each of which will contain corresponding phophoproteins and their fold changes.</description>
+    </item>
+    
+    <item>
+      <title>Data Preprocessing I for Salmon Project</title>
+      <link>https://www.gungorbudak.com/blog/2014/09/18/data-preprocessing-i-for-salmon-project/</link>
+      <pubDate>Thu, 18 Sep 2014 09:14:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/09/18/data-preprocessing-i-for-salmon-project/</guid>
+      <description>Since we&amp;rsquo;ll be using R for most of the analyses, we converted XLS data file to CSV using MS Office Excel 2013 and then we had to fix several lines using Sublime Text 2 because three colums in these lines were left unquoted which later created a problem reading in RStudio.
+The data contains phosphorylation data of 8553 peptides. There are many missing data points for many peptides and since IPI IDs were used for peptides and these are not supported now, we had to convert IPI IDs to HGNC approved symbols although data had these symbols as names but they looked outdated.</description>
+    </item>
+    
+  </channel>
+</rss>

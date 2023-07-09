@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>customization on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/customization/</link>
+    <description>Recent content in customization on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 26 Apr 2019 18:00:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/customization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Make a Customizable Google Custom Search Engine Box</title>
+      <link>https://www.gungorbudak.com/blog/2019/04/26/how-to-make-a-customizable-google-custom-search-engine-box/</link>
+      <pubDate>Fri, 26 Apr 2019 18:00:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2019/04/26/how-to-make-a-customizable-google-custom-search-engine-box/</guid>
+      <description>Google Custom Search Engine (CSE) is a great service when you need to implement a search functionality to a website and do not spend too much time. However, the default way of implementing it restricting us to have a certain search box design that might not blend well to our website. In this post, I&amp;rsquo;ll show how I found a workaround solution and actually implement on this very blog.
+To see the solution in action, feel free to search anything on the search box at the top of the right sidebar.</description>
+    </item>
+    
+  </channel>
+</rss>

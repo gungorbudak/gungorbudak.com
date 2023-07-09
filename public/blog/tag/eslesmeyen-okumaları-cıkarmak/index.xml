@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>eşleşmeyen okumaları çıkarmak on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/eslesmeyen-okumalar%C4%B1-c%C4%B1karmak/</link>
+    <description>Recent content in eşleşmeyen okumaları çıkarmak on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 05 Jul 2012 19:46:00 -0400</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/eslesmeyen-okumalar%C4%B1-c%C4%B1karmak/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Eşleştirme ve Eşleşmeyen Okumaları Çıkarma Sonuçları</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/05/eslestirme-ve-eslesmeyen-okumalari/</link>
+      <pubDate>Thu, 05 Jul 2012 19:46:00 -0400</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/05/eslestirme-ve-eslesmeyen-okumalari/</guid>
+      <description>Daha önce verinin sadece bir kısmı ile çalışıyordum ancak artık tamamıyla çalışacağım. Bu yüzden bana sıkıştırılmış halde gelen veriyi direkt çalışma klasörüme çıkardım ve onun üzerinden işlemler yaptım.
+Başlangıç (FASTQ) dosyamın boyutu 2153988289 bayt (2 GB). Ve bwa aracılığıyla eşleştirmeden sonra toplamda 6004193 dizilim, ya da okuma, (sequences ya da reads) ortaya çıktı. Daha sonra eşleşmeyen okumaları çıkarmam sonrasında toplam okuma sayısı 551065 kadar azaldı ve 5493128 oldu. Yani verinin %9.</description>
+    </item>
+    
+    <item>
+      <title>BWA İle Eşleştirme (Mapping - Alignment)</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/05/bwa-ile-eslestirme-mapping-alignment/</link>
+      <pubDate>Thu, 05 Jul 2012 19:40:00 -0400</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/05/bwa-ile-eslestirme-mapping-alignment/</guid>
+      <description>Bunu daha önce yazmayı unutmuşum. Aslında bahsetmiştim ancak nasıl yapıldığına dair bir şeyler yazmamışım ayrıca örnek komutlar da eklememişim.
+BWA elimizdeki (FASTQ formatındaki) DNA dizilimini, referans genomunu (projemde bu insan genomu) alarak bir .sai dosyası oluşturuyor. Bu dosya dizinin ve referans genomunun eşleşmesi ile ilgili bilgiler taşiyor ve bu bilgileri kullanarak eşleşmeyenleri ayırabiliyorum.
+İlk olarak aşağıdaki komut ile .sai dosyamızı oluşturuyoruz.
+bwa aln $NGSDATAROOT/bwa/human_genome37 ChIP_NoIndex_L001_R1_complete_filtered.fastq &amp;gt; complete_alignment.sai Oluşturduğumuz .sai dosyası çok da kullanışlı bir dosya değil, bu yüzden onu SAM dosyasına çevirerek, işlemlere devam ediyoruz.</description>
+    </item>
+    
+  </channel>
+</rss>

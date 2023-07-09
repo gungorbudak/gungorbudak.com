@@ -1,0 +1,12 @@
+{{ define "header" }}{{ partial "page-header.html" . }}{{ end }}
+{{ define "main" }}
+    <article class="center cf pv5 measure-wide-l">
+      <h1>
+        Not found / Sayfa Bulunamadı
+      </h1>
+      <p>The page you're looking not found! :( It could be deleted, moved or never exist at all.</p>
+      <p><a href="{{ "" | relURL }}">Go Home</a></p>
+      <p>Aradığın sayfa bulunamadı! :( Silinmiş, taşınmış ya da hiç var olmamış olabilir.</p>
+      <p><a href="{{ "" | relURL }}">Ana Sayfaya git</a></p>
+    </article>
+{{ end }}

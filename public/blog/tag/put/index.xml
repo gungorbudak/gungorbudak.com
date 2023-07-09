@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>put on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/put/</link>
+    <description>Recent content in put on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 27 May 2015 15:59:32 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/put/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running Script on Cluster (StarCluster)</title>
+      <link>https://www.gungorbudak.com/blog/2015/05/27/running-script-on-cluster-starcluster/</link>
+      <pubDate>Wed, 27 May 2015 15:59:32 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/05/27/running-script-on-cluster-starcluster/</guid>
+      <description>Start a new cluster with the configuration file you modified:
+starcluster start cluster_name Send the script to the running cluster:
+starcluster put cluster_name myscr.csh /home/myscr.csh Run it using source:
+starcluster sshmaster cluster_name &amp;quot;source /home/myscr.csh &amp;gt;&amp;amp; /home/myscr.log&amp;quot; </description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>time series on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/time-series/</link>
+    <description>Recent content in time series on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 19 Sep 2014 07:14:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/time-series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Preprocessing II for Salmon Project</title>
+      <link>https://www.gungorbudak.com/blog/2014/09/19/data-preprocessing-ii-for-salmon-project/</link>
+      <pubDate>Fri, 19 Sep 2014 07:14:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/09/19/data-preprocessing-ii-for-salmon-project/</guid>
+      <description>So in our Multi-dimensional Modeling and Reconstruction of Signaling Networks in Salmonella-infected Human Cells project, we have several methods to construct the networks so the data is still needed to be preprocessed so that it can be ready to be analyzed with these methods.
+One method needed to have a matrix first row as protein name and time series (2 min, 5 min, 10 min, 20 min), and the values of the proteins in each time series were to be 1 or 0 according to variance, significance and the size of fold change.</description>
+    </item>
+    
+  </channel>
+</rss>

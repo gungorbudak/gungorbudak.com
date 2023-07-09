@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ensembl on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/ensembl/</link>
+    <description>Recent content in ensembl on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 01 Mar 2014 13:55:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/ensembl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Super Long Introns of Euarchontoglires</title>
+      <link>https://www.gungorbudak.com/blog/2014/03/01/super-long-introns-of-euarchontoglires/</link>
+      <pubDate>Sat, 01 Mar 2014 13:55:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/03/01/super-long-introns-of-euarchontoglires/</guid>
+      <description>There was another weird result I got about my exon/intron boundaries analysis research. To less diverse species&amp;rsquo; genes, intron lengths are shown to increase. However, according to my findings, at a point of Euarchontoglires or Supraprimates, this increase is very sharp and seems unexpected. So, I looked at exon/intron length each gene in each taxonomic rank and try to see what makes Euarchontoglires genes with that long introns.
+As you see in the graph above, Euarchontoglires introns are very long compared to the rest.</description>
+    </item>
+    
+    <item>
+      <title>An Exon of Length 2 Appeared in Ensembl</title>
+      <link>https://www.gungorbudak.com/blog/2014/02/27/an-exon-of-length-2-appeared-in-ensembl/</link>
+      <pubDate>Thu, 27 Feb 2014 06:11:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/02/27/an-exon-of-length-2-appeared-in-ensembl/</guid>
+      <description>I want to share an interesting finding about our research on exon/intron analysis of human evolutionary history.
+So I had the genes that emerged at each pass point of human history and I was using Ensembl API to get exons and introns of these genes to perform further analyses.
+There was one gene (ENSG00000197568 - HERV-H LTR-associating 3 - HHLA3) with a surprise. Because it&amp;rsquo;s one transcript (ENST00000432224) had an exon (ENSE00001707577) of length 2.</description>
+    </item>
+    
+    <item>
+      <title>How to Get Transcripts (also Exons &amp; Introns) of a Gene using Ensembl API</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/28/how-to-get-transcripts-also-exons/</link>
+      <pubDate>Thu, 28 Nov 2013 09:11:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/28/how-to-get-transcripts-also-exons/</guid>
+      <description>As a part of my project, I need to obtain exons and introns of certain genes. These genes are actually human genes that are determined for a specific reason that I will describe later when I explain my project. But for now, I want to share the way to obtain this information using (Perl) Ensembl API. Note that Ensembl has started a beautiful way (Ensembl REST API) of getting data but it is beta and it doesn&amp;rsquo;t provide exons / introns information.</description>
+    </item>
+    
+    <item>
+      <title>Install Ensembl API and BioPerl 1.2.3 on Your System</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/12/install-ensembl-api-and-bioperl-161-on/</link>
+      <pubDate>Tue, 12 Nov 2013 04:37:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/12/install-ensembl-api-and-bioperl-161-on/</guid>
+      <description>I&amp;rsquo;m going to work on a project that requires lots of queries on Ensembl databases so I wanted to install Ensembl API to begin with. Since it&amp;rsquo;s programmed in Perl, I will be using Perl in this project.
+There is a nice tutorial on Ensembl website for API installation. Here I will describe some steps.
+1. Download the API and BioPerl
+Go to Ensembl FTP ftp://ftp.ensembl.org/pub/ and download &amp;ldquo;ensembl-api.tar.gz&amp;rdquo; or click here</description>
+    </item>
+    
+  </channel>
+</rss>

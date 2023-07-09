@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python package manager on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/python-package-manager/</link>
+    <description>Recent content in python package manager on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Aug 2018 10:00:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/python-package-manager/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Correct Installation and Configuration of pip2 and pip3</title>
+      <link>https://www.gungorbudak.com/blog/2018/08/02/correct-installation-and-configuration-of-pip2-and-pip3/</link>
+      <pubDate>Thu, 02 Aug 2018 10:00:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2018/08/02/correct-installation-and-configuration-of-pip2-and-pip3/</guid>
+      <description>You may have to keep both Python version, the old 2 and 3, at the same time due to your projects and they will require corresponding pip installation so you can separately install and maintain packages for both version.
+There are multiple ways of installing pip to a system but the version configuration and setting the default version for pip executable can be tricky.
+Below is the easiest solution I&amp;rsquo;ve found.</description>
+    </item>
+    
+  </channel>
+</rss>

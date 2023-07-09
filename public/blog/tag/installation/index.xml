@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>installation on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/installation/</link>
+    <description>Recent content in installation on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Nov 2018 11:00:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/installation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Install Sambamba on Linux</title>
+      <link>https://www.gungorbudak.com/blog/2018/11/21/how-to-install-sambamba-on-linux/</link>
+      <pubDate>Wed, 21 Nov 2018 11:00:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2018/11/21/how-to-install-sambamba-on-linux/</guid>
+      <description>Sambamba is a great utility to work with alignment file formats in bioinformatics such as BAM and CRAM. Follow below steps on any 64-bit Linux machine to install (this guide installs version 0.6.8 go to Sambamba releases page for the most up-to-date version):
+Create a softwares directory (optional but recommended)
+cd ~/ mkdir softwares cd softwares/ Download the static executable
+wget https://github.com/biod/sambamba/releases/download/v0.6.8/sambamba-0.6.8-linux-static.gz Unzip the package and rename the executable unpacked</description>
+    </item>
+    
+  </channel>
+</rss>

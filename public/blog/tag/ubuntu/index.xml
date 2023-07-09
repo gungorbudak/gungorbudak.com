@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ubuntu on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/ubuntu/</link>
+    <description>Recent content in ubuntu on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 Sep 2015 07:44:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Install RDKit 2015-03 Build on Ubuntu 14.04 / Linux Mint 17</title>
+      <link>https://www.gungorbudak.com/blog/2015/09/16/install-rdkit-2015-03-build-on-ubuntu/</link>
+      <pubDate>Wed, 16 Sep 2015 07:44:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/09/16/install-rdkit-2015-03-build-on-ubuntu/</guid>
+      <description>RDKit is an open source toolkit for cheminformatics. It has many functionalities to work with chemical files.
+Follow the below guide to install RDKit 2015-03 build on an Ubuntu 14.04 / Linux Mint 17 computer. Since Ubuntu packages don’t have the latest RDKit for trusty, you have to build RDKit from its source.
+Install Dependencies
+sudo apt-get install flex bison build-essential python-numpy cmake python-dev sqlite3 libsqlite3-dev libboost1.54-all-dev Download the Build</description>
+    </item>
+    
+    <item>
+      <title>How to Install Mezzanine on Ubuntu/Linux Mint [Complete Guide]</title>
+      <link>https://www.gungorbudak.com/blog/2015/05/01/how-to-install-mezzanine-on-ubuntulinux-mint/</link>
+      <pubDate>Fri, 01 May 2015 16:08:33 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/05/01/how-to-install-mezzanine-on-ubuntulinux-mint/</guid>
+      <description>Mezzanine is a CMS application built on Django web framework. The installation steps are easy but your environment may not just suitable enough for it work without a problem. So, here I&amp;rsquo;m going to describe complete installation from scratch on a virtual environment.
+First of all, install virtualenv:
+$ sudo apt-get install python-virtualenv Then, create a virtual environment:
+$ virtualenv testenv And, activate it: $ cd testenv $ source bin/activate</description>
+    </item>
+    
+    <item>
+      <title>Geany Color Schemes Ubuntu</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/20/geany-color-schemes-ubuntu/</link>
+      <pubDate>Wed, 20 Nov 2013 12:28:51 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/20/geany-color-schemes-ubuntu/</guid>
+      <description>There is a collection of color schemes for Geany as well.
+Download it on GitHub and follow the instructions.
+You’ll need to extract and copy all the files in colorschemes directory to ~/.config/geany/colorschemes/
+Then, restart Geany and go to View -&amp;gt; Editor -&amp;gt; Color Schemes and choose your style.
+I’m using Tango.
+Source </description>
+    </item>
+    
+    <item>
+      <title>Install Geany 1.23 on Ubuntu</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/20/install-geany-123-on-ubuntu/</link>
+      <pubDate>Wed, 20 Nov 2013 12:12:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/20/install-geany-123-on-ubuntu/</guid>
+      <description>Geany is a really nice text editor for Ubuntu. I would recommend it with TreeBrowser and some interface coding are color schemes.
+But you’ll need the latest version which is 1.23 for now.
+To install this version you need to add PPA, also this will keep it updated when you update your system.
+Execute following lines one by one:
+sudo add-apt-repository ppa:geany-dev/ppa sudo apt-get update sudo apt-get install geany Then, when you start Geany you’ll see &amp;ldquo;This is Geany 1.</description>
+    </item>
+    
+    <item>
+      <title>Install Apache2, PHP5, MySQL &amp; phpMyAdmin on Ubuntu 12.04</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/19/install-apache2-php5-mysql-phpmyadmin-on/</link>
+      <pubDate>Tue, 19 Nov 2013 21:12:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/19/install-apache2-php5-mysql-phpmyadmin-on/</guid>
+      <description>First, install apache2:
+sudo apt-get install apache2 Then, for it to work: sudo service apache2 restart
+For custom www folder:
+sudo cp /etc/apache2/sites-available/default /etc/apache2/sites-available/www gksudo gedit /etc/apache2/sites-available/www Change DocumentRoot and Directory directive to point to new location. For example, /home/user/www/
+Save and see (link here clean URLs not working Laravel 4)
+Make www default and disable default:
+sudo a2dissite default &amp;amp;&amp;amp; sudo a2ensite www sudo service apache2 restart Create new file in www</description>
+    </item>
+    
+    <item>
+      <title>Install Perl DBI Module on Ubuntu 12.04</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/19/install-perl-dbi-module-on-ubuntu-1204/</link>
+      <pubDate>Tue, 19 Nov 2013 20:11:35 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/19/install-perl-dbi-module-on-ubuntu-1204/</guid>
+      <description>On Terminal, run:
+sudo apt-get install libdbi-perl Source </description>
+    </item>
+    
+    <item>
+      <title>Start Ubuntu 12.04 Bluetooth Off</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/19/start-ubuntu-1204-bluetooth-off/</link>
+      <pubDate>Tue, 19 Nov 2013 19:07:07 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/19/start-ubuntu-1204-bluetooth-off/</guid>
+      <description>On Terminal:
+sudo gedit /etc/rc.local Add following before the line &amp;ldquo;exit 0&amp;rdquo;
+rfkill block bluetooth Save
+Source </description>
+    </item>
+    
+    <item>
+      <title>Install Steam on Ubuntu 12.04</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/19/install-steam-on-ubuntu-1204/</link>
+      <pubDate>Tue, 19 Nov 2013 18:47:56 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/19/install-steam-on-ubuntu-1204/</guid>
+      <description>Download steam_latest.deb at:
+http://repo.steampowered.com/steam/archive/precise/steam_latest.deb Double click and open it on Ubuntu Software Center and click Install
+It&amp;rsquo;ll start Terminal and ask password for sudo because there are some packages required, enter your password and continue
+Next it&amp;rsquo;ll update itself
+Done
+Source </description>
+    </item>
+    
+    <item>
+      <title>Enable Hibernation for Lenovo Z500 on Ubuntu 12.04</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/19/enable-hibernation-for-lenovo-z500-on-ubuntu-1204/</link>
+      <pubDate>Tue, 19 Nov 2013 18:32:11 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/19/enable-hibernation-for-lenovo-z500-on-ubuntu-1204/</guid>
+      <description>Using Terminal add this file:
+sudo gedit /etc/polkit-1/localauthority/50-local.d/com.ubuntu.enable-hibernate.pkla This:
+[Re-enable hibernate by default] Identity=unix-user:* Action=org.freedesktop.upower.hibernate ResultActive=yes Save &amp;amp; reboot
+Source </description>
+    </item>
+    
+    <item>
+      <title>Install Spotify on Ubuntu 12.04</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/19/install-spotify-on-ubuntu-1204/</link>
+      <pubDate>Tue, 19 Nov 2013 18:29:17 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/19/install-spotify-on-ubuntu-1204/</guid>
+      <description>Start Software Sources from Dash Home
+Add following in Other Sources tab:
+deb http://repository.spotify.com stable non-free Close Software Sources
+Add Spotify repo key on Terminal:
+sudo apt-key adv –keyserver keyserver.ubuntu.com –recv-keys 94558F59 Install Spotify on Terminal:
+sudo apt-get update &amp;amp;&amp;amp; sudo apt-get install spotify-client Find Spotify in Dash Home
+Source </description>
+    </item>
+    
+    <item>
+      <title>Enable Software Sources in Dash Home Ubuntu 12.04</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/19/enable-software-sources-in-dash-home-ubuntu-1204/</link>
+      <pubDate>Tue, 19 Nov 2013 18:19:01 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/19/enable-software-sources-in-dash-home-ubuntu-1204/</guid>
+      <description>First copy the software sources desktop file to your local applications folder:
+mkdir -p ~/.local/share/applications cp /usr/share/applications/software-properties-gtk.desktop ~/.local/share/applications/ Edit the file &amp;amp; change the line NoDisplay=true to NoDisplay=false:
+gedit ~/.local/share/applications/software-properties-gtk.desktop Save, logout and login
+Source </description>
+    </item>
+    
+    <item>
+      <title>Save Brightness Settings Ubuntu 12.04 LTS</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/12/save-brightness-settings-ubuntu-1204-lts/</link>
+      <pubDate>Tue, 12 Nov 2013 16:25:50 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/12/save-brightness-settings-ubuntu-1204-lts/</guid>
+      <description>If your laptop starts with minimized or maximized brightness and you want to have a fixed default value for that do following:
+Run terminal and type to get maximum brightness:
+cat /sys/class/backlight/acpi_video0/max_brightness Now set the brightness as you want and run following which give you the value for current setting:
+cat /sys/class/backlight/acpi_video0/brightness Edit /etc/rc.local to have that value as default after each reboot / start:
+sudo gedit /etc/rc.local Add this line before exit 0:</description>
+    </item>
+    
+    <item>
+      <title>Hotkeys (special keys) Volume/Brightness Controls Don&#39;t Work After Suspend</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/12/hotkeys-special-keys-volumebrightness-controls/</link>
+      <pubDate>Tue, 12 Nov 2013 16:12:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/12/hotkeys-special-keys-volumebrightness-controls/</guid>
+      <description>What seems to solve this problem on Ubuntu 12.04 LTS (Lenovo Z500):
+Open this file:
+sudo gedit /etc/default/grub Modify the line as this:
+GRUB_CMDLINE_LINUX=&amp;quot;noapic&amp;quot; Close it and run the following:
+sudo update-grub Restart your computer
+Source </description>
+    </item>
+    
+    <item>
+      <title>How To Make A File or Script Executable in Ubuntu</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/12/how-to-make-a-file-or-script-executable-in-ubuntu/</link>
+      <pubDate>Tue, 12 Nov 2013 10:11:45 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/12/how-to-make-a-file-or-script-executable-in-ubuntu/</guid>
+      <description>Start terminal CTRL + Alt + T can be used (or just go to Dash Home and type Terminal):
+Run this command below:
+sudo chmod +x /path/to/your/file Source </description>
+    </item>
+    
+    <item>
+      <title>Suspend Laptop When Lid Closed Ubuntu 12.04 LTS in Lenovo Z500</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/12/suspend-laptop-when-lid-closed-ubuntu-1204-lts-in/</link>
+      <pubDate>Tue, 12 Nov 2013 10:08:12 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/12/suspend-laptop-when-lid-closed-ubuntu-1204-lts-in/</guid>
+      <description>I guess this is a bug. Although suspend is set in Power settings, it doesn’t suspend the laptop when its lid is closed.
+To solve it, I’ve found a workaround on web. Here is how you implement it:
+Generate folder if it’s not present:
+sudo mkdir /etc/acpi/local Set its permissions:
+sudo chmod 755 /etc/acpi/local Generate the script:
+sudo gedit /etc/acpi/local/lid.sh.post Copy-paste the following:
+#!/bin/bash grep -q closed /proc/acpi/button/lid/*/state if [ $?</description>
+    </item>
+    
+    <item>
+      <title>Install Ensembl API and BioPerl 1.2.3 on Your System</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/12/install-ensembl-api-and-bioperl-161-on/</link>
+      <pubDate>Tue, 12 Nov 2013 04:37:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/12/install-ensembl-api-and-bioperl-161-on/</guid>
+      <description>I&amp;rsquo;m going to work on a project that requires lots of queries on Ensembl databases so I wanted to install Ensembl API to begin with. Since it&amp;rsquo;s programmed in Perl, I will be using Perl in this project.
+There is a nice tutorial on Ensembl website for API installation. Here I will describe some steps.
+1. Download the API and BioPerl
+Go to Ensembl FTP ftp://ftp.ensembl.org/pub/ and download &amp;ldquo;ensembl-api.tar.gz&amp;rdquo; or click here</description>
+    </item>
+    
+  </channel>
+</rss>

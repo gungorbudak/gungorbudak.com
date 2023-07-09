@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>human on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/human/</link>
+    <description>Recent content in human on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 16 May 2018 14:00:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/human/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Download hg38/GRCh38 FASTA Human Reference Genome</title>
+      <link>https://www.gungorbudak.com/blog/2018/05/16/how-to-download-hg38-grch38-fasta-human-reference-genome/</link>
+      <pubDate>Wed, 16 May 2018 14:00:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2018/05/16/how-to-download-hg38-grch38-fasta-human-reference-genome/</guid>
+      <description>hg38/GRCh38 is the latest human reference genome as of today which was released December, 2013. There are multiple sources for downloading it and also it comes in different versions.
+The most well-known databases to use for downloading the human reference genomes are UCSC Genome Browser, Ensembl and NCBI. The naming convention hg38 is used by UCSC Genome Browser, while Ensembl and NCBI use GRCh38 to refer to the latest human reference genome.</description>
+    </item>
+    
+    <item>
+      <title>Data Preprocessing II for Salmon Project</title>
+      <link>https://www.gungorbudak.com/blog/2014/09/19/data-preprocessing-ii-for-salmon-project/</link>
+      <pubDate>Fri, 19 Sep 2014 07:14:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/09/19/data-preprocessing-ii-for-salmon-project/</guid>
+      <description>So in our Multi-dimensional Modeling and Reconstruction of Signaling Networks in Salmonella-infected Human Cells project, we have several methods to construct the networks so the data is still needed to be preprocessed so that it can be ready to be analyzed with these methods.
+One method needed to have a matrix first row as protein name and time series (2 min, 5 min, 10 min, 20 min), and the values of the proteins in each time series were to be 1 or 0 according to variance, significance and the size of fold change.</description>
+    </item>
+    
+    <item>
+      <title>Multi-dimensional Modeling and Reconstruction of Signaling Networks in Salmonella-infected Human Cells</title>
+      <link>https://www.gungorbudak.com/blog/2014/09/18/multi-dimensional-modeling-and/</link>
+      <pubDate>Thu, 18 Sep 2014 08:26:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/09/18/multi-dimensional-modeling-and/</guid>
+      <description>In this study, we&amp;rsquo;re going to use a phosphorylation data from a research paper on phosphoproteomic analysis of related cells.
+The idea is to use and compare existing methods and develop these methods to be able to better understand the nature of signaling events in these cells and to find key proteins that might be targets for disease diagnosis, prevention and treatment.
+This study will be submitted as a research paper so I&amp;rsquo;m not going to publish any results here for now but I&amp;rsquo;ll mention the struggles I have and solutions I try to solve them.</description>
+    </item>
+    
+    <item>
+      <title>Download Human Reference Genome (HG19 - GRCh37)</title>
+      <link>https://www.gungorbudak.com/blog/2014/04/13/download-human-reference-genome-hg19/</link>
+      <pubDate>Sun, 13 Apr 2014 05:25:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/04/13/download-human-reference-genome-hg19/</guid>
+      <description>Many variation calling tools and many other methods in bioinformatics require a reference genome as an input so may need to download human reference genome or sequences. There are several sources that freely and publicly provide the entire human genome and I&amp;rsquo;ll describe how to download complete human genome from University of California, Santa Cruz (UCSC) webpage.
+Index to the gzip-compressed FASTA files of human chromosomes can be found here at the UCSC webpage.</description>
+    </item>
+    
+    <item>
+      <title>Super Long Introns of Euarchontoglires</title>
+      <link>https://www.gungorbudak.com/blog/2014/03/01/super-long-introns-of-euarchontoglires/</link>
+      <pubDate>Sat, 01 Mar 2014 13:55:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/03/01/super-long-introns-of-euarchontoglires/</guid>
+      <description>There was another weird result I got about my exon/intron boundaries analysis research. To less diverse species&amp;rsquo; genes, intron lengths are shown to increase. However, according to my findings, at a point of Euarchontoglires or Supraprimates, this increase is very sharp and seems unexpected. So, I looked at exon/intron length each gene in each taxonomic rank and try to see what makes Euarchontoglires genes with that long introns.
+As you see in the graph above, Euarchontoglires introns are very long compared to the rest.</description>
+    </item>
+    
+  </channel>
+</rss>

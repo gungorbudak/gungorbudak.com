@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bigcat on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/bigcat/</link>
+    <description>Recent content in bigcat on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Jul 2013 07:59:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/bigcat/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network Inference Challenge in silico Data</title>
+      <link>https://www.gungorbudak.com/blog/2013/07/18/network-inference-challenge-in-silico/</link>
+      <pubDate>Thu, 18 Jul 2013 07:59:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/07/18/network-inference-challenge-in-silico/</guid>
+      <description>I had a meeting with BiGCaT this week and we discussed DREAM Breast Cancer Challenge. I presented the challenge and also some ways that I have found to solve the first sub-challenge network inference. Tina, from BiGCaT, suggested starting with in silico data which is much simpler than breast cancer data. Later, I can use the methods I develop for in silico data in experimental data.
+in silico data contains 20 antibodies, 3 inhibitors and 2 ligand stimuli with 2 different concentration for each.</description>
+    </item>
+    
+    <item>
+      <title>First Impressions and Thoughts on Rosalind Project</title>
+      <link>https://www.gungorbudak.com/blog/2013/07/04/first-impressions-and-thoughts-on/</link>
+      <pubDate>Thu, 04 Jul 2013 08:52:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/07/04/first-impressions-and-thoughts-on/</guid>
+      <description>Actually, I signed up Rosalind.info 8 months ago, I didn&amp;rsquo;t really play around with it. But last week, in a BiGCaT science cafe, after I learnt it, I was more interested than before and I just started solving problems.
+In each problem, you have a description about the context and also about the problem. Also, there is a sample input and output. Sometimes there are hints about the solution. What I did was to write a solution that works for the sample and hopefully for the problem.</description>
+    </item>
+    
+    <item>
+      <title>Dream Challenge</title>
+      <link>https://www.gungorbudak.com/blog/2013/06/26/dream-challenge/</link>
+      <pubDate>Wed, 26 Jun 2013 06:43:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/06/26/dream-challenge/</guid>
+      <description>This year, 8th Dream Challenge takes place and I will be working on this project as my internship job in BiGCaT, Bioinformatics, UM. The challenge brings scientists to catalyze the interaction between experiment and theory in the area of cellular network inference and quantitative model building in systems biology (as said on their webpage).
+In this competition, I will work on a specific challenge about network modeling, dynamic response predictions and data visualization.</description>
+    </item>
+    
+  </channel>
+</rss>

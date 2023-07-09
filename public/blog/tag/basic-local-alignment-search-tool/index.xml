@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>basic local alignment search tool on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/basic-local-alignment-search-tool/</link>
+    <description>Recent content in basic local alignment search tool on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Jun 2012 10:49:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/basic-local-alignment-search-tool/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MegaBLAST - Dizilerdeki Benzerlikleri Bulma Aracı</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/28/megablast-dizilerdeki-benzerlikleri/</link>
+      <pubDate>Thu, 28 Jun 2012 10:49:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/28/megablast-dizilerdeki-benzerlikleri/</guid>
+      <description>MegaBLAST, HUSAR paketinde bulunan, BLAST (Basic Local Alignment Search Tool) paketinin bir parçası. Ayrıca BLASTN&amp;rsquo;in bir değişik türü. MegaBLAST uzun dizileri BLASTN&amp;rsquo;den daha etkili bir şekilde işliyor ve hem de çok daha hızlı işlem yapiyor ancak daha az duyarlı. Bu yüzden benzer dizileri geniş veri tabanlarında aramaya çok uygun bir araç.
+Yazacağım program çoklu dizilim barındıran FASTA dosyasını alacak ve megablast komutunu çalıştıracak. Daha sonra da her okuma için bir .</description>
+    </item>
+    
+  </channel>
+</rss>

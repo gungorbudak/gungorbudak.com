@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pysam on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/pysam/</link>
+    <description>Recent content in pysam on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 26 Mar 2014 06:41:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/pysam/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JointSNVMix Installation on Linux Mint 16 Cython, Pysam Included</title>
+      <link>https://www.gungorbudak.com/blog/2014/03/26/jointsnvmix-installation-on-linux-mint/</link>
+      <pubDate>Wed, 26 Mar 2014 06:41:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/03/26/jointsnvmix-installation-on-linux-mint/</guid>
+      <description>JointSNVMix is a software package that consists of a number of tools for calling somatic mutations in tumour/normal paired NGS data.
+It requires Python (&amp;gt;= 2.7), Cython (&amp;gt;= 0.13) and Pysam (== 0.5.0).
+Python must be installed by default ona Linux machine so I will describe the installation of others and JointSNVMix.
+Note this guide may become outdated after some time so please make sure before following all.
+Install Cython</description>
+    </item>
+    
+  </channel>
+</rss>

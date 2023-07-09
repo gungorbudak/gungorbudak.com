@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ms office 2013 on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/ms-office-2013/</link>
+    <description>Recent content in ms office 2013 on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Sep 2014 09:14:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/ms-office-2013/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Data Preprocessing I for Salmon Project</title>
+      <link>https://www.gungorbudak.com/blog/2014/09/18/data-preprocessing-i-for-salmon-project/</link>
+      <pubDate>Thu, 18 Sep 2014 09:14:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/09/18/data-preprocessing-i-for-salmon-project/</guid>
+      <description>Since we&amp;rsquo;ll be using R for most of the analyses, we converted XLS data file to CSV using MS Office Excel 2013 and then we had to fix several lines using Sublime Text 2 because three colums in these lines were left unquoted which later created a problem reading in RStudio.
+The data contains phosphorylation data of 8553 peptides. There are many missing data points for many peptides and since IPI IDs were used for peptides and these are not supported now, we had to convert IPI IDs to HGNC approved symbols although data had these symbols as names but they looked outdated.</description>
+    </item>
+    
+  </channel>
+</rss>

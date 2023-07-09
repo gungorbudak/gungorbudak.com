@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>mapper on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/mapper/</link>
+    <description>Recent content in mapper on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 29 Aug 2013 10:32:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/mapper/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Network Visualization Using Cytoscape</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/29/network-visualization-using-cytoscape/</link>
+      <pubDate>Thu, 29 Aug 2013 10:32:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/29/network-visualization-using-cytoscape/</guid>
+      <description>Cytoscape is a nice tool to visualize network for better understanding and delivery. I used it for in silico data network visualization and the result was really pretty. Now, I have networks constructed using experimental data from HPN-DREAM Challenge.
+In this post, I want to demonstrate how to visualize a network with scores. I&amp;rsquo;m using Cytoscape 2.8 on Ubuntu 12.
+First, the network will be read from a SIF file which is default format of Cytoscape for networks.</description>
+    </item>
+    
+    <item>
+      <title>BWA (Burrows-Wheeler Aligner) Hizalayıcı - Eşleştirici</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/22/bwa-burrows-wheeler-aligner-hizalayici/</link>
+      <pubDate>Fri, 22 Jun 2012 19:21:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/22/bwa-burrows-wheeler-aligner-hizalayici/</guid>
+      <description>Önceki yazımda belirttiğim gibi bir eşleştirici (aligner ya da mapper) kullanarak elimdeki verinin referans genomu ile ne derece eşlestiğini bulmaya çalışacağım. Daha sonra eşleşmeyen kısmıyla birtakım analizler yapacağım.
+BWA (Burrows-Wheeler Aligner) görece kısa dizilimleri insan genomu gibi uzun referans genomlarıyla eşleştiren bir program. 200bp (bp: baz çifti) uzunluğuna kadar bwa-short algoritması, 200bp - 100kbp arası ise BWA-SW algoritması kullanılıyor.
+Hizalayıcı - eşleştirici seçmede birçok faktör rol oynuyor. Birçok bu tip araç var ve farklı özelliklere sahipler.</description>
+    </item>
+    
+  </channel>
+</rss>

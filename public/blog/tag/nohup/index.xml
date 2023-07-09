@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>nohup on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/nohup/</link>
+    <description>Recent content in nohup on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Aug 2015 00:06:27 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/nohup/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Running StarCluster Load Balancer in Background in Linux</title>
+      <link>https://www.gungorbudak.com/blog/2015/08/16/running-starcluster-load-balancer-in-background-in/</link>
+      <pubDate>Sun, 16 Aug 2015 00:06:27 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/08/16/running-starcluster-load-balancer-in-background-in/</guid>
+      <description>StarCluster loadbalancer command is regularly monitors the jobs in queue and it adds or removes nodes to the master node that is created beforehand to effectively complete the queue.
+To run in in the background without killing it when the terminal closed:
+nohup starcluster loadbalance cluster_name &amp;gt;loadbalance.log 2&amp;gt;&amp;amp;1 &amp;amp; or to keep standard output and standard error logs separate:
+nohup starcluster loadbalance cluster_name &amp;gt; loadbalance.access.log 2&amp;gt; loadbalance.error.log &amp;amp; This will start the process and output the process ID (PID) which can be used to check or kill it.</description>
+    </item>
+    
+  </channel>
+</rss>

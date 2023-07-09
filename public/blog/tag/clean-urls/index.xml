@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>clean urls on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/clean-urls/</link>
+    <description>Recent content in clean urls on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 11 Nov 2013 23:03:29 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/clean-urls/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>If clean URLs don&#39;t work in Laravel 4 on Ubuntu 12.04 LTS</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/11/if-clean-urls-dont-work-in-laravel-4-on-ubuntu/</link>
+      <pubDate>Mon, 11 Nov 2013 23:03:29 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/11/if-clean-urls-dont-work-in-laravel-4-on-ubuntu/</guid>
+      <description>.htaccess directions are correct, mod_rewrite is enabled but still you are getting 404 Not Found errors&amp;hellip;
+You need to change AllowOverride None to AllowOverride All in /etc/apache2/sites-available/default.
+Modified section in the file:
+&amp;lt;Directory /home/user/www/&amp;gt; Options Indexes FollowSymLinks MultiViews AllowOverride All Order allow,deny allow from all &amp;lt;/Directory&amp;gt; </description>
+    </item>
+    
+  </channel>
+</rss>

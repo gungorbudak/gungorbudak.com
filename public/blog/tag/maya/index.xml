@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>maya on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/maya/</link>
+    <description>Recent content in maya on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 20 Jun 2012 13:46:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/maya/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dizileme Çalışmalarını Kirleten Organizmaları Tespit Etme</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/20/dizileme-calismalarini-kirleten/</link>
+      <pubDate>Wed, 20 Jun 2012 13:46:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/20/dizileme-calismalarini-kirleten/</guid>
+      <description>Bu yaz stajımda ilk olarak başlayacağım çalışma yavaş yavaş şekilleniyor. Bu çalışmada bir pipeline oluşturup, bunu laboratuvarlarda dizileme (sequencing) örneklerini kirleten organizmaları bulmaya çalışacağım.
+Laboratuvarlarda birçok nedenden dolayı örnekler başka organizmalar ya da yabancı DNA tarafından kirlenebiliyor. Bunlar bakteri, maya olabilir ya da bir virüs DNA&amp;rsquo;sı da olabilir. Siz bir DNA&amp;rsquo;yı diziledikten sonra onun referansıyla eşleştirme çok az oranda çıkabiliyor. Bu da yabancı DNA&amp;rsquo;nın olabileceğini gösteriyor. Bir başka neden referans DNA&amp;rsquo;nın farklı olması da olabilir.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>full size on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/full-size/</link>
+    <description>Recent content in full size on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 28 Jun 2018 10:00:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/full-size/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Capture Full Size Screenshot on Chrome without Extension</title>
+      <link>https://www.gungorbudak.com/blog/2018/06/28/capture-full-size-screenshot-on-chrome-without-extension/</link>
+      <pubDate>Thu, 28 Jun 2018 10:00:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2018/06/28/capture-full-size-screenshot-on-chrome-without-extension/</guid>
+      <description>Chrome&amp;rsquo;s new Developer Tools has a way to capture high quality full size screenshot of the page so you don&amp;rsquo;t have to have an extension for it anymore!
+Update for latest Chrome versions: Chrome DevTools was slightly changed so here are the new steps (tested in Version 71.0.3578.98 (Official Build) (64-bit) on macOS).
+Open the website that you want to capture Use Ctrl + Shift + J shortcut on Windows/Linux or Cmd + Opt + J on Mac to open Developer Tools.</description>
+    </item>
+    
+  </channel>
+</rss>

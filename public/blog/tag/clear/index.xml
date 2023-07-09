@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>clear on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/clear/</link>
+    <description>Recent content in clear on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 13 Apr 2015 11:38:41 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/clear/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Clear (or Drop) DB Table of A Django App</title>
+      <link>https://www.gungorbudak.com/blog/2015/04/13/how-to-clear-or-drop-db-table-of-a-django-app/</link>
+      <pubDate>Mon, 13 Apr 2015 11:38:41 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/04/13/how-to-clear-or-drop-db-table-of-a-django-app/</guid>
+      <description>Let’s say you created a Django app and ran python manage.py syncdb and created its table. Everytime you make a change in the table, you’ll need to drop that table and run python manage.py syncdb again to update. And how you drop a table of a Django app:
+$ python manage.py sqlclear app_name | python manage.py dbshell Drop tables of an app with migrations (Django &amp;gt;= 1.8):
+$ python manage.py migrate appname zero Recreate all the tables:</description>
+    </item>
+    
+  </channel>
+</rss>

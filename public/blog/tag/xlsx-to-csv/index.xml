@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>xlsx to csv on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/xlsx-to-csv/</link>
+    <description>Recent content in xlsx to csv on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 27 Jun 2015 03:16:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/xlsx-to-csv/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convert XLS/XLSX to CSV in Bash</title>
+      <link>https://www.gungorbudak.com/blog/2015/06/27/convert-xlsxlsx-to-csv-in-bash/</link>
+      <pubDate>Sat, 27 Jun 2015 03:16:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/06/27/convert-xlsxlsx-to-csv-in-bash/</guid>
+      <description>In most of the modern Linux distributions, Libre Office is available and it can be used to convert XLS or XLSX file(s) to CSV file(s) in bash.
+For XLS file(s):
+for i in *.xls; do libreoffice --headless --convert-to csv &amp;#34;$i&amp;#34;; done For XLSX file(s):
+for i in *.xlsx; do libreoffice --headless --convert-to csv &amp;#34;$i&amp;#34;; done You may get following warning but it still works fine:
+javaldx: Could not find a Java Runtime Environment!</description>
+    </item>
+    
+  </channel>
+</rss>

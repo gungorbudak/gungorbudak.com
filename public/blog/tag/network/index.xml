@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>network on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/network/</link>
+    <description>Recent content in network on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 21 Jan 2015 09:35:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Salmonella - Host Interaction Network - A Detailed, Better Visualization</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/21/salmonella-host-interaction-network/</link>
+      <pubDate>Wed, 21 Jan 2015 09:35:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/21/salmonella-host-interaction-network/</guid>
+      <description>We&amp;rsquo;re almost done with the analyses and we&amp;rsquo;re making the final visualization of the network. As I previously posted, the network was clustered and visualized by time points. After that, we have done several more analyses and here I report how we visualized them. I&amp;rsquo;m going to post more about how we did the analyses separately.
+First, the nodes are grouped into experimental and not experimental (PCSF nodes). This can easily be done by parsing experimental network output and network outputs of PCSF.</description>
+    </item>
+    
+    <item>
+      <title>GO Enrichment of Network Clusters</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/16/go-enrichment-of-network-clusters/</link>
+      <pubDate>Fri, 16 Jan 2015 20:23:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/16/go-enrichment-of-network-clusters/</guid>
+      <description>In my previous post, I mentioned how I clustered the network we obtained at the end. For functional annotation gene ontology (GO) enrichment has been done on these clusters.
+There were 20 clusters and the HGNC names are obtained separately for each cluster and using DAVID functional annotation tool API, GO and pathway annotations are collected per cluster and these are saved separately.
+http://david.abcc.ncifcrf.gov/api.jsp?type=OFFICIAL_GENE_SYMBOL&amp;amp;amp;tool=chartReport&amp;amp;amp;annot=GOTERM_BP_FAT,GOTERM_CC_FAT,GOTERM_MF_FAT,BBID,BIOCARTA,KEGG_PATHWAY&amp;amp;amp;ids=HGNC_NAME1,HGNC_NAME2,HGNC_NAME3,... Above URL was used to obtain chart report for some GO and pathways chart records.</description>
+    </item>
+    
+    <item>
+      <title>Network Clustering with NeAT - RNSC Algorithm</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/16/network-clustering-with-neat-rnsc/</link>
+      <pubDate>Fri, 16 Jan 2015 20:06:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/16/network-clustering-with-neat-rnsc/</guid>
+      <description>As we have obtained proteins at different times points from the experimental data, then we have found intermediate nodes (from human interactome) using PCSF algorithm and finally with a special matrix from the network that PCSF created, we have validated the edges and also determined edge directions using an approach which a divide and conquer (ILP) approach for construction of large-scale signaling networks from PPI data. The resulting network is a directed network and will be used and visualized for further analyses.</description>
+    </item>
+    
+    <item>
+      <title>Reconstructed Salmonella Signaling Network Visualized and Colored</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/14/reconstructed-salmonella-signaling/</link>
+      <pubDate>Wed, 14 Jan 2015 19:12:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/14/reconstructed-salmonella-signaling/</guid>
+      <description>After fold changes were obtained and HGNC names were found for each phosphopeptide, these were used to construct Salmonella signaling network using PCSF and then with the nodes that PCSF found as well, we generated a matrix which has node in the rows and time points in the columns and each cell shows the presence of corresponding protein under the corresponding time point(s).
+The matrix has 658 nodes (proteins) and 4 time points as indicated before: 2 min, 5 min, 10 min and 20 min.</description>
+    </item>
+    
+    <item>
+      <title>Multi-dimensional Modeling and Reconstruction of Signaling Networks in Salmonella-infected Human Cells</title>
+      <link>https://www.gungorbudak.com/blog/2014/09/18/multi-dimensional-modeling-and/</link>
+      <pubDate>Thu, 18 Sep 2014 08:26:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/09/18/multi-dimensional-modeling-and/</guid>
+      <description>In this study, we&amp;rsquo;re going to use a phosphorylation data from a research paper on phosphoproteomic analysis of related cells.
+The idea is to use and compare existing methods and develop these methods to be able to better understand the nature of signaling events in these cells and to find key proteins that might be targets for disease diagnosis, prevention and treatment.
+This study will be submitted as a research paper so I&amp;rsquo;m not going to publish any results here for now but I&amp;rsquo;ll mention the struggles I have and solutions I try to solve them.</description>
+    </item>
+    
+    <item>
+      <title>Last Submissions to the Challenge</title>
+      <link>https://www.gungorbudak.com/blog/2013/09/02/last-submissions-to-challenge/</link>
+      <pubDate>Mon, 02 Sep 2013 10:10:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/09/02/last-submissions-to-challenge/</guid>
+      <description>Today, I submitted in silico and experimental data network inference results on Synapse for the next leaderboard on this Wednesday.
+For experimental part, I had to exclude edges with FGFR1 and FGFR3 because the data lacks phosphorylated forms of these proteins and networks must be constructed using only phosphoproteins in the data.
+Since there was an update for in silico part, I had to modify the script and resubmit the results.</description>
+    </item>
+    
+    <item>
+      <title>Network Visualization Using Cytoscape</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/29/network-visualization-using-cytoscape/</link>
+      <pubDate>Thu, 29 Aug 2013 10:32:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/29/network-visualization-using-cytoscape/</guid>
+      <description>Cytoscape is a nice tool to visualize network for better understanding and delivery. I used it for in silico data network visualization and the result was really pretty. Now, I have networks constructed using experimental data from HPN-DREAM Challenge.
+In this post, I want to demonstrate how to visualize a network with scores. I&amp;rsquo;m using Cytoscape 2.8 on Ubuntu 12.
+First, the network will be read from a SIF file which is default format of Cytoscape for networks.</description>
+    </item>
+    
+    <item>
+      <title>Plotting Expression Curves for Experimental Data</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/27/plotting-expression-curves-for/</link>
+      <pubDate>Tue, 27 Aug 2013 11:08:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/27/plotting-expression-curves-for/</guid>
+      <description>As I can plot expression curves for in silico data. I moved on experimental data which is more complex and larger. This data is the result of RPPA experiments on different breast cancer cell lines and it includes protein abundance measurements for about 45 phophoproteins. These phosphoproteins are treated with different inhibitors and stimuli and by comparing their expressions, I will try to infer relations between them.
+Before moving on inferring part, I want to have a script that can plot the graphs so that I can see particular results for specific cases.</description>
+    </item>
+    
+    <item>
+      <title>Experimental Data Optimization for Network Inference</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/14/experimental-data-optimization-for/</link>
+      <pubDate>Wed, 14 Aug 2013 10:41:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/14/experimental-data-optimization-for/</guid>
+      <description>As I mentioned in my previous post, experimental data from the challenge has missing data values that create problems during analyses. To solve it, first thing I did was to optimize data, which includes detecting missing conditions and putting NAs for data values and sorting them if necessary.
+I wrote two functions in the script. First one ranks the data according to the fashion and sorts it based on these ranks.</description>
+    </item>
+    
+    <item>
+      <title>Working with Experimental Data from Network Inference Challenge</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/14/working-with-experimental-data-from/</link>
+      <pubDate>Wed, 14 Aug 2013 05:48:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/14/working-with-experimental-data-from/</guid>
+      <description>As I almost finished with in silico data, I moved on to analyses of experimental data using the same script. But since the characteristics of data is somehow different, before inferring network, I need to modify the script to be able to read experimental data files.
+These differences include missing data values for some conditions. This makes analyses difficult because I have to estimate a value for them and this will decrease the confidence score of edges.</description>
+    </item>
+    
+    <item>
+      <title>In silico Network Inference Last Improvements and Visualization of Result in Cytoscape</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/12/in-silico-network-inference-last/</link>
+      <pubDate>Mon, 12 Aug 2013 09:48:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/12/in-silico-network-inference-last/</guid>
+      <description>I&amp;rsquo;m almost done with the analysis of in silico data, although I need to decide if I need further analysis with the inhibiting parent nodes in the network. Last, I couldn&amp;rsquo;t filter out duplicate edges, which were scored differently. Now, with some improvements in the script, low scores duplicates are filtered and there is a better final list of edges which is ready to be visualized.
+I also tried visualizing it on Cytoscape.</description>
+    </item>
+    
+  </channel>
+</rss>

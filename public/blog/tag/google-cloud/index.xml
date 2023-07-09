@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>google cloud on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/google-cloud/</link>
+    <description>Recent content in google cloud on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 16 Mar 2014 19:17:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/google-cloud/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Set Up Google Cloud SDK on Windows using Cygwin</title>
+      <link>https://www.gungorbudak.com/blog/2014/03/16/set-up-google-cloud-sdk-on-windows/</link>
+      <pubDate>Sun, 16 Mar 2014 19:17:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/03/16/set-up-google-cloud-sdk-on-windows/</guid>
+      <description>Windows isn&amp;rsquo;t the best environment for software development I believe but if you have to use it there are nice softwares to make it easy for you. Cygwin here will help us to use Google Cloud tools but installation requires certain things that you should be aware of beforehand.
+You&amp;rsquo;ll need
+Python latest 2.7.x Google Cloud SDK Cygwin 32-bit (i.e. setup-x86.exe - note only this one works) openssh, curl and latest 2.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>aws s3 on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/aws-s3/</link>
+    <description>Recent content in aws s3 on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 12 Aug 2015 11:00:08 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/aws-s3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Transfer Files to Your AWS S3 Storage in Linux</title>
+      <link>https://www.gungorbudak.com/blog/2015/08/12/transfer-files-to-your-aws-s3-storage-in-linux/</link>
+      <pubDate>Wed, 12 Aug 2015 11:00:08 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/08/12/transfer-files-to-your-aws-s3-storage-in-linux/</guid>
+      <description>Uploading files to an AWS S3 storage can be difficult through the GUI with many files included or if your files are in a server where you don&amp;rsquo;t have a GUI option. Use following tool to transfer files to an S3 bucket.
+Download following tool and install:
+cd ~/Downloads git clone https://github.com/s3tools/s3cmd.git cd s3cmd/ sudo python setup.py install Next, execute following to create a configuration file to connect to your AWS S3 account:</description>
+    </item>
+    
+  </channel>
+</rss>

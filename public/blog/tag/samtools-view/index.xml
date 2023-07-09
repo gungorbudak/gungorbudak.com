@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>samtools view on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/samtools-view/</link>
+    <description>Recent content in samtools view on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 04 Jul 2012 20:36:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/samtools-view/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SAM Dosyası - BAM Dosyası - samtools</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/04/sam-dosyasi-bam-dosyasi-samtools/</link>
+      <pubDate>Wed, 04 Jul 2012 20:36:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/04/sam-dosyasi-bam-dosyasi-samtools/</guid>
+      <description>Aslında programlamam gereken pipeline direkt olarak eşleşmeyen okumalar üzerinden analizler yapacak. Ancak böyle bir veri bulamadiığım için, elimdeki tek veri eşleşen ve eşleşmeyen okumaları içerdiği için önce eşleşenlerden kurtulmam gerekti.
+Bunu daha önce de belirttiğim gibi bwa eşleştiricisi (aligner - mapper) ile yapıyorum. bwa bir dizi işlemden sonra SAM dosyası oluşturuyor ancak benim FASTQ dosyasına ihtiyacım var. Bunun için SAM dosyasını samtools1 ile benzer bir format olan BAM dosyasına çevirip, daha sonra da bam2fastq2 aracı ile FASTQ dosyamı elde edeceğim.</description>
+    </item>
+    
+  </channel>
+</rss>

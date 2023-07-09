@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>değer on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/de%C4%9Fer/</link>
+    <description>Recent content in değer on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 02 Aug 2012 06:03:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/de%C4%9Fer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Inceleme Sonuclarini &#34;Ambiguous&#34; Olarak Ayirmak</title>
+      <link>https://www.gungorbudak.com/blog/2012/08/02/inceleme-sonuclarini-ambiguous-olarak/</link>
+      <pubDate>Thu, 02 Aug 2012 06:03:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/08/02/inceleme-sonuclarini-ambiguous-olarak/</guid>
+      <description>Cesitli veritabanlarina karsi yaptigim aramalardan aldigim sonuclari incelerken, bunlari cesitli esik degerleri ile degerlendirmek ile beraber belirlenen esik degerlerinin uzerinde ya da altinda olan hitleri &amp;ldquo;Ambiguous&amp;rdquo; (belirsiz, cok anlamli) ya da &amp;ldquo;Unique&amp;rdquo; (essiz, tek) olarak ayirarak daha da anlamli hale getirmeye calisiyorum.
+&amp;ldquo;Ambiguous&amp;rdquo; olarak, her bir megablast dosyasinda esik degerlerine uygun ancak birden fazla farkli organizmayi iceren hitleri etiketliyorum. Eger her esik degerine uygun hit, tek bir dosya icinde her zaman ayni organizmaya ait ise bu durumda yaptigim sey onu &amp;ldquo;unique&amp;rdquo; olarak etiketlemek.</description>
+    </item>
+    
+  </channel>
+</rss>

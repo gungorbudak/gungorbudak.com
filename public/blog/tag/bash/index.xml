@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bash on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/bash/</link>
+    <description>Recent content in bash on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 27 Jun 2015 03:16:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Convert XLS/XLSX to CSV in Bash</title>
+      <link>https://www.gungorbudak.com/blog/2015/06/27/convert-xlsxlsx-to-csv-in-bash/</link>
+      <pubDate>Sat, 27 Jun 2015 03:16:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/06/27/convert-xlsxlsx-to-csv-in-bash/</guid>
+      <description>In most of the modern Linux distributions, Libre Office is available and it can be used to convert XLS or XLSX file(s) to CSV file(s) in bash.
+For XLS file(s):
+for i in *.xls; do libreoffice --headless --convert-to csv &amp;#34;$i&amp;#34;; done For XLSX file(s):
+for i in *.xlsx; do libreoffice --headless --convert-to csv &amp;#34;$i&amp;#34;; done You may get following warning but it still works fine:
+javaldx: Could not find a Java Runtime Environment!</description>
+    </item>
+    
+    <item>
+      <title>Running Script on Cluster (StarCluster)</title>
+      <link>https://www.gungorbudak.com/blog/2015/05/27/running-script-on-cluster-starcluster/</link>
+      <pubDate>Wed, 27 May 2015 15:59:32 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/05/27/running-script-on-cluster-starcluster/</guid>
+      <description>Start a new cluster with the configuration file you modified:
+starcluster start cluster_name Send the script to the running cluster:
+starcluster put cluster_name myscr.csh /home/myscr.csh Run it using source:
+starcluster sshmaster cluster_name &amp;quot;source /home/myscr.csh &amp;gt;&amp;amp; /home/myscr.log&amp;quot; </description>
+    </item>
+    
+    <item>
+      <title>How To Make A File or Script Executable in Ubuntu</title>
+      <link>https://www.gungorbudak.com/blog/2013/11/12/how-to-make-a-file-or-script-executable-in-ubuntu/</link>
+      <pubDate>Tue, 12 Nov 2013 10:11:45 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/11/12/how-to-make-a-file-or-script-executable-in-ubuntu/</guid>
+      <description>Start terminal CTRL + Alt + T can be used (or just go to Dash Home and type Terminal):
+Run this command below:
+sudo chmod +x /path/to/your/file Source </description>
+    </item>
+    
+  </channel>
+</rss>

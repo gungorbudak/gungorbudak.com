@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>format conversion on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/format-conversion/</link>
+    <description>Recent content in format conversion on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 24 Feb 2014 11:28:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/format-conversion/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Convert PLINK Binary Formats into Non-binary Formats</title>
+      <link>https://www.gungorbudak.com/blog/2014/02/24/how-to-convert-plink-binary-formats-to/</link>
+      <pubDate>Mon, 24 Feb 2014 11:28:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/02/24/how-to-convert-plink-binary-formats-to/</guid>
+      <description>PLINK is a whole genome association analysis toolset and to save time and space, you need to convert your data files to binary formats (BED, FAM, BIM) but of course when you need to view the files, you have to convert them back to non-binary formats (PED, MAP) to be able to open them in your text editor such as Notepad on Windows OS.
+This operation is really easy. It requires PLINK of course, and the following line of code written to DOS window (Run -&amp;gt; type cmd; hit ENTER) in the directory of PLINK:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>numpy on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/numpy/</link>
+    <description>Recent content in numpy on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 26 Nov 2014 10:49:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/numpy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Install Numpy Python Package on Windows</title>
+      <link>https://www.gungorbudak.com/blog/2014/11/26/how-to-install-numpy-python-package-on/</link>
+      <pubDate>Wed, 26 Nov 2014 10:49:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2014/11/26/how-to-install-numpy-python-package-on/</guid>
+      <description>Numpy (Numerical Python) is a great Python package that you should definitely make use of if you&amp;rsquo;re doing scientific computing
+Installing it on Windows might be difficult if you don&amp;rsquo;t know how to do it via command line. There are unofficial Windows binaries for Numpy for Windows 32 and 64 bit which make it super easy to install.
+Go to the link below and download the one for your system and Python version:http://www.</description>
+    </item>
+    
+  </channel>
+</rss>

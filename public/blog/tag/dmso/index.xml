@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dmso on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/dmso/</link>
+    <description>Recent content in dmso on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Jun 2013 07:51:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/dmso/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DREAM Breast Cancer Sub-challenges</title>
+      <link>https://www.gungorbudak.com/blog/2013/06/27/dream-breast-cancer-sub-challenges/</link>
+      <pubDate>Thu, 27 Jun 2013 07:51:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/06/27/dream-breast-cancer-sub-challenges/</guid>
+      <description>I have been going over the sub-challenges before attempting to solve them. As I mentioned, there are three sub-challenges and somehow they are connected.
+First, using given data and other possible data sources such as pathway databases, the causal signaling network of the phosphoproteins. There are 4 cell lines and 8 stimulus so they make total 32 networks at the end. Nodes are phosphoproteins and edges should be directed and causal (activator or inhibitor).</description>
+    </item>
+    
+    <item>
+      <title>HPN-DREAM Breast Cancer Network Inference Challenge</title>
+      <link>https://www.gungorbudak.com/blog/2013/06/26/hpn-dream-breast-cancer-network/</link>
+      <pubDate>Wed, 26 Jun 2013 08:38:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/06/26/hpn-dream-breast-cancer-network/</guid>
+      <description>Understanding signaling networks might bring more insights on cancer treatment because cells respond to their environment by activating these networks and phosphorylation reactions play important roles in these networks.
+The goal of this challenge is to advance our ability and knowledge on signaling networks inference and protein phosphorylation dynamics prediction. Also, we are asked to develop a visualization method for the data.
+The dataset provided is extensive and a result of RPPA (reverse-phase protein array) experiments.</description>
+    </item>
+    
+  </channel>
+</rss>

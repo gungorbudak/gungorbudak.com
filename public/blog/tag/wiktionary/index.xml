@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wiktionary on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/wiktionary/</link>
+    <description>Recent content in wiktionary on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 18 Mar 2012 18:00:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/wiktionary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Biyoinformatik mi? Yoksa Biyoenformatik mi?</title>
+      <link>https://www.gungorbudak.com/blog/2012/03/18/biyoinformatik-mi-yoksa-biyoenformatik/</link>
+      <pubDate>Sun, 18 Mar 2012 18:00:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/03/18/biyoinformatik-mi-yoksa-biyoenformatik/</guid>
+      <description>Yazılarıma konu ararken kitaplarla birlikte interneti de karıştırıyorum. Yabancı kaynaklar elbette fazlaca var ve yeterliler, ancak Türkçe kaynaklara baktığımda ilk gözüme çarpan bu alanın isminin farklı kullanımları oldu.
+Biliyorsunuz, İngilizcede bu alana bioinformatics deniyor. Gayet normal, çünkü İngilizcede informatics ics eki ile birlikte information sözcüğünden geliyor. Bu sözcük ise Latince kökene sahip1. Enformatik sözcüğü Türkçeye, Fransızcadan informatique sözcüğünden, enformatik olarak gelmiş, ayrıca bilişim olarak da Türkçesi önerilmiş2. Elbette bu Fransızca sözcük de İngilizcesi ile aynı kökene sahip.</description>
+    </item>
+    
+  </channel>
+</rss>

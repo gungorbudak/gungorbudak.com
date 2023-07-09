@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>django translation on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/django-translation/</link>
+    <description>Recent content in django translation on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 12 Jun 2015 15:20:33 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/django-translation/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Django Rosetta Translations for Django Applications</title>
+      <link>https://www.gungorbudak.com/blog/2015/06/12/django-rosetta-translations-for-django/</link>
+      <pubDate>Fri, 12 Jun 2015 15:20:33 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/06/12/django-rosetta-translations-for-django/</guid>
+      <description>Make a directory called locale/ under the application directory:
+cd app_name mkdir locale Add the folder in LOCAL_PATHS dictionary in settings.py:
+LOCALE_PATHS = ( os.path.join(PROJECT_ROOT, &amp;#39;app_name&amp;#39;, &amp;#39;locale/&amp;#39;), ) Run the following command to create PO translation file for the application:
+python ../manage.py makemessages -l tr -e html,py,txt python ../manage.py compilemessages Option -l is for language, it should match your definition in settings.py:
+LANGUAGES = ( (&amp;#39;en&amp;#39; _(&amp;#39;English&amp;#39;)), (&amp;#39;tr&amp;#39; _(&amp;#39;Turkish&amp;#39;)), (&amp;#39;it&amp;#39; _(&amp;#39;Italian&amp;#39;)), ) Repeat the last step for all languages and the go to Rosetta URL to translate.</description>
+    </item>
+    
+  </channel>
+</rss>

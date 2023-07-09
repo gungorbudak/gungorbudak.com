@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>replace on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/replace/</link>
+    <description>Recent content in replace on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 08 Aug 2013 10:43:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/replace/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Some String Functions in R, String Manipulation in R</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/08/some-string-functions-in-r-string/</link>
+      <pubDate>Thu, 08 Aug 2013 10:43:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/08/some-string-functions-in-r-string/</guid>
+      <description>I have programmed with Perl, Python, and PHP before, and string manipulation was more direct and easier in them than in R. But still there are useful functions for string manipulation in R. I&amp;rsquo;m not an expert in R but I&amp;rsquo;ve been dealing with it for a while and I&amp;rsquo;ve learned some good functions for this purpose.
+Concatenate strings
+Concatenation is done with paste function. It gets concatenated strings as arguments separated bu comma and also separator character(s).</description>
+    </item>
+    
+  </channel>
+</rss>

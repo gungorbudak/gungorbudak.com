@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>biyoenformatik on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/biyoenformatik/</link>
+    <description>Recent content in biyoenformatik on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 27 Jun 2012 11:24:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/biyoenformatik/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kontaminant (Kirletici) Analizi Projesi</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/27/kontaminant-kirletici-analizi-projesi/</link>
+      <pubDate>Wed, 27 Jun 2012 11:24:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/27/kontaminant-kirletici-analizi-projesi/</guid>
+      <description>Başlangıç olarak, araçlara, programlama diline, kısacası biyoenformatiğe alışabilmem için bana verilen bu ufak projeyi ayrıntılı olarak anlatacağım.
+Biliyoruz ki, laboratuvar çalışmalarımızda ne kadar önlemeye çalışsak da kontaminant riski hep bulunuyor. Bunu ne kadar aza indirsek o kadar iyi, ki daha sonra bunun miktarını bulup, bunun üzerinden sonucumuzun bir başka değerlendirmesini de yapabiliriz. İşte bunu bulmak için bir yöntem, DNA analizi. Çalıştığınız örneğinizin DNA&amp;rsquo;sı dizileniyor ve bu DNA çeşitli programlarla analiz edilip, kirleten organizmaları DNA&amp;rsquo;larından ortaya çıkarabiliyoruz</description>
+    </item>
+    
+    <item>
+      <title>Pipeline ve Pipeline Geliştirme</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/20/pipeline-ve-pipeline-gelistirme/</link>
+      <pubDate>Wed, 20 Jun 2012 13:12:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/20/pipeline-ve-pipeline-gelistirme/</guid>
+      <description>Bugün aldığım tanıtım derslerinin devamında, pipeline ve pipeline geliştirme ile ilgili ayrıntılı bilgiler aldım. Pipeline, aslında bildiğimiz boru hattı demek, örneğin borularla petrolün bir yerden başka bir yere taşınması için kullanılan sistem. Bunun bilgisayar terminolojisinde anlamı ise bir elementin çıktısı, diğerinin girdisi olacak şekilde oluşturulmuş işleme elementleri zinciri. Böylece çok daha komplike işlemler pipeline oluşturularak, kolay ve düzenli bir biçimde gerçekleştiriliyor. Sanırım pipeline Türkçeye ardışık düzen olarak çevriliyor, gene de ben pipeline olarak kullanacağım.</description>
+    </item>
+    
+    <item>
+      <title>WWW2HUSAR - HUSAR&#39;ın Web Arayüzü</title>
+      <link>https://www.gungorbudak.com/blog/2012/06/19/www2husar-husarn-web-arayuzu/</link>
+      <pubDate>Tue, 19 Jun 2012 16:55:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/06/19/www2husar-husarn-web-arayuzu/</guid>
+      <description>Stajımın ikinci gününde HUSAR&amp;rsquo;ın web arayüzünü konuştuk. HUSAR komut isteminden komutlarla kullanılabilen, yönetilebilen bir yazılım ancak bunu kolaylaştırmak için hazırlanmış bir web arayüzü var. WWW2HUSAR adını verdikleri bu arayüz ile listelenen araçları kolayca seçebiliyor, genetik dizinizi ekleyebiliyor ve başka birçok işlemi kolayca, birkaç tık ile yapabiliyorsunuz.
+Bununla birlikte biraz daha HUSAR&amp;rsquo;ın işlevlerine göz attık. Yazılımda, yerel klasörde gen dizisi listeleri oluşturarak, bunları çoklu dizi hizalama (multiple sequence alignment) aracı ile genlerin benzerliklerini karşılastırabiliyor ve örneğin evrimsel ilişkilerini ortaya çıkarabiliyorsunuz.</description>
+    </item>
+    
+    <item>
+      <title>Biyoinformatik mi? Yoksa Biyoenformatik mi?</title>
+      <link>https://www.gungorbudak.com/blog/2012/03/18/biyoinformatik-mi-yoksa-biyoenformatik/</link>
+      <pubDate>Sun, 18 Mar 2012 18:00:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/03/18/biyoinformatik-mi-yoksa-biyoenformatik/</guid>
+      <description>Yazılarıma konu ararken kitaplarla birlikte interneti de karıştırıyorum. Yabancı kaynaklar elbette fazlaca var ve yeterliler, ancak Türkçe kaynaklara baktığımda ilk gözüme çarpan bu alanın isminin farklı kullanımları oldu.
+Biliyorsunuz, İngilizcede bu alana bioinformatics deniyor. Gayet normal, çünkü İngilizcede informatics ics eki ile birlikte information sözcüğünden geliyor. Bu sözcük ise Latince kökene sahip1. Enformatik sözcüğü Türkçeye, Fransızcadan informatique sözcüğünden, enformatik olarak gelmiş, ayrıca bilişim olarak da Türkçesi önerilmiş2. Elbette bu Fransızca sözcük de İngilizcesi ile aynı kökene sahip.</description>
+    </item>
+    
+    <item>
+      <title>7th International Symposium on Health Informatics and Bioinformatics</title>
+      <link>https://www.gungorbudak.com/blog/2012/03/17/7th-international-symposium-on-health/</link>
+      <pubDate>Sat, 17 Mar 2012 17:14:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/03/17/7th-international-symposium-on-health/</guid>
+      <description>7. Sağlık Enformatiği ve Biyoenformatik üzerine Uluslararası Sempozyumu, 7th International Symposium on Health Informatics and Bioinformatics (HIBIT 2012), ilk kez 2005&amp;rsquo;te ODTÜ Enformatik Enstitüsü tarafından düzenlenmiş ve Sağlık Enformatiği, Tıbbi Enformatik, Hesaplamalı Biyoloji ve Biyoenformatik alanlarında akademisyenleri ve araştırmacıları bir araya getirmeyi ve bu alanlar hakkında yapılan çalışmaların sunulmasına ortam sağlamayı ve çalışmalar üzerine interaktif bir şekilde değerlendirmeler yapmayı amaçlamaktadır.
+Bu sene, 19-22 Nisan 2012&amp;rsquo;de Ürgüp, Nevşehir Perissia Hotel&amp;rsquo;de düzenlenecek olan HIBIT 2012 organizasyonu ODTÜ, ODTÜ Enformatik Enstitüsü, ODTÜ Biyolojik Bilimler Bölümü ve ODTÜ Bilgisayar Mühendisliği Bölümü partnerliği ile gerçekleştirilmektedir.</description>
+    </item>
+    
+    <item>
+      <title>Biyoenformatik Nedir? Biyoenformatik&#39;in Tanımı</title>
+      <link>https://www.gungorbudak.com/blog/2012/03/16/biyoenformatik-nedir-biyoenformatikin-tanimi/</link>
+      <pubDate>Fri, 16 Mar 2012 17:59:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/03/16/biyoenformatik-nedir-biyoenformatikin-tanimi/</guid>
+      <description>Birçok organizmanın ve son olarak da 2001&amp;rsquo;de insan genomunun çıkarılmasıyla, tüm 3 milyar baz çiftinin diziliminin elde edilmesiyle, karşımıza bu bilgiyi farklı şekillerde kullanacak olan alanlar çıktı.Bu genleri anlamaya çalışan, bu genlerden oluşacak proteinleri belirlemeye çalışan alanların yanında bu bilginin analizini yapma ihtiyacı da Biyoenformatik alanını doğurdu.
+Biyoenformatik, biyolojik bilginin bilgisayarlar ve istatistiksel teknikler kullanılarak analiz edilmesidir; başka bir deyişle, biyoenformatik, biyolojik araştırmaları iyileştirmek ve hızlandırmak için bilgisayar veri tabanları ve algoritmaları geliştirme ve onlardan yarar sağlama bilimidir [1].</description>
+    </item>
+    
+    <item>
+      <title>Hoş Geldim! Hoş Geldiniz!</title>
+      <link>https://www.gungorbudak.com/blog/2012/03/16/hos-geldim-hos-geldiniz/</link>
+      <pubDate>Fri, 16 Mar 2012 17:40:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/03/16/hos-geldim-hos-geldiniz/</guid>
+      <description>Merhabalar,
+Biyoloji alanında özel olarak ilgi alanım olan ve daha fazla keşfetmem, üzerine çok şey öğrenmem gereken Biyoenformatik&amp;rsquo;i, bu blog aracılığıyla (olası ziyaretçilerimle birlikte) öğreneceğim. İlk yazımı biraz önce Biyoenformatik&amp;rsquo;in çeşitli otoriteler tarafından yapılan tanımları ile tamamladım. Daha sonra, Biyoenformatik&amp;rsquo;te geçen birçok ilkelerin tanımlarından da bahsetmek istiyorum. Ayrıca, Biyoenformatik hakkında yazılım dilleri, istatiksel yöntemler de yazılarımın konularını oluşturacak. Aynı zamanda Biyoenformatik ile ilgili haberlere de yer vermek ve bu haberlerle en son gelişmeleri takip etmeyi (ettirmeyi) planlıyorum.</description>
+    </item>
+    
+  </channel>
+</rss>

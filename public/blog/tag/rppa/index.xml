@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rppa on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/rppa/</link>
+    <description>Recent content in rppa on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 27 Aug 2013 11:08:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/rppa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Plotting Expression Curves for Experimental Data</title>
+      <link>https://www.gungorbudak.com/blog/2013/08/27/plotting-expression-curves-for/</link>
+      <pubDate>Tue, 27 Aug 2013 11:08:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/08/27/plotting-expression-curves-for/</guid>
+      <description>As I can plot expression curves for in silico data. I moved on experimental data which is more complex and larger. This data is the result of RPPA experiments on different breast cancer cell lines and it includes protein abundance measurements for about 45 phophoproteins. These phosphoproteins are treated with different inhibitors and stimuli and by comparing their expressions, I will try to infer relations between them.
+Before moving on inferring part, I want to have a script that can plot the graphs so that I can see particular results for specific cases.</description>
+    </item>
+    
+    <item>
+      <title>Network Inference DREAM Breast Cancer Challenge</title>
+      <link>https://www.gungorbudak.com/blog/2013/06/27/network-inference-dream-breast-cancer/</link>
+      <pubDate>Thu, 27 Jun 2013 08:09:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/06/27/network-inference-dream-breast-cancer/</guid>
+      <description>The inference of causal edges are described as the change on a node seen after the intervention of another node. If the curves obtained over time overlap (under intervention or no intervention), then there is no relation. Otherwise, we can draw an edge between those nodes and according to the level, up or down, the edge will be activating or inhibiting. These causal edges are context-specific so in different cell line data, we may have different relations.</description>
+    </item>
+    
+    <item>
+      <title>HPN-DREAM Breast Cancer Network Inference Challenge</title>
+      <link>https://www.gungorbudak.com/blog/2013/06/26/hpn-dream-breast-cancer-network/</link>
+      <pubDate>Wed, 26 Jun 2013 08:38:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/06/26/hpn-dream-breast-cancer-network/</guid>
+      <description>Understanding signaling networks might bring more insights on cancer treatment because cells respond to their environment by activating these networks and phosphorylation reactions play important roles in these networks.
+The goal of this challenge is to advance our ability and knowledge on signaling networks inference and protein phosphorylation dynamics prediction. Also, we are asked to develop a visualization method for the data.
+The dataset provided is extensive and a result of RPPA (reverse-phase protein array) experiments.</description>
+    </item>
+    
+  </channel>
+</rss>

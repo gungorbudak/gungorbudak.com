@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>pipe on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/pipe/</link>
+    <description>Recent content in pipe on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 30 Aug 2015 06:13:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/pipe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple Way of Python&#39;s subprocess.Popen with a Timeout Option</title>
+      <link>https://www.gungorbudak.com/blog/2015/08/30/simple-way-of-pythons-subprocesspopen/</link>
+      <pubDate>Sun, 30 Aug 2015 06:13:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/08/30/simple-way-of-pythons-subprocesspopen/</guid>
+      <description>subprocess module in Python provides us a variety of methods to start a process from a Python script. We may use these methods to run an external commands / programs, collect their output and manage them. An example use of it might be as following:
+from subprocess import Popen, PIPE p = Popen([&amp;#39;ls&amp;#39;, &amp;#39;-l&amp;#39;], stdout=PIPE, stderr=PIPE) stdout, stderr = p.communicate() print stdout, stderr These lines can be used to run ls -l command in Terminal and collect the output (standard output and standard error) in stdout and stderr variables using communicate method defined in the process.</description>
+    </item>
+    
+    <item>
+      <title>SRS&#39;de Coklu Arama Yapmak</title>
+      <link>https://www.gungorbudak.com/blog/2012/08/09/srsde-coklu-arama-yapmak/</link>
+      <pubDate>Thu, 09 Aug 2012 09:15:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/08/09/srsde-coklu-arama-yapmak/</guid>
+      <description>Inceleme yapan scriptin en son hali, oncekilere gore daha fazla okuma inceliyor oldugu icin her okuma icin SRS uzerinde isim aramak oldukca zaman alan bir islemdi. Oyle ki, son inceleme 4 gun surdu.
+Bunu azaltmak icin inceleme scriptini tamamen degistirdim. Oncelikle her zaman oldugu gibi esik degerini gecenleri aliyor ama direkt bunlarin ID numaralarini bir dizide (array) listeliyorum. Daha sonra bu listenin herbir elemanini boru karakteri ile ayirarak bir string haline getiriyorum.</description>
+    </item>
+    
+  </channel>
+</rss>

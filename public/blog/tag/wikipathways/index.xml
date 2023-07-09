@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>wikipathways on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/wikipathways/</link>
+    <description>Recent content in wikipathways on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 02 Jul 2013 10:13:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/wikipathways/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Progress on Network Inference Sub-Challenge</title>
+      <link>https://www.gungorbudak.com/blog/2013/07/02/progress-on-network-inference-sub/</link>
+      <pubDate>Tue, 02 Jul 2013 10:13:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/07/02/progress-on-network-inference-sub/</guid>
+      <description>This sub-challenge has several requirements:
+Directed and causal edges on the models (32 models - 4 cell lines × 8 stimuli) Edges should be scored (normalizing to range between 0 and 1) that will show confidence Nodes will be phosphoproteins from the data Prior knowledge network (that can be constructed using pathway databases) is allowed to be used (actually this is a must for some network inference tools) First thing was to look for existing tools.</description>
+    </item>
+    
+  </channel>
+</rss>

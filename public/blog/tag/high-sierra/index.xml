@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>high sierra on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/high-sierra/</link>
+    <description>Recent content in high sierra on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 28 Apr 2018 14:00:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/high-sierra/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Install Valgrind on macOS High Sierra</title>
+      <link>https://www.gungorbudak.com/blog/2018/04/28/how-to-install-valgrind-on-macos-high-sierra/</link>
+      <pubDate>Sat, 28 Apr 2018 14:00:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2018/04/28/how-to-install-valgrind-on-macos-high-sierra/</guid>
+      <description>Valgrind is a programming tool for memory debugging, memory leak detection and profiling. Its installation for macOS High Sierra seems problematic and I wanted to write this post to tell the solution that worked for me. I use Homebrew to install it which is the recommended way and the solution also uses it.
+So, when you try installing right away, you may get the following error:
+brew install valgrind valgrind: This formula either does not compile or function as expected on macOS versions newer than Sierra due to an upstream incompatibility.</description>
+    </item>
+    
+  </channel>
+</rss>

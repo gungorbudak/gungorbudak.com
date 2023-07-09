@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>clustering on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/clustering/</link>
+    <description>Recent content in clustering on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 16 Jan 2015 20:23:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/clustering/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GO Enrichment of Network Clusters</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/16/go-enrichment-of-network-clusters/</link>
+      <pubDate>Fri, 16 Jan 2015 20:23:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/16/go-enrichment-of-network-clusters/</guid>
+      <description>In my previous post, I mentioned how I clustered the network we obtained at the end. For functional annotation gene ontology (GO) enrichment has been done on these clusters.
+There were 20 clusters and the HGNC names are obtained separately for each cluster and using DAVID functional annotation tool API, GO and pathway annotations are collected per cluster and these are saved separately.
+http://david.abcc.ncifcrf.gov/api.jsp?type=OFFICIAL_GENE_SYMBOL&amp;amp;amp;tool=chartReport&amp;amp;amp;annot=GOTERM_BP_FAT,GOTERM_CC_FAT,GOTERM_MF_FAT,BBID,BIOCARTA,KEGG_PATHWAY&amp;amp;amp;ids=HGNC_NAME1,HGNC_NAME2,HGNC_NAME3,... Above URL was used to obtain chart report for some GO and pathways chart records.</description>
+    </item>
+    
+    <item>
+      <title>Network Clustering with NeAT - RNSC Algorithm</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/16/network-clustering-with-neat-rnsc/</link>
+      <pubDate>Fri, 16 Jan 2015 20:06:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/16/network-clustering-with-neat-rnsc/</guid>
+      <description>As we have obtained proteins at different times points from the experimental data, then we have found intermediate nodes (from human interactome) using PCSF algorithm and finally with a special matrix from the network that PCSF created, we have validated the edges and also determined edge directions using an approach which a divide and conquer (ILP) approach for construction of large-scale signaling networks from PPI data. The resulting network is a directed network and will be used and visualized for further analyses.</description>
+    </item>
+    
+    <item>
+      <title>Finding k-cores and Clustering Coefficient Computation with NetworkX </title>
+      <link>https://www.gungorbudak.com/blog/2015/01/16/finding-k-cores-and-clustering/</link>
+      <pubDate>Fri, 16 Jan 2015 12:03:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/16/finding-k-cores-and-clustering/</guid>
+      <description>Assume you have a large network and you want to find k-cores of each node and also you want to compute clustering coefficient for each one. Python package NetworkX comes with very nice methods for you to easily do these.
+k-core is a maximal subgraph whose nodes are at least k degree [1]. To find k-cores:
+Add all edges you have in your network in a NetworkX graph, and use core_number method that gets graph as the single input and returns node – k-core pairs.</description>
+    </item>
+    
+    <item>
+      <title>UPGMA Algorithm Described - Unweighted Pair-Group Method with Arithmetic Mean</title>
+      <link>https://www.gungorbudak.com/blog/2015/01/10/upgma-algorithm-described-unweighted/</link>
+      <pubDate>Sat, 10 Jan 2015 08:41:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/01/10/upgma-algorithm-described-unweighted/</guid>
+      <description>UPGMA is an agglomerative clustering algorithm that is ultrametric (assumes a molecular clock - all lineages are evolving at a constant rate) by Sokal and Michener in 1958.
+The idea is to continue iteration until only one cluster is obtained and at each iteration, join two nearest clusters (which become a higher cluster). The distance between any two clusters are calculated by averaging distances between elements of each cluster.
+To understand better, see UPGMA worked example by Dr Richard Edwards.</description>
+    </item>
+    
+  </channel>
+</rss>

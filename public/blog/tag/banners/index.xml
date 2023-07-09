@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>banners on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/banners/</link>
+    <description>Recent content in banners on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 01 Jul 2015 14:30:29 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/banners/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mezzanine BS Banners Translation with django-modeltranslation</title>
+      <link>https://www.gungorbudak.com/blog/2015/07/01/mezzanine-bs-banners-translation-with/</link>
+      <pubDate>Wed, 01 Jul 2015 14:30:29 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/07/01/mezzanine-bs-banners-translation-with/</guid>
+      <description>Mezzanine BS Banners is a nice app for implementing Bootstrap 3 banners/sliders to your Mezzanine projects. The Banners model in BS Banners app has a title and its stacked inline Slides model has title and content for translation.
+After [installing and setting up Django/Mezzanine translations]({% post_url 2015-07-01-djangomezzanine-content-translation-for-mezzanine %}):
+Create a translation.py inside your Mezzanine project or your custom theme/skin application and copy/paste following lines:
+from modeltranslation.translator import translator from mezzanine.core.translation import TranslatedSlugged, TranslatedRichText from mezzanine_bsbanners.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>database on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/database/</link>
+    <description>Recent content in database on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 11 Sep 2018 11:00:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/database/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MongoDB Listing Database Collections/Tables with Number of Records/Rows</title>
+      <link>https://www.gungorbudak.com/blog/2018/09/11/mongodb-listing-database-collections-tables-with-number-of-records-rows/</link>
+      <pubDate>Tue, 11 Sep 2018 11:00:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2018/09/11/mongodb-listing-database-collections-tables-with-number-of-records-rows/</guid>
+      <description>Use following script and command to quickly get the number of records/rows in the collections/tables in a database.
+mongo-ls.js script:
+var collections = db.getCollectionNames(); for (var i = 0; i &amp;lt; collections.length; ++i) { print(collections[i] + &amp;#39; - &amp;#39; + db[collections[i]].count() + &amp;#39; records&amp;#39;); } So, copy-paste this script in to text file and save as mongo-ls.js.
+Finally, use the following command to query the database. Make sure you change HOSTNAME, DBNAME, USERNAME and PASSWORD with your own.</description>
+    </item>
+    
+    <item>
+      <title>How to Generate Database EER Diagrams from SQL Scripts using MySQL Workbench</title>
+      <link>https://www.gungorbudak.com/blog/2017/09/06/how-to-generate-database-eer-diagrams-from-sql-scripts-using-mysql-workbench/</link>
+      <pubDate>Wed, 06 Sep 2017 16:42:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2017/09/06/how-to-generate-database-eer-diagrams-from-sql-scripts-using-mysql-workbench/</guid>
+      <description>MySQL Workbench makes it really easy to generate EER diagrams from SQL scripts. Follow below steps to make one for yourself.
+Download and install MySQL Workbench for your system.
+See below simple SQL commands, later I&amp;rsquo;ll use them to generate a sample diagram.
+create table country ( id integer primary key, name CHAR(55)); create table city ( id integer primary key, country_id integer, name CHAR(55), foreign key (country_id) references country(id)); Open MySQL Workbench and create a new model (File -&amp;gt; New Model).</description>
+    </item>
+    
+    <item>
+      <title>Get Size of MySQL Databases</title>
+      <link>https://www.gungorbudak.com/blog/2017/02/17/get-size-of-mysql-databases/</link>
+      <pubDate>Fri, 17 Feb 2017 13:57:11 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2017/02/17/get-size-of-mysql-databases/</guid>
+      <description>Use below query in MySQL command prompt to get a table of databases and their sizes in MB.
+SELECT table_schema &amp;quot;DB Name&amp;quot;, Round(Sum(data_length + index_length) / 1024 / 1024, 1) &amp;quot;DB Size in MB&amp;quot; FROM information_schema.tables GROUP BY table_schema; </description>
+    </item>
+    
+    <item>
+      <title>How to Set Up a MySQL Database for a Mezzanine Project</title>
+      <link>https://www.gungorbudak.com/blog/2015/05/09/how-to-set-up-a-mysql-database-for-a-mezzanine/</link>
+      <pubDate>Sat, 09 May 2015 13:21:10 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2015/05/09/how-to-set-up-a-mysql-database-for-a-mezzanine/</guid>
+      <description>Install MySQL server and python-mysqldb package:
+sudo apt-get install mysql-server sudo apt-get install python-mysqldb Run MySQL:
+mysql -u root -p Create a database:
+mysql&amp;gt; create database mezzanine_project; Confirm it:
+mysql&amp;gt; show databases; Exit:
+mysql&amp;gt; exit Configure local_settings.py:
+cd path/to/your/mezzanine/projectnano local_settings.py Like following:
+DATABASES = { &amp;#34;default&amp;#34;: { &amp;#34;ENGINE&amp;#34;: &amp;#34;django.db.backends.mysql&amp;#34;, &amp;#34;NAME&amp;#34;: &amp;#34;mezzanine_project&amp;#34;, &amp;#34;USER&amp;#34;: &amp;#34;root&amp;#34;, &amp;#34;PASSWORD&amp;#34;: &amp;#34;123456&amp;#34;, &amp;#34;HOST&amp;#34;: &amp;#34;&amp;#34;, &amp;#34;PORT&amp;#34;: &amp;#34;&amp;#34;, } } Note: Replace your password</description>
+    </item>
+    
+    <item>
+      <title>Retrieving Data with AJAX using jQuery, PHP and MySQL</title>
+      <link>https://www.gungorbudak.com/blog/2013/06/28/retrieving-data-with-ajax-using-jquery/</link>
+      <pubDate>Fri, 28 Jun 2013 18:04:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2013/06/28/retrieving-data-with-ajax-using-jquery/</guid>
+      <description>Last semester, I took a course from Informatics Institute at METU called &amp;ldquo;Biological Databases and Data Analysis Tools&amp;rdquo; where first we learned what is a database and how to do queries on it. Also, the technology behind databases are taught. Then, we learned many biological databases and data analysis tools available. These include gene, protein and pathway databases, tools for creating databases.
+As a final project, we were asked to create an online tool that can search a database and get the data and display it on any web browsers.</description>
+    </item>
+    
+  </channel>
+</rss>

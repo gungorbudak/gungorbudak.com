@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>dizi on Güngör Budak</title>
+    <link>https://www.gungorbudak.com/blog/tag/dizi/</link>
+    <description>Recent content in dizi on Güngör Budak</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 26 Jul 2012 07:48:00 +0300</lastBuildDate><atom:link href="https://www.gungorbudak.com/blog/tag/dizi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Birden Fazla Dizi Dosyalarindan MegaBLAST&#39;i Calistirmak</title>
+      <link>https://www.gungorbudak.com/blog/2012/07/26/birden-fazla-dizi-dosyalarindan-megablast-calistirmak/</link>
+      <pubDate>Thu, 26 Jul 2012 07:48:00 +0300</pubDate>
+      
+      <guid>https://www.gungorbudak.com/blog/2012/07/26/birden-fazla-dizi-dosyalarindan-megablast-calistirmak/</guid>
+      <description>Asagidaki scripti, pipeline&amp;rsquo;in MegaBLAST aramasini daha hizli yapabilmek icin dusundugumuz bir teknige uygun olabilmesi icin yazdim. Yaptigi sey, her okuma icin olusturulmus ve formatlanmis dizi dosyalarini kullanarak veritabanlarinda belirtilen baslangic noktasi ve okuma sayisi ile arama yapmak.
+#!user/local/bin/perl $database = $ARGV[0]; $dir = $ARGV[1]; #directory for sequences $sp = $ARGV[2]; #starting point $n = $ARGV[3] + $sp; while (1) { system(&amp;#34;blastplus -programname=megablast $dir/read_$sp.seq $database -OUTFILE=read_$sp.megablast -nobatch -d&amp;#34;); $sp++; last if ($sp == $n); } Burada her sey gercekten cok basit bir programlama ile isliyor.</description>
+    </item>
+    
+  </channel>
+</rss>
