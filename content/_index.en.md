@@ -7,4 +7,4 @@ Hi! I’m currently a Bioinformatics Engineer at Velsera and a PhD candidate in 
 
 ## Curriculum Vitae
 
-[Click to see my CV in PDF](/public/Gungor-Budak-CV.pdf) (on a new tab, last updated in Aug, 2019)
+[Click to see my CV in PDF](/public/Gungor-Budak-CV.pdf) (on a new tab, last updated in Nov, 2023)

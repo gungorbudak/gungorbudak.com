@@ -7,4 +7,4 @@ Merhaba! Velsera'da Biyoenformatik Mühendisi ve Orta Doğu Teknik Üniversitesi
 
 ## Curriculum Vitae
 
-[CV’mi (PDF) görmek için tıklayın](/public/Gungor-Budak-CV.pdf) (yeni sekmede, İngilizce – son güncelleme Ağu, 2019)
+[CV’mi (PDF) görmek için tıklayın](/public/Gungor-Budak-CV.pdf) (yeni sekmede, İngilizce – son güncelleme Kas, 2023)
